@@ -419,7 +419,7 @@
             // 
             this.lbl4x6.AutoSize = true;
             this.lbl4x6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl4x6.Location = new System.Drawing.Point(7, 20);
+            this.lbl4x6.Location = new System.Drawing.Point(7, 25);
             this.lbl4x6.Name = "lbl4x6";
             this.lbl4x6.Size = new System.Drawing.Size(47, 20);
             this.lbl4x6.TabIndex = 1;
@@ -430,7 +430,7 @@
             // 
             this.lbl5x7.AutoSize = true;
             this.lbl5x7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl5x7.Location = new System.Drawing.Point(7, 46);
+            this.lbl5x7.Location = new System.Drawing.Point(7, 51);
             this.lbl5x7.Name = "lbl5x7";
             this.lbl5x7.Size = new System.Drawing.Size(47, 20);
             this.lbl5x7.TabIndex = 3;
@@ -441,7 +441,7 @@
             // 
             this.lbl8x10.AutoSize = true;
             this.lbl8x10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl8x10.Location = new System.Drawing.Point(7, 72);
+            this.lbl8x10.Location = new System.Drawing.Point(7, 77);
             this.lbl8x10.Name = "lbl8x10";
             this.lbl8x10.Size = new System.Drawing.Size(54, 20);
             this.lbl8x10.TabIndex = 5;
@@ -452,7 +452,7 @@
             // 
             this.lbl11x14.AutoSize = true;
             this.lbl11x14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl11x14.Location = new System.Drawing.Point(7, 98);
+            this.lbl11x14.Location = new System.Drawing.Point(7, 103);
             this.lbl11x14.Name = "lbl11x14";
             this.lbl11x14.Size = new System.Drawing.Size(61, 20);
             this.lbl11x14.TabIndex = 7;
@@ -463,7 +463,7 @@
             // 
             this.lbl16x20.AutoSize = true;
             this.lbl16x20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl16x20.Location = new System.Drawing.Point(7, 20);
+            this.lbl16x20.Location = new System.Drawing.Point(7, 25);
             this.lbl16x20.Name = "lbl16x20";
             this.lbl16x20.Size = new System.Drawing.Size(61, 20);
             this.lbl16x20.TabIndex = 15;
@@ -474,7 +474,7 @@
             // 
             this.lbl20x30.AutoSize = true;
             this.lbl20x30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl20x30.Location = new System.Drawing.Point(7, 46);
+            this.lbl20x30.Location = new System.Drawing.Point(7, 51);
             this.lbl20x30.Name = "lbl20x30";
             this.lbl20x30.Size = new System.Drawing.Size(61, 20);
             this.lbl20x30.TabIndex = 17;
@@ -485,7 +485,7 @@
             // 
             this.checkBox10.AutoSize = true;
             this.checkBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox10.Location = new System.Drawing.Point(7, 72);
+            this.checkBox10.Location = new System.Drawing.Point(7, 77);
             this.checkBox10.Name = "checkBox10";
             this.checkBox10.Size = new System.Drawing.Size(100, 20);
             this.checkBox10.TabIndex = 19;
@@ -496,7 +496,7 @@
             // 
             this.checkBox11.AutoSize = true;
             this.checkBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox11.Location = new System.Drawing.Point(7, 98);
+            this.checkBox11.Location = new System.Drawing.Point(7, 103);
             this.checkBox11.Name = "checkBox11";
             this.checkBox11.Size = new System.Drawing.Size(100, 20);
             this.checkBox11.TabIndex = 21;
@@ -507,7 +507,7 @@
             // 
             this.checkBox12.AutoSize = true;
             this.checkBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox12.Location = new System.Drawing.Point(7, 124);
+            this.checkBox12.Location = new System.Drawing.Point(7, 129);
             this.checkBox12.Name = "checkBox12";
             this.checkBox12.Size = new System.Drawing.Size(100, 20);
             this.checkBox12.TabIndex = 23;
@@ -518,7 +518,7 @@
             // 
             this.checkBox15.AutoSize = true;
             this.checkBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox15.Location = new System.Drawing.Point(12, 20);
+            this.checkBox15.Location = new System.Drawing.Point(12, 25);
             this.checkBox15.Name = "checkBox15";
             this.checkBox15.Size = new System.Drawing.Size(57, 20);
             this.checkBox15.TabIndex = 29;
@@ -529,7 +529,7 @@
             // 
             this.checkBox16.AutoSize = true;
             this.checkBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox16.Location = new System.Drawing.Point(12, 46);
+            this.checkBox16.Location = new System.Drawing.Point(12, 51);
             this.checkBox16.Name = "checkBox16";
             this.checkBox16.Size = new System.Drawing.Size(47, 20);
             this.checkBox16.TabIndex = 31;
@@ -540,7 +540,7 @@
             // 
             this.checkBox17.AutoSize = true;
             this.checkBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox17.Location = new System.Drawing.Point(12, 72);
+            this.checkBox17.Location = new System.Drawing.Point(12, 77);
             this.checkBox17.Name = "checkBox17";
             this.checkBox17.Size = new System.Drawing.Size(47, 20);
             this.checkBox17.TabIndex = 33;
@@ -551,7 +551,7 @@
             // 
             this.checkBox18.AutoSize = true;
             this.checkBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox18.Location = new System.Drawing.Point(12, 98);
+            this.checkBox18.Location = new System.Drawing.Point(12, 103);
             this.checkBox18.Name = "checkBox18";
             this.checkBox18.Size = new System.Drawing.Size(54, 20);
             this.checkBox18.TabIndex = 35;
@@ -562,7 +562,7 @@
             // 
             this.checkBox19.AutoSize = true;
             this.checkBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox19.Location = new System.Drawing.Point(12, 124);
+            this.checkBox19.Location = new System.Drawing.Point(12, 129);
             this.checkBox19.Name = "checkBox19";
             this.checkBox19.Size = new System.Drawing.Size(47, 20);
             this.checkBox19.TabIndex = 37;
@@ -573,7 +573,7 @@
             // 
             this.checkBox20.AutoSize = true;
             this.checkBox20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox20.Location = new System.Drawing.Point(12, 150);
+            this.checkBox20.Location = new System.Drawing.Point(12, 155);
             this.checkBox20.Name = "checkBox20";
             this.checkBox20.Size = new System.Drawing.Size(47, 20);
             this.checkBox20.TabIndex = 39;
@@ -584,7 +584,7 @@
             // 
             this.checkBox21.AutoSize = true;
             this.checkBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox21.Location = new System.Drawing.Point(12, 176);
+            this.checkBox21.Location = new System.Drawing.Point(12, 181);
             this.checkBox21.Name = "checkBox21";
             this.checkBox21.Size = new System.Drawing.Size(47, 20);
             this.checkBox21.TabIndex = 41;
@@ -595,7 +595,7 @@
             // 
             this.checkBox22.AutoSize = true;
             this.checkBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox22.Location = new System.Drawing.Point(12, 202);
+            this.checkBox22.Location = new System.Drawing.Point(12, 207);
             this.checkBox22.Name = "checkBox22";
             this.checkBox22.Size = new System.Drawing.Size(54, 20);
             this.checkBox22.TabIndex = 43;
@@ -606,7 +606,7 @@
             // 
             this.checkBox23.AutoSize = true;
             this.checkBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox23.Location = new System.Drawing.Point(12, 228);
+            this.checkBox23.Location = new System.Drawing.Point(12, 233);
             this.checkBox23.Name = "checkBox23";
             this.checkBox23.Size = new System.Drawing.Size(54, 20);
             this.checkBox23.TabIndex = 45;
@@ -617,7 +617,7 @@
             // 
             this.checkBox24.AutoSize = true;
             this.checkBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox24.Location = new System.Drawing.Point(12, 254);
+            this.checkBox24.Location = new System.Drawing.Point(12, 259);
             this.checkBox24.Name = "checkBox24";
             this.checkBox24.Size = new System.Drawing.Size(54, 20);
             this.checkBox24.TabIndex = 47;
@@ -628,7 +628,7 @@
             // 
             this.checkBox25.AutoSize = true;
             this.checkBox25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox25.Location = new System.Drawing.Point(12, 280);
+            this.checkBox25.Location = new System.Drawing.Point(12, 285);
             this.checkBox25.Name = "checkBox25";
             this.checkBox25.Size = new System.Drawing.Size(64, 20);
             this.checkBox25.TabIndex = 49;
@@ -639,7 +639,7 @@
             // 
             this.checkBox26.AutoSize = true;
             this.checkBox26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox26.Location = new System.Drawing.Point(12, 384);
+            this.checkBox26.Location = new System.Drawing.Point(12, 389);
             this.checkBox26.Name = "checkBox26";
             this.checkBox26.Size = new System.Drawing.Size(61, 20);
             this.checkBox26.TabIndex = 51;
@@ -650,7 +650,7 @@
             // 
             this.checkBox27.AutoSize = true;
             this.checkBox27.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox27.Location = new System.Drawing.Point(216, 20);
+            this.checkBox27.Location = new System.Drawing.Point(216, 25);
             this.checkBox27.Name = "checkBox27";
             this.checkBox27.Size = new System.Drawing.Size(61, 20);
             this.checkBox27.TabIndex = 53;
@@ -661,7 +661,7 @@
             // 
             this.checkBox28.AutoSize = true;
             this.checkBox28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox28.Location = new System.Drawing.Point(216, 46);
+            this.checkBox28.Location = new System.Drawing.Point(216, 51);
             this.checkBox28.Name = "checkBox28";
             this.checkBox28.Size = new System.Drawing.Size(61, 20);
             this.checkBox28.TabIndex = 55;
@@ -672,7 +672,7 @@
             // 
             this.checkBox29.AutoSize = true;
             this.checkBox29.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox29.Location = new System.Drawing.Point(216, 72);
+            this.checkBox29.Location = new System.Drawing.Point(216, 77);
             this.checkBox29.Name = "checkBox29";
             this.checkBox29.Size = new System.Drawing.Size(61, 20);
             this.checkBox29.TabIndex = 57;
@@ -682,7 +682,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(146, 18);
+            this.textBox1.Location = new System.Drawing.Point(146, 23);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(42, 22);
             this.textBox1.TabIndex = 14;
@@ -690,7 +690,7 @@
             // nu
             // 
             this.nu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nu.Location = new System.Drawing.Point(104, 19);
+            this.nu.Location = new System.Drawing.Point(104, 24);
             this.nu.Name = "nu";
             this.nu.Size = new System.Drawing.Size(36, 22);
             this.nu.TabIndex = 15;
@@ -698,7 +698,7 @@
             // numericUpDown2
             // 
             this.numericUpDown2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown2.Location = new System.Drawing.Point(104, 45);
+            this.numericUpDown2.Location = new System.Drawing.Point(104, 50);
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown2.TabIndex = 17;
@@ -706,7 +706,7 @@
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(146, 44);
+            this.textBox2.Location = new System.Drawing.Point(146, 49);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(42, 22);
             this.textBox2.TabIndex = 16;
@@ -714,7 +714,7 @@
             // numericUpDown3
             // 
             this.numericUpDown3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown3.Location = new System.Drawing.Point(104, 71);
+            this.numericUpDown3.Location = new System.Drawing.Point(104, 76);
             this.numericUpDown3.Name = "numericUpDown3";
             this.numericUpDown3.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown3.TabIndex = 19;
@@ -722,7 +722,7 @@
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(146, 70);
+            this.textBox3.Location = new System.Drawing.Point(146, 75);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(42, 22);
             this.textBox3.TabIndex = 18;
@@ -730,7 +730,7 @@
             // numericUpDown4
             // 
             this.numericUpDown4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown4.Location = new System.Drawing.Point(104, 97);
+            this.numericUpDown4.Location = new System.Drawing.Point(104, 102);
             this.numericUpDown4.Name = "numericUpDown4";
             this.numericUpDown4.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown4.TabIndex = 21;
@@ -738,7 +738,7 @@
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(146, 96);
+            this.textBox4.Location = new System.Drawing.Point(146, 101);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(42, 22);
             this.textBox4.TabIndex = 20;
@@ -746,7 +746,7 @@
             // numericUpDown8
             // 
             this.numericUpDown8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown8.Location = new System.Drawing.Point(104, 19);
+            this.numericUpDown8.Location = new System.Drawing.Point(104, 24);
             this.numericUpDown8.Name = "numericUpDown8";
             this.numericUpDown8.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown8.TabIndex = 29;
@@ -754,7 +754,7 @@
             // textBox8
             // 
             this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(146, 18);
+            this.textBox8.Location = new System.Drawing.Point(146, 23);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(42, 22);
             this.textBox8.TabIndex = 28;
@@ -762,7 +762,7 @@
             // numericUpDown9
             // 
             this.numericUpDown9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown9.Location = new System.Drawing.Point(104, 45);
+            this.numericUpDown9.Location = new System.Drawing.Point(104, 50);
             this.numericUpDown9.Name = "numericUpDown9";
             this.numericUpDown9.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown9.TabIndex = 31;
@@ -770,7 +770,7 @@
             // textBox9
             // 
             this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(146, 44);
+            this.textBox9.Location = new System.Drawing.Point(146, 49);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(42, 22);
             this.textBox9.TabIndex = 30;
@@ -778,7 +778,7 @@
             // numericUpDown10
             // 
             this.numericUpDown10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown10.Location = new System.Drawing.Point(104, 71);
+            this.numericUpDown10.Location = new System.Drawing.Point(104, 76);
             this.numericUpDown10.Name = "numericUpDown10";
             this.numericUpDown10.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown10.TabIndex = 33;
@@ -786,7 +786,7 @@
             // textBox10
             // 
             this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(146, 70);
+            this.textBox10.Location = new System.Drawing.Point(146, 75);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(42, 22);
             this.textBox10.TabIndex = 32;
@@ -794,7 +794,7 @@
             // numericUpDown11
             // 
             this.numericUpDown11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown11.Location = new System.Drawing.Point(104, 97);
+            this.numericUpDown11.Location = new System.Drawing.Point(104, 102);
             this.numericUpDown11.Name = "numericUpDown11";
             this.numericUpDown11.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown11.TabIndex = 35;
@@ -802,7 +802,7 @@
             // textBox11
             // 
             this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.Location = new System.Drawing.Point(146, 96);
+            this.textBox11.Location = new System.Drawing.Point(146, 101);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(42, 22);
             this.textBox11.TabIndex = 34;
@@ -810,7 +810,7 @@
             // numericUpDown12
             // 
             this.numericUpDown12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown12.Location = new System.Drawing.Point(104, 123);
+            this.numericUpDown12.Location = new System.Drawing.Point(104, 128);
             this.numericUpDown12.Name = "numericUpDown12";
             this.numericUpDown12.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown12.TabIndex = 37;
@@ -818,7 +818,7 @@
             // textBox12
             // 
             this.textBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.Location = new System.Drawing.Point(146, 122);
+            this.textBox12.Location = new System.Drawing.Point(146, 127);
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(42, 22);
             this.textBox12.TabIndex = 36;
@@ -826,7 +826,7 @@
             // numericUpDown15
             // 
             this.numericUpDown15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown15.Location = new System.Drawing.Point(111, 19);
+            this.numericUpDown15.Location = new System.Drawing.Point(111, 24);
             this.numericUpDown15.Name = "numericUpDown15";
             this.numericUpDown15.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown15.TabIndex = 43;
@@ -834,7 +834,7 @@
             // textBox15
             // 
             this.textBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox15.Location = new System.Drawing.Point(153, 18);
+            this.textBox15.Location = new System.Drawing.Point(153, 23);
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(42, 22);
             this.textBox15.TabIndex = 42;
@@ -842,7 +842,7 @@
             // numericUpDown16
             // 
             this.numericUpDown16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown16.Location = new System.Drawing.Point(111, 45);
+            this.numericUpDown16.Location = new System.Drawing.Point(111, 50);
             this.numericUpDown16.Name = "numericUpDown16";
             this.numericUpDown16.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown16.TabIndex = 61;
@@ -850,7 +850,7 @@
             // textBox16
             // 
             this.textBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox16.Location = new System.Drawing.Point(153, 44);
+            this.textBox16.Location = new System.Drawing.Point(153, 49);
             this.textBox16.Name = "textBox16";
             this.textBox16.Size = new System.Drawing.Size(42, 22);
             this.textBox16.TabIndex = 60;
@@ -858,7 +858,7 @@
             // numericUpDown17
             // 
             this.numericUpDown17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown17.Location = new System.Drawing.Point(111, 71);
+            this.numericUpDown17.Location = new System.Drawing.Point(111, 76);
             this.numericUpDown17.Name = "numericUpDown17";
             this.numericUpDown17.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown17.TabIndex = 63;
@@ -866,7 +866,7 @@
             // textBox17
             // 
             this.textBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox17.Location = new System.Drawing.Point(153, 70);
+            this.textBox17.Location = new System.Drawing.Point(153, 75);
             this.textBox17.Name = "textBox17";
             this.textBox17.Size = new System.Drawing.Size(42, 22);
             this.textBox17.TabIndex = 62;
@@ -874,7 +874,7 @@
             // numericUpDown18
             // 
             this.numericUpDown18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown18.Location = new System.Drawing.Point(111, 97);
+            this.numericUpDown18.Location = new System.Drawing.Point(111, 102);
             this.numericUpDown18.Name = "numericUpDown18";
             this.numericUpDown18.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown18.TabIndex = 65;
@@ -882,7 +882,7 @@
             // textBox18
             // 
             this.textBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox18.Location = new System.Drawing.Point(153, 96);
+            this.textBox18.Location = new System.Drawing.Point(153, 101);
             this.textBox18.Name = "textBox18";
             this.textBox18.Size = new System.Drawing.Size(42, 22);
             this.textBox18.TabIndex = 64;
@@ -890,7 +890,7 @@
             // numericUpDown19
             // 
             this.numericUpDown19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown19.Location = new System.Drawing.Point(111, 123);
+            this.numericUpDown19.Location = new System.Drawing.Point(111, 128);
             this.numericUpDown19.Name = "numericUpDown19";
             this.numericUpDown19.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown19.TabIndex = 67;
@@ -898,7 +898,7 @@
             // textBox19
             // 
             this.textBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox19.Location = new System.Drawing.Point(153, 122);
+            this.textBox19.Location = new System.Drawing.Point(153, 127);
             this.textBox19.Name = "textBox19";
             this.textBox19.Size = new System.Drawing.Size(42, 22);
             this.textBox19.TabIndex = 66;
@@ -906,7 +906,7 @@
             // numericUpDown20
             // 
             this.numericUpDown20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown20.Location = new System.Drawing.Point(111, 149);
+            this.numericUpDown20.Location = new System.Drawing.Point(111, 154);
             this.numericUpDown20.Name = "numericUpDown20";
             this.numericUpDown20.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown20.TabIndex = 69;
@@ -914,7 +914,7 @@
             // textBox20
             // 
             this.textBox20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox20.Location = new System.Drawing.Point(153, 148);
+            this.textBox20.Location = new System.Drawing.Point(153, 153);
             this.textBox20.Name = "textBox20";
             this.textBox20.Size = new System.Drawing.Size(42, 22);
             this.textBox20.TabIndex = 68;
@@ -922,7 +922,7 @@
             // numericUpDown21
             // 
             this.numericUpDown21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown21.Location = new System.Drawing.Point(111, 175);
+            this.numericUpDown21.Location = new System.Drawing.Point(111, 180);
             this.numericUpDown21.Name = "numericUpDown21";
             this.numericUpDown21.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown21.TabIndex = 71;
@@ -930,7 +930,7 @@
             // textBox21
             // 
             this.textBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox21.Location = new System.Drawing.Point(153, 174);
+            this.textBox21.Location = new System.Drawing.Point(153, 179);
             this.textBox21.Name = "textBox21";
             this.textBox21.Size = new System.Drawing.Size(42, 22);
             this.textBox21.TabIndex = 70;
@@ -938,7 +938,7 @@
             // numericUpDown22
             // 
             this.numericUpDown22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown22.Location = new System.Drawing.Point(111, 201);
+            this.numericUpDown22.Location = new System.Drawing.Point(111, 206);
             this.numericUpDown22.Name = "numericUpDown22";
             this.numericUpDown22.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown22.TabIndex = 73;
@@ -946,7 +946,7 @@
             // textBox22
             // 
             this.textBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox22.Location = new System.Drawing.Point(153, 200);
+            this.textBox22.Location = new System.Drawing.Point(153, 205);
             this.textBox22.Name = "textBox22";
             this.textBox22.Size = new System.Drawing.Size(42, 22);
             this.textBox22.TabIndex = 72;
@@ -954,7 +954,7 @@
             // numericUpDown23
             // 
             this.numericUpDown23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown23.Location = new System.Drawing.Point(111, 227);
+            this.numericUpDown23.Location = new System.Drawing.Point(111, 232);
             this.numericUpDown23.Name = "numericUpDown23";
             this.numericUpDown23.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown23.TabIndex = 75;
@@ -962,7 +962,7 @@
             // textBox23
             // 
             this.textBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox23.Location = new System.Drawing.Point(153, 226);
+            this.textBox23.Location = new System.Drawing.Point(153, 231);
             this.textBox23.Name = "textBox23";
             this.textBox23.Size = new System.Drawing.Size(42, 22);
             this.textBox23.TabIndex = 74;
@@ -970,7 +970,7 @@
             // numericUpDown24
             // 
             this.numericUpDown24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown24.Location = new System.Drawing.Point(111, 253);
+            this.numericUpDown24.Location = new System.Drawing.Point(111, 258);
             this.numericUpDown24.Name = "numericUpDown24";
             this.numericUpDown24.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown24.TabIndex = 77;
@@ -978,7 +978,7 @@
             // textBox24
             // 
             this.textBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox24.Location = new System.Drawing.Point(153, 252);
+            this.textBox24.Location = new System.Drawing.Point(153, 257);
             this.textBox24.Name = "textBox24";
             this.textBox24.Size = new System.Drawing.Size(42, 22);
             this.textBox24.TabIndex = 76;
@@ -986,7 +986,7 @@
             // numericUpDown25
             // 
             this.numericUpDown25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown25.Location = new System.Drawing.Point(111, 279);
+            this.numericUpDown25.Location = new System.Drawing.Point(111, 284);
             this.numericUpDown25.Name = "numericUpDown25";
             this.numericUpDown25.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown25.TabIndex = 79;
@@ -994,7 +994,7 @@
             // textBox25
             // 
             this.textBox25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox25.Location = new System.Drawing.Point(153, 278);
+            this.textBox25.Location = new System.Drawing.Point(153, 283);
             this.textBox25.Name = "textBox25";
             this.textBox25.Size = new System.Drawing.Size(42, 22);
             this.textBox25.TabIndex = 78;
@@ -1002,7 +1002,7 @@
             // numericUpDown26
             // 
             this.numericUpDown26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown26.Location = new System.Drawing.Point(111, 383);
+            this.numericUpDown26.Location = new System.Drawing.Point(111, 388);
             this.numericUpDown26.Name = "numericUpDown26";
             this.numericUpDown26.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown26.TabIndex = 81;
@@ -1010,7 +1010,7 @@
             // textBox26
             // 
             this.textBox26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox26.Location = new System.Drawing.Point(153, 382);
+            this.textBox26.Location = new System.Drawing.Point(153, 387);
             this.textBox26.Name = "textBox26";
             this.textBox26.Size = new System.Drawing.Size(42, 22);
             this.textBox26.TabIndex = 80;
@@ -1018,7 +1018,7 @@
             // numericUpDown27
             // 
             this.numericUpDown27.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown27.Location = new System.Drawing.Point(315, 19);
+            this.numericUpDown27.Location = new System.Drawing.Point(315, 24);
             this.numericUpDown27.Name = "numericUpDown27";
             this.numericUpDown27.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown27.TabIndex = 83;
@@ -1026,7 +1026,7 @@
             // textBox27
             // 
             this.textBox27.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox27.Location = new System.Drawing.Point(357, 18);
+            this.textBox27.Location = new System.Drawing.Point(357, 23);
             this.textBox27.Name = "textBox27";
             this.textBox27.Size = new System.Drawing.Size(42, 22);
             this.textBox27.TabIndex = 82;
@@ -1034,7 +1034,7 @@
             // numericUpDown28
             // 
             this.numericUpDown28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown28.Location = new System.Drawing.Point(315, 45);
+            this.numericUpDown28.Location = new System.Drawing.Point(315, 50);
             this.numericUpDown28.Name = "numericUpDown28";
             this.numericUpDown28.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown28.TabIndex = 85;
@@ -1042,7 +1042,7 @@
             // textBox28
             // 
             this.textBox28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox28.Location = new System.Drawing.Point(357, 44);
+            this.textBox28.Location = new System.Drawing.Point(357, 49);
             this.textBox28.Name = "textBox28";
             this.textBox28.Size = new System.Drawing.Size(42, 22);
             this.textBox28.TabIndex = 84;
@@ -1050,7 +1050,7 @@
             // numericUpDown29
             // 
             this.numericUpDown29.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown29.Location = new System.Drawing.Point(315, 71);
+            this.numericUpDown29.Location = new System.Drawing.Point(315, 76);
             this.numericUpDown29.Name = "numericUpDown29";
             this.numericUpDown29.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown29.TabIndex = 87;
@@ -1058,7 +1058,7 @@
             // textBox29
             // 
             this.textBox29.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox29.Location = new System.Drawing.Point(357, 70);
+            this.textBox29.Location = new System.Drawing.Point(357, 75);
             this.textBox29.Name = "textBox29";
             this.textBox29.Size = new System.Drawing.Size(42, 22);
             this.textBox29.TabIndex = 86;
@@ -1066,7 +1066,7 @@
             // numericUpDown5
             // 
             this.numericUpDown5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown5.Location = new System.Drawing.Point(111, 357);
+            this.numericUpDown5.Location = new System.Drawing.Point(111, 362);
             this.numericUpDown5.Name = "numericUpDown5";
             this.numericUpDown5.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown5.TabIndex = 96;
@@ -1074,7 +1074,7 @@
             // textBox5
             // 
             this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(153, 356);
+            this.textBox5.Location = new System.Drawing.Point(153, 361);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(42, 22);
             this.textBox5.TabIndex = 95;
@@ -1082,7 +1082,7 @@
             // numericUpDown6
             // 
             this.numericUpDown6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown6.Location = new System.Drawing.Point(111, 331);
+            this.numericUpDown6.Location = new System.Drawing.Point(111, 336);
             this.numericUpDown6.Name = "numericUpDown6";
             this.numericUpDown6.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown6.TabIndex = 94;
@@ -1090,7 +1090,7 @@
             // textBox6
             // 
             this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(153, 330);
+            this.textBox6.Location = new System.Drawing.Point(153, 335);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(42, 22);
             this.textBox6.TabIndex = 93;
@@ -1098,7 +1098,7 @@
             // numericUpDown7
             // 
             this.numericUpDown7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown7.Location = new System.Drawing.Point(111, 305);
+            this.numericUpDown7.Location = new System.Drawing.Point(111, 310);
             this.numericUpDown7.Name = "numericUpDown7";
             this.numericUpDown7.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown7.TabIndex = 92;
@@ -1106,7 +1106,7 @@
             // textBox7
             // 
             this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(153, 304);
+            this.textBox7.Location = new System.Drawing.Point(153, 309);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(42, 22);
             this.textBox7.TabIndex = 91;
@@ -1115,7 +1115,7 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(12, 358);
+            this.checkBox1.Location = new System.Drawing.Point(12, 363);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(61, 20);
             this.checkBox1.TabIndex = 90;
@@ -1126,7 +1126,7 @@
             // 
             this.checkBox2.AutoSize = true;
             this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(12, 332);
+            this.checkBox2.Location = new System.Drawing.Point(12, 337);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(61, 20);
             this.checkBox2.TabIndex = 89;
@@ -1137,7 +1137,7 @@
             // 
             this.checkBox3.AutoSize = true;
             this.checkBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox3.Location = new System.Drawing.Point(12, 306);
+            this.checkBox3.Location = new System.Drawing.Point(12, 311);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(54, 20);
             this.checkBox3.TabIndex = 88;
@@ -1147,7 +1147,7 @@
             // numericUpDown13
             // 
             this.numericUpDown13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown13.Location = new System.Drawing.Point(315, 175);
+            this.numericUpDown13.Location = new System.Drawing.Point(315, 180);
             this.numericUpDown13.Name = "numericUpDown13";
             this.numericUpDown13.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown13.TabIndex = 108;
@@ -1155,7 +1155,7 @@
             // textBox13
             // 
             this.textBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.Location = new System.Drawing.Point(357, 174);
+            this.textBox13.Location = new System.Drawing.Point(357, 179);
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(42, 22);
             this.textBox13.TabIndex = 107;
@@ -1163,7 +1163,7 @@
             // numericUpDown14
             // 
             this.numericUpDown14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown14.Location = new System.Drawing.Point(315, 149);
+            this.numericUpDown14.Location = new System.Drawing.Point(315, 154);
             this.numericUpDown14.Name = "numericUpDown14";
             this.numericUpDown14.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown14.TabIndex = 106;
@@ -1171,7 +1171,7 @@
             // textBox14
             // 
             this.textBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.Location = new System.Drawing.Point(357, 148);
+            this.textBox14.Location = new System.Drawing.Point(357, 153);
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(42, 22);
             this.textBox14.TabIndex = 105;
@@ -1179,7 +1179,7 @@
             // numericUpDown30
             // 
             this.numericUpDown30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown30.Location = new System.Drawing.Point(315, 123);
+            this.numericUpDown30.Location = new System.Drawing.Point(315, 128);
             this.numericUpDown30.Name = "numericUpDown30";
             this.numericUpDown30.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown30.TabIndex = 104;
@@ -1187,7 +1187,7 @@
             // textBox30
             // 
             this.textBox30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox30.Location = new System.Drawing.Point(357, 122);
+            this.textBox30.Location = new System.Drawing.Point(357, 127);
             this.textBox30.Name = "textBox30";
             this.textBox30.Size = new System.Drawing.Size(42, 22);
             this.textBox30.TabIndex = 103;
@@ -1195,7 +1195,7 @@
             // numericUpDown31
             // 
             this.numericUpDown31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown31.Location = new System.Drawing.Point(315, 97);
+            this.numericUpDown31.Location = new System.Drawing.Point(315, 102);
             this.numericUpDown31.Name = "numericUpDown31";
             this.numericUpDown31.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown31.TabIndex = 102;
@@ -1203,7 +1203,7 @@
             // textBox31
             // 
             this.textBox31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox31.Location = new System.Drawing.Point(357, 96);
+            this.textBox31.Location = new System.Drawing.Point(357, 101);
             this.textBox31.Name = "textBox31";
             this.textBox31.Size = new System.Drawing.Size(42, 22);
             this.textBox31.TabIndex = 101;
@@ -1212,7 +1212,7 @@
             // 
             this.checkBox4.AutoSize = true;
             this.checkBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox4.Location = new System.Drawing.Point(216, 176);
+            this.checkBox4.Location = new System.Drawing.Point(216, 181);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(61, 20);
             this.checkBox4.TabIndex = 100;
@@ -1223,7 +1223,7 @@
             // 
             this.checkBox5.AutoSize = true;
             this.checkBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox5.Location = new System.Drawing.Point(216, 150);
+            this.checkBox5.Location = new System.Drawing.Point(216, 155);
             this.checkBox5.Name = "checkBox5";
             this.checkBox5.Size = new System.Drawing.Size(61, 20);
             this.checkBox5.TabIndex = 99;
@@ -1234,7 +1234,7 @@
             // 
             this.checkBox6.AutoSize = true;
             this.checkBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox6.Location = new System.Drawing.Point(216, 124);
+            this.checkBox6.Location = new System.Drawing.Point(216, 129);
             this.checkBox6.Name = "checkBox6";
             this.checkBox6.Size = new System.Drawing.Size(61, 20);
             this.checkBox6.TabIndex = 98;
@@ -1245,7 +1245,7 @@
             // 
             this.checkBox7.AutoSize = true;
             this.checkBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox7.Location = new System.Drawing.Point(216, 98);
+            this.checkBox7.Location = new System.Drawing.Point(216, 103);
             this.checkBox7.Name = "checkBox7";
             this.checkBox7.Size = new System.Drawing.Size(61, 20);
             this.checkBox7.TabIndex = 97;
@@ -1255,7 +1255,7 @@
             // numericUpDown32
             // 
             this.numericUpDown32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown32.Location = new System.Drawing.Point(315, 279);
+            this.numericUpDown32.Location = new System.Drawing.Point(315, 284);
             this.numericUpDown32.Name = "numericUpDown32";
             this.numericUpDown32.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown32.TabIndex = 120;
@@ -1263,7 +1263,7 @@
             // textBox32
             // 
             this.textBox32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox32.Location = new System.Drawing.Point(357, 278);
+            this.textBox32.Location = new System.Drawing.Point(357, 283);
             this.textBox32.Name = "textBox32";
             this.textBox32.Size = new System.Drawing.Size(42, 22);
             this.textBox32.TabIndex = 119;
@@ -1271,7 +1271,7 @@
             // numericUpDown33
             // 
             this.numericUpDown33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown33.Location = new System.Drawing.Point(315, 253);
+            this.numericUpDown33.Location = new System.Drawing.Point(315, 258);
             this.numericUpDown33.Name = "numericUpDown33";
             this.numericUpDown33.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown33.TabIndex = 118;
@@ -1279,7 +1279,7 @@
             // textBox33
             // 
             this.textBox33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox33.Location = new System.Drawing.Point(357, 252);
+            this.textBox33.Location = new System.Drawing.Point(357, 257);
             this.textBox33.Name = "textBox33";
             this.textBox33.Size = new System.Drawing.Size(42, 22);
             this.textBox33.TabIndex = 117;
@@ -1287,7 +1287,7 @@
             // numericUpDown34
             // 
             this.numericUpDown34.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown34.Location = new System.Drawing.Point(315, 227);
+            this.numericUpDown34.Location = new System.Drawing.Point(315, 232);
             this.numericUpDown34.Name = "numericUpDown34";
             this.numericUpDown34.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown34.TabIndex = 116;
@@ -1295,7 +1295,7 @@
             // textBox34
             // 
             this.textBox34.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox34.Location = new System.Drawing.Point(357, 226);
+            this.textBox34.Location = new System.Drawing.Point(357, 231);
             this.textBox34.Name = "textBox34";
             this.textBox34.Size = new System.Drawing.Size(42, 22);
             this.textBox34.TabIndex = 115;
@@ -1303,7 +1303,7 @@
             // numericUpDown35
             // 
             this.numericUpDown35.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown35.Location = new System.Drawing.Point(315, 201);
+            this.numericUpDown35.Location = new System.Drawing.Point(315, 206);
             this.numericUpDown35.Name = "numericUpDown35";
             this.numericUpDown35.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown35.TabIndex = 114;
@@ -1311,7 +1311,7 @@
             // textBox35
             // 
             this.textBox35.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox35.Location = new System.Drawing.Point(357, 200);
+            this.textBox35.Location = new System.Drawing.Point(357, 205);
             this.textBox35.Name = "textBox35";
             this.textBox35.Size = new System.Drawing.Size(42, 22);
             this.textBox35.TabIndex = 113;
@@ -1320,7 +1320,7 @@
             // 
             this.checkBox8.AutoSize = true;
             this.checkBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox8.Location = new System.Drawing.Point(216, 280);
+            this.checkBox8.Location = new System.Drawing.Point(216, 285);
             this.checkBox8.Name = "checkBox8";
             this.checkBox8.Size = new System.Drawing.Size(61, 20);
             this.checkBox8.TabIndex = 112;
@@ -1331,7 +1331,7 @@
             // 
             this.checkBox9.AutoSize = true;
             this.checkBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox9.Location = new System.Drawing.Point(216, 254);
+            this.checkBox9.Location = new System.Drawing.Point(216, 259);
             this.checkBox9.Name = "checkBox9";
             this.checkBox9.Size = new System.Drawing.Size(61, 20);
             this.checkBox9.TabIndex = 111;
@@ -1342,7 +1342,7 @@
             // 
             this.checkBox13.AutoSize = true;
             this.checkBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox13.Location = new System.Drawing.Point(216, 228);
+            this.checkBox13.Location = new System.Drawing.Point(216, 233);
             this.checkBox13.Name = "checkBox13";
             this.checkBox13.Size = new System.Drawing.Size(61, 20);
             this.checkBox13.TabIndex = 110;
@@ -1353,7 +1353,7 @@
             // 
             this.checkBox14.AutoSize = true;
             this.checkBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox14.Location = new System.Drawing.Point(216, 202);
+            this.checkBox14.Location = new System.Drawing.Point(216, 207);
             this.checkBox14.Name = "checkBox14";
             this.checkBox14.Size = new System.Drawing.Size(61, 20);
             this.checkBox14.TabIndex = 109;
@@ -1363,7 +1363,7 @@
             // numericUpDown38
             // 
             this.numericUpDown38.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown38.Location = new System.Drawing.Point(315, 331);
+            this.numericUpDown38.Location = new System.Drawing.Point(315, 336);
             this.numericUpDown38.Name = "numericUpDown38";
             this.numericUpDown38.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown38.TabIndex = 128;
@@ -1371,7 +1371,7 @@
             // textBox38
             // 
             this.textBox38.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox38.Location = new System.Drawing.Point(357, 330);
+            this.textBox38.Location = new System.Drawing.Point(357, 335);
             this.textBox38.Name = "textBox38";
             this.textBox38.Size = new System.Drawing.Size(42, 22);
             this.textBox38.TabIndex = 127;
@@ -1379,7 +1379,7 @@
             // numericUpDown39
             // 
             this.numericUpDown39.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown39.Location = new System.Drawing.Point(315, 305);
+            this.numericUpDown39.Location = new System.Drawing.Point(315, 310);
             this.numericUpDown39.Name = "numericUpDown39";
             this.numericUpDown39.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown39.TabIndex = 126;
@@ -1387,7 +1387,7 @@
             // textBox39
             // 
             this.textBox39.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox39.Location = new System.Drawing.Point(357, 304);
+            this.textBox39.Location = new System.Drawing.Point(357, 309);
             this.textBox39.Name = "textBox39";
             this.textBox39.Size = new System.Drawing.Size(42, 22);
             this.textBox39.TabIndex = 125;
@@ -1396,7 +1396,7 @@
             // 
             this.checkBox32.AutoSize = true;
             this.checkBox32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox32.Location = new System.Drawing.Point(216, 332);
+            this.checkBox32.Location = new System.Drawing.Point(216, 337);
             this.checkBox32.Name = "checkBox32";
             this.checkBox32.Size = new System.Drawing.Size(61, 20);
             this.checkBox32.TabIndex = 122;
@@ -1407,7 +1407,7 @@
             // 
             this.checkBox33.AutoSize = true;
             this.checkBox33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox33.Location = new System.Drawing.Point(216, 306);
+            this.checkBox33.Location = new System.Drawing.Point(216, 311);
             this.checkBox33.Name = "checkBox33";
             this.checkBox33.Size = new System.Drawing.Size(61, 20);
             this.checkBox33.TabIndex = 121;
@@ -1418,7 +1418,7 @@
             // 
             this.checkBox30.AutoSize = true;
             this.checkBox30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox30.Location = new System.Drawing.Point(216, 358);
+            this.checkBox30.Location = new System.Drawing.Point(216, 363);
             this.checkBox30.Name = "checkBox30";
             this.checkBox30.Size = new System.Drawing.Size(61, 20);
             this.checkBox30.TabIndex = 129;
@@ -1428,7 +1428,7 @@
             // numericUpDown36
             // 
             this.numericUpDown36.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown36.Location = new System.Drawing.Point(315, 357);
+            this.numericUpDown36.Location = new System.Drawing.Point(315, 362);
             this.numericUpDown36.Name = "numericUpDown36";
             this.numericUpDown36.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown36.TabIndex = 131;
@@ -1436,7 +1436,7 @@
             // textBox36
             // 
             this.textBox36.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox36.Location = new System.Drawing.Point(357, 356);
+            this.textBox36.Location = new System.Drawing.Point(357, 361);
             this.textBox36.Name = "textBox36";
             this.textBox36.Size = new System.Drawing.Size(42, 22);
             this.textBox36.TabIndex = 130;
@@ -1445,7 +1445,7 @@
             // 
             this.checkBox31.AutoSize = true;
             this.checkBox31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox31.Location = new System.Drawing.Point(216, 384);
+            this.checkBox31.Location = new System.Drawing.Point(216, 389);
             this.checkBox31.Name = "checkBox31";
             this.checkBox31.Size = new System.Drawing.Size(61, 20);
             this.checkBox31.TabIndex = 132;
@@ -1455,7 +1455,7 @@
             // numericUpDown37
             // 
             this.numericUpDown37.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown37.Location = new System.Drawing.Point(315, 383);
+            this.numericUpDown37.Location = new System.Drawing.Point(315, 388);
             this.numericUpDown37.Name = "numericUpDown37";
             this.numericUpDown37.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown37.TabIndex = 134;
@@ -1463,7 +1463,7 @@
             // textBox37
             // 
             this.textBox37.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox37.Location = new System.Drawing.Point(357, 382);
+            this.textBox37.Location = new System.Drawing.Point(357, 387);
             this.textBox37.Name = "textBox37";
             this.textBox37.Size = new System.Drawing.Size(42, 22);
             this.textBox37.TabIndex = 133;
@@ -1520,10 +1520,10 @@
             // lblReceipt
             // 
             this.lblReceipt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblReceipt.Location = new System.Drawing.Point(3, 3);
+            this.lblReceipt.Location = new System.Drawing.Point(3, 4);
             this.lblReceipt.Multiline = true;
             this.lblReceipt.Name = "lblReceipt";
-            this.lblReceipt.Size = new System.Drawing.Size(404, 526);
+            this.lblReceipt.Size = new System.Drawing.Size(404, 525);
             this.lblReceipt.TabIndex = 22;
             // 
             // Form1
