@@ -734,6 +734,7 @@
             this.txt4x6_Pop.Name = "txt4x6_Pop";
             this.txt4x6_Pop.Size = new System.Drawing.Size(42, 22);
             this.txt4x6_Pop.TabIndex = 14;
+            this.txt4x6_Pop.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num4x6_Pop
             // 
@@ -743,6 +744,7 @@
             this.num4x6_Pop.Name = "num4x6_Pop";
             this.num4x6_Pop.Size = new System.Drawing.Size(36, 22);
             this.num4x6_Pop.TabIndex = 15;
+            this.num4x6_Pop.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num5x7_Pop
             // 
@@ -752,6 +754,7 @@
             this.num5x7_Pop.Name = "num5x7_Pop";
             this.num5x7_Pop.Size = new System.Drawing.Size(36, 22);
             this.num5x7_Pop.TabIndex = 17;
+            this.num5x7_Pop.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt5x7_Pop
             // 
@@ -761,6 +764,7 @@
             this.txt5x7_Pop.Name = "txt5x7_Pop";
             this.txt5x7_Pop.Size = new System.Drawing.Size(42, 22);
             this.txt5x7_Pop.TabIndex = 16;
+            this.txt5x7_Pop.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num8x10_Pop
             // 
@@ -770,6 +774,7 @@
             this.num8x10_Pop.Name = "num8x10_Pop";
             this.num8x10_Pop.Size = new System.Drawing.Size(36, 22);
             this.num8x10_Pop.TabIndex = 19;
+            this.num8x10_Pop.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt8x10_Pop
             // 
@@ -779,6 +784,7 @@
             this.txt8x10_Pop.Name = "txt8x10_Pop";
             this.txt8x10_Pop.Size = new System.Drawing.Size(42, 22);
             this.txt8x10_Pop.TabIndex = 18;
+            this.txt8x10_Pop.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num11x14_Pop
             // 
@@ -788,6 +794,7 @@
             this.num11x14_Pop.Name = "num11x14_Pop";
             this.num11x14_Pop.Size = new System.Drawing.Size(36, 22);
             this.num11x14_Pop.TabIndex = 21;
+            this.num11x14_Pop.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt11x14_Pop
             // 
@@ -797,6 +804,7 @@
             this.txt11x14_Pop.Name = "txt11x14_Pop";
             this.txt11x14_Pop.Size = new System.Drawing.Size(42, 22);
             this.txt11x14_Pop.TabIndex = 20;
+            this.txt11x14_Pop.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num16x20_Lg
             // 
@@ -806,6 +814,7 @@
             this.num16x20_Lg.Name = "num16x20_Lg";
             this.num16x20_Lg.Size = new System.Drawing.Size(36, 22);
             this.num16x20_Lg.TabIndex = 29;
+            this.num16x20_Lg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt16x20_Lg
             // 
@@ -815,6 +824,7 @@
             this.txt16x20_Lg.Name = "txt16x20_Lg";
             this.txt16x20_Lg.Size = new System.Drawing.Size(42, 22);
             this.txt16x20_Lg.TabIndex = 28;
+            this.txt16x20_Lg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num20x30_Lg
             // 
@@ -824,6 +834,7 @@
             this.num20x30_Lg.Name = "num20x30_Lg";
             this.num20x30_Lg.Size = new System.Drawing.Size(36, 22);
             this.num20x30_Lg.TabIndex = 31;
+            this.num20x30_Lg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt20x30_Lg
             // 
@@ -833,6 +844,7 @@
             this.txt20x30_Lg.Name = "txt20x30_Lg";
             this.txt20x30_Lg.Size = new System.Drawing.Size(42, 22);
             this.txt20x30_Lg.TabIndex = 30;
+            this.txt20x30_Lg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num24x30_Lg
             // 
@@ -842,6 +854,7 @@
             this.num24x30_Lg.Name = "num24x30_Lg";
             this.num24x30_Lg.Size = new System.Drawing.Size(36, 22);
             this.num24x30_Lg.TabIndex = 33;
+            this.num24x30_Lg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt24x30_Lg
             // 
@@ -851,6 +864,7 @@
             this.txt24x30_Lg.Name = "txt24x30_Lg";
             this.txt24x30_Lg.Size = new System.Drawing.Size(42, 22);
             this.txt24x30_Lg.TabIndex = 32;
+            this.txt24x30_Lg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num30x36_Lg
             // 
@@ -860,6 +874,7 @@
             this.num30x36_Lg.Name = "num30x36_Lg";
             this.num30x36_Lg.Size = new System.Drawing.Size(36, 22);
             this.num30x36_Lg.TabIndex = 35;
+            this.num30x36_Lg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt30x36_Lg
             // 
@@ -869,6 +884,7 @@
             this.txt30x36_Lg.Name = "txt30x36_Lg";
             this.txt30x36_Lg.Size = new System.Drawing.Size(42, 22);
             this.txt30x36_Lg.TabIndex = 34;
+            this.txt30x36_Lg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // numericUpDown12
             // 
@@ -878,6 +894,7 @@
             this.numericUpDown12.Name = "numericUpDown12";
             this.numericUpDown12.Size = new System.Drawing.Size(36, 22);
             this.numericUpDown12.TabIndex = 37;
+            this.numericUpDown12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // textBox12
             // 
@@ -887,6 +904,7 @@
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(42, 22);
             this.textBox12.TabIndex = 36;
+            this.textBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num3x5
             // 
@@ -896,6 +914,7 @@
             this.num3x5.Name = "num3x5";
             this.num3x5.Size = new System.Drawing.Size(36, 22);
             this.num3x5.TabIndex = 43;
+            this.num3x5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt3x5
             // 
@@ -905,6 +924,7 @@
             this.txt3x5.Name = "txt3x5";
             this.txt3x5.Size = new System.Drawing.Size(42, 22);
             this.txt3x5.TabIndex = 42;
+            this.txt3x5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num4x5
             // 
@@ -914,6 +934,7 @@
             this.num4x5.Name = "num4x5";
             this.num4x5.Size = new System.Drawing.Size(36, 22);
             this.num4x5.TabIndex = 61;
+            this.num4x5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt4x5
             // 
@@ -923,6 +944,7 @@
             this.txt4x5.Name = "txt4x5";
             this.txt4x5.Size = new System.Drawing.Size(42, 22);
             this.txt4x5.TabIndex = 60;
+            this.txt4x5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num4x6
             // 
@@ -932,6 +954,7 @@
             this.num4x6.Name = "num4x6";
             this.num4x6.Size = new System.Drawing.Size(36, 22);
             this.num4x6.TabIndex = 63;
+            this.num4x6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt4x6
             // 
@@ -941,6 +964,7 @@
             this.txt4x6.Name = "txt4x6";
             this.txt4x6.Size = new System.Drawing.Size(42, 22);
             this.txt4x6.TabIndex = 62;
+            this.txt4x6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num4x12
             // 
@@ -950,6 +974,7 @@
             this.num4x12.Name = "num4x12";
             this.num4x12.Size = new System.Drawing.Size(36, 22);
             this.num4x12.TabIndex = 65;
+            this.num4x12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt4x12
             // 
@@ -959,6 +984,7 @@
             this.txt4x12.Name = "txt4x12";
             this.txt4x12.Size = new System.Drawing.Size(42, 22);
             this.txt4x12.TabIndex = 64;
+            this.txt4x12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num5x5
             // 
@@ -968,6 +994,7 @@
             this.num5x5.Name = "num5x5";
             this.num5x5.Size = new System.Drawing.Size(36, 22);
             this.num5x5.TabIndex = 67;
+            this.num5x5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt5x5
             // 
@@ -977,6 +1004,7 @@
             this.txt5x5.Name = "txt5x5";
             this.txt5x5.Size = new System.Drawing.Size(42, 22);
             this.txt5x5.TabIndex = 66;
+            this.txt5x5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num5x7
             // 
@@ -986,6 +1014,7 @@
             this.num5x7.Name = "num5x7";
             this.num5x7.Size = new System.Drawing.Size(36, 22);
             this.num5x7.TabIndex = 69;
+            this.num5x7.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt5x7
             // 
@@ -995,6 +1024,7 @@
             this.txt5x7.Name = "txt5x7";
             this.txt5x7.Size = new System.Drawing.Size(42, 22);
             this.txt5x7.TabIndex = 68;
+            this.txt5x7.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num6x9
             // 
@@ -1004,6 +1034,7 @@
             this.num6x9.Name = "num6x9";
             this.num6x9.Size = new System.Drawing.Size(36, 22);
             this.num6x9.TabIndex = 71;
+            this.num6x9.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt6x9
             // 
@@ -1013,6 +1044,7 @@
             this.txt6x9.Name = "txt6x9";
             this.txt6x9.Size = new System.Drawing.Size(42, 22);
             this.txt6x9.TabIndex = 70;
+            this.txt6x9.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num6x18
             // 
@@ -1022,6 +1054,7 @@
             this.num6x18.Name = "num6x18";
             this.num6x18.Size = new System.Drawing.Size(36, 22);
             this.num6x18.TabIndex = 73;
+            this.num6x18.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt6x18
             // 
@@ -1031,6 +1064,7 @@
             this.txt6x18.Name = "txt6x18";
             this.txt6x18.Size = new System.Drawing.Size(42, 22);
             this.txt6x18.TabIndex = 72;
+            this.txt6x18.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num8x10
             // 
@@ -1040,6 +1074,7 @@
             this.num8x10.Name = "num8x10";
             this.num8x10.Size = new System.Drawing.Size(36, 22);
             this.num8x10.TabIndex = 75;
+            this.num8x10.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt8x10
             // 
@@ -1049,6 +1084,7 @@
             this.txt8x10.Name = "txt8x10";
             this.txt8x10.Size = new System.Drawing.Size(42, 22);
             this.txt8x10.TabIndex = 74;
+            this.txt8x10.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num8x12
             // 
@@ -1058,6 +1094,7 @@
             this.num8x12.Name = "num8x12";
             this.num8x12.Size = new System.Drawing.Size(36, 22);
             this.num8x12.TabIndex = 77;
+            this.num8x12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt8x12
             // 
@@ -1067,6 +1104,7 @@
             this.txt8x12.Name = "txt8x12";
             this.txt8x12.Size = new System.Drawing.Size(42, 22);
             this.txt8x12.TabIndex = 76;
+            this.txt8x12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num8x11
             // 
@@ -1076,6 +1114,7 @@
             this.num8x11.Name = "num8x11";
             this.num8x11.Size = new System.Drawing.Size(36, 22);
             this.num8x11.TabIndex = 79;
+            this.num8x11.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt8x11
             // 
@@ -1085,6 +1124,7 @@
             this.txt8x11.Name = "txt8x11";
             this.txt8x11.Size = new System.Drawing.Size(42, 22);
             this.txt8x11.TabIndex = 78;
+            this.txt8x11.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num10x15
             // 
@@ -1094,6 +1134,7 @@
             this.num10x15.Name = "num10x15";
             this.num10x15.Size = new System.Drawing.Size(36, 22);
             this.num10x15.TabIndex = 81;
+            this.num10x15.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt10x15
             // 
@@ -1103,6 +1144,7 @@
             this.txt10x15.Name = "txt10x15";
             this.txt10x15.Size = new System.Drawing.Size(42, 22);
             this.txt10x15.TabIndex = 80;
+            this.txt10x15.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num11x14
             // 
@@ -1112,6 +1154,7 @@
             this.num11x14.Name = "num11x14";
             this.num11x14.Size = new System.Drawing.Size(36, 22);
             this.num11x14.TabIndex = 83;
+            this.num11x14.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt11x14
             // 
@@ -1121,6 +1164,7 @@
             this.txt11x14.Name = "txt11x14";
             this.txt11x14.Size = new System.Drawing.Size(42, 22);
             this.txt11x14.TabIndex = 82;
+            this.txt11x14.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num11x17
             // 
@@ -1130,6 +1174,7 @@
             this.num11x17.Name = "num11x17";
             this.num11x17.Size = new System.Drawing.Size(36, 22);
             this.num11x17.TabIndex = 85;
+            this.num11x17.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt11x17
             // 
@@ -1139,6 +1184,7 @@
             this.txt11x17.Name = "txt11x17";
             this.txt11x17.Size = new System.Drawing.Size(42, 22);
             this.txt11x17.TabIndex = 84;
+            this.txt11x17.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num12x12
             // 
@@ -1148,6 +1194,7 @@
             this.num12x12.Name = "num12x12";
             this.num12x12.Size = new System.Drawing.Size(36, 22);
             this.num12x12.TabIndex = 87;
+            this.num12x12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt12x12
             // 
@@ -1157,6 +1204,7 @@
             this.txt12x12.Name = "txt12x12";
             this.txt12x12.Size = new System.Drawing.Size(42, 22);
             this.txt12x12.TabIndex = 86;
+            this.txt12x12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num10x13
             // 
@@ -1166,6 +1214,7 @@
             this.num10x13.Name = "num10x13";
             this.num10x13.Size = new System.Drawing.Size(36, 22);
             this.num10x13.TabIndex = 96;
+            this.num10x13.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt10x13
             // 
@@ -1175,6 +1224,7 @@
             this.txt10x13.Name = "txt10x13";
             this.txt10x13.Size = new System.Drawing.Size(42, 22);
             this.txt10x13.TabIndex = 95;
+            this.txt10x13.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num10x10
             // 
@@ -1184,6 +1234,7 @@
             this.num10x10.Name = "num10x10";
             this.num10x10.Size = new System.Drawing.Size(36, 22);
             this.num10x10.TabIndex = 94;
+            this.num10x10.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt10x10
             // 
@@ -1193,6 +1244,7 @@
             this.txt10x10.Name = "txt10x10";
             this.txt10x10.Size = new System.Drawing.Size(42, 22);
             this.txt10x10.TabIndex = 93;
+            this.txt10x10.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num9x12
             // 
@@ -1202,6 +1254,7 @@
             this.num9x12.Name = "num9x12";
             this.num9x12.Size = new System.Drawing.Size(36, 22);
             this.num9x12.TabIndex = 92;
+            this.num9x12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt9x12
             // 
@@ -1211,6 +1264,7 @@
             this.txt9x12.Name = "txt9x12";
             this.txt9x12.Size = new System.Drawing.Size(42, 22);
             this.txt9x12.TabIndex = 91;
+            this.txt9x12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // chk10x13
             // 
@@ -1256,6 +1310,7 @@
             this.num16x24.Name = "num16x24";
             this.num16x24.Size = new System.Drawing.Size(36, 22);
             this.num16x24.TabIndex = 108;
+            this.num16x24.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt16x24
             // 
@@ -1265,6 +1320,7 @@
             this.txt16x24.Name = "txt16x24";
             this.txt16x24.Size = new System.Drawing.Size(42, 22);
             this.txt16x24.TabIndex = 107;
+            this.txt16x24.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num16x20
             // 
@@ -1274,6 +1330,7 @@
             this.num16x20.Name = "num16x20";
             this.num16x20.Size = new System.Drawing.Size(36, 22);
             this.num16x20.TabIndex = 106;
+            this.num16x20.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt16x20
             // 
@@ -1283,6 +1340,7 @@
             this.txt16x20.Name = "txt16x20";
             this.txt16x20.Size = new System.Drawing.Size(42, 22);
             this.txt16x20.TabIndex = 105;
+            this.txt16x20.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num16x16
             // 
@@ -1292,6 +1350,7 @@
             this.num16x16.Name = "num16x16";
             this.num16x16.Size = new System.Drawing.Size(36, 22);
             this.num16x16.TabIndex = 104;
+            this.num16x16.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt16x16
             // 
@@ -1301,6 +1360,7 @@
             this.txt16x16.Name = "txt16x16";
             this.txt16x16.Size = new System.Drawing.Size(42, 22);
             this.txt16x16.TabIndex = 103;
+            this.txt16x16.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num12x18
             // 
@@ -1310,6 +1370,7 @@
             this.num12x18.Name = "num12x18";
             this.num12x18.Size = new System.Drawing.Size(36, 22);
             this.num12x18.TabIndex = 102;
+            this.num12x18.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt12x18
             // 
@@ -1319,6 +1380,7 @@
             this.txt12x18.Name = "txt12x18";
             this.txt12x18.Size = new System.Drawing.Size(42, 22);
             this.txt12x18.TabIndex = 101;
+            this.txt12x18.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // chk16x24
             // 
@@ -1376,6 +1438,7 @@
             this.num24x24.Name = "num24x24";
             this.num24x24.Size = new System.Drawing.Size(36, 22);
             this.num24x24.TabIndex = 120;
+            this.num24x24.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt24x24
             // 
@@ -1385,6 +1448,7 @@
             this.txt24x24.Name = "txt24x24";
             this.txt24x24.Size = new System.Drawing.Size(42, 22);
             this.txt24x24.TabIndex = 119;
+            this.txt24x24.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num20x30
             // 
@@ -1394,6 +1458,7 @@
             this.num20x30.Name = "num20x30";
             this.num20x30.Size = new System.Drawing.Size(36, 22);
             this.num20x30.TabIndex = 118;
+            this.num20x30.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt20x30
             // 
@@ -1403,6 +1468,7 @@
             this.txt20x30.Name = "txt20x30";
             this.txt20x30.Size = new System.Drawing.Size(42, 22);
             this.txt20x30.TabIndex = 117;
+            this.txt20x30.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num20x24
             // 
@@ -1412,6 +1478,7 @@
             this.num20x24.Name = "num20x24";
             this.num20x24.Size = new System.Drawing.Size(36, 22);
             this.num20x24.TabIndex = 116;
+            this.num20x24.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt20x24
             // 
@@ -1421,6 +1488,7 @@
             this.txt20x24.Name = "txt20x24";
             this.txt20x24.Size = new System.Drawing.Size(42, 22);
             this.txt20x24.TabIndex = 115;
+            this.txt20x24.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num20x20
             // 
@@ -1430,6 +1498,7 @@
             this.num20x20.Name = "num20x20";
             this.num20x20.Size = new System.Drawing.Size(36, 22);
             this.num20x20.TabIndex = 114;
+            this.num20x20.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt20x20
             // 
@@ -1439,6 +1508,7 @@
             this.txt20x20.Name = "txt20x20";
             this.txt20x20.Size = new System.Drawing.Size(42, 22);
             this.txt20x20.TabIndex = 113;
+            this.txt20x20.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // chk24x24
             // 
@@ -1496,6 +1566,7 @@
             this.num24x36.Name = "num24x36";
             this.num24x36.Size = new System.Drawing.Size(36, 22);
             this.num24x36.TabIndex = 128;
+            this.num24x36.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt24x36
             // 
@@ -1505,6 +1576,7 @@
             this.txt24x36.Name = "txt24x36";
             this.txt24x36.Size = new System.Drawing.Size(42, 22);
             this.txt24x36.TabIndex = 127;
+            this.txt24x36.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num24x30
             // 
@@ -1514,6 +1586,7 @@
             this.num24x30.Name = "num24x30";
             this.num24x30.Size = new System.Drawing.Size(36, 22);
             this.num24x30.TabIndex = 126;
+            this.num24x30.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt24x30
             // 
@@ -1523,6 +1596,7 @@
             this.txt24x30.Name = "txt24x30";
             this.txt24x30.Size = new System.Drawing.Size(42, 22);
             this.txt24x30.TabIndex = 125;
+            this.txt24x30.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // chk24x36
             // 
@@ -1568,6 +1642,7 @@
             this.num30x30.Name = "num30x30";
             this.num30x30.Size = new System.Drawing.Size(36, 22);
             this.num30x30.TabIndex = 131;
+            this.num30x30.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt30x30
             // 
@@ -1577,6 +1652,7 @@
             this.txt30x30.Name = "txt30x30";
             this.txt30x30.Size = new System.Drawing.Size(42, 22);
             this.txt30x30.TabIndex = 130;
+            this.txt30x30.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // chk30x36
             // 
@@ -1598,6 +1674,7 @@
             this.num30x36.Name = "num30x36";
             this.num30x36.Size = new System.Drawing.Size(36, 22);
             this.num30x36.TabIndex = 134;
+            this.num30x36.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt30x36
             // 
@@ -1607,6 +1684,7 @@
             this.txt30x36.Name = "txt30x36";
             this.txt30x36.Size = new System.Drawing.Size(42, 22);
             this.txt30x36.TabIndex = 133;
+            this.txt30x36.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // panel4
             // 
@@ -1672,6 +1750,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 22);
             this.textBox1.TabIndex = 0;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label1
             // 
@@ -1698,6 +1777,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 22);
             this.textBox2.TabIndex = 2;
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label3
             // 
@@ -1714,6 +1794,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 22);
             this.textBox3.TabIndex = 4;
+            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label4
             // 
@@ -1730,6 +1811,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 22);
             this.textBox4.TabIndex = 6;
+            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label5
             // 
@@ -1747,6 +1829,7 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 22);
             this.textBox5.TabIndex = 8;
+            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // Form1
             // 
