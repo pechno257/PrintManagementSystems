@@ -1,0 +1,10 @@
+D:\projects\source\repos\PrintManagementSystem\PrintManagementSystem\bin\Debug\PrintManagementSystem.exe.config
+D:\projects\source\repos\PrintManagementSystem\PrintManagementSystem\bin\Debug\PrintManagementSystem.exe
+D:\projects\source\repos\PrintManagementSystem\PrintManagementSystem\bin\Debug\PrintManagementSystem.pdb
+D:\projects\source\repos\PrintManagementSystem\PrintManagementSystem\obj\Debug\PrintManagementSystem.csprojAssemblyReference.cache
+D:\projects\source\repos\PrintManagementSystem\PrintManagementSystem\obj\Debug\PrintManagementSystem.Form1.resources
+D:\projects\source\repos\PrintManagementSystem\PrintManagementSystem\obj\Debug\PrintManagementSystem.Properties.Resources.resources
+D:\projects\source\repos\PrintManagementSystem\PrintManagementSystem\obj\Debug\PrintManagementSystem.csproj.GenerateResource.cache
+D:\projects\source\repos\PrintManagementSystem\PrintManagementSystem\obj\Debug\PrintManagementSystem.csproj.CoreCompileInputs.cache
+D:\projects\source\repos\PrintManagementSystem\PrintManagementSystem\obj\Debug\PrintManagementSystem.exe
+D:\projects\source\repos\PrintManagementSystem\PrintManagementSystem\obj\Debug\PrintManagementSystem.pdb
