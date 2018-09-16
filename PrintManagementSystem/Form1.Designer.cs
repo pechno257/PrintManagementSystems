@@ -63,7 +63,7 @@
             this.checkBox28 = new System.Windows.Forms.CheckBox();
             this.checkBox29 = new System.Windows.Forms.CheckBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.nu = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
@@ -156,14 +156,16 @@
             this.numericUpDown37 = new System.Windows.Forms.NumericUpDown();
             this.textBox37 = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnTotal = new System.Windows.Forms.Button();
+            this.btnReceipt = new System.Windows.Forms.Button();
+            this.btnReset = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.lblReceipt = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.panel7.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
@@ -214,7 +216,7 @@
             this.panel1.Controls.Add(this.textBox3);
             this.panel1.Controls.Add(this.numericUpDown2);
             this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.numericUpDown1);
+            this.panel1.Controls.Add(this.nu);
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.lbl11x14);
             this.panel1.Controls.Add(this.lbl8x10);
@@ -273,6 +275,7 @@
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel7.Controls.Add(this.lblReceipt);
             this.panel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel7.Location = new System.Drawing.Point(858, 12);
             this.panel7.Name = "panel7";
@@ -684,13 +687,13 @@
             this.textBox1.Size = new System.Drawing.Size(42, 22);
             this.textBox1.TabIndex = 14;
             // 
-            // numericUpDown1
+            // nu
             // 
-            this.numericUpDown1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown1.Location = new System.Drawing.Point(104, 19);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(36, 22);
-            this.numericUpDown1.TabIndex = 15;
+            this.nu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nu.Location = new System.Drawing.Point(104, 19);
+            this.nu.Name = "nu";
+            this.nu.Size = new System.Drawing.Size(36, 22);
+            this.nu.TabIndex = 15;
             // 
             // numericUpDown2
             // 
@@ -1468,51 +1471,60 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel4.Controls.Add(this.button4);
-            this.panel4.Controls.Add(this.button3);
-            this.panel4.Controls.Add(this.button2);
-            this.panel4.Controls.Add(this.button1);
+            this.panel4.Controls.Add(this.btnExit);
+            this.panel4.Controls.Add(this.btnReset);
+            this.panel4.Controls.Add(this.btnReceipt);
+            this.panel4.Controls.Add(this.btnTotal);
             this.panel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel4.Location = new System.Drawing.Point(858, 550);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(410, 53);
             this.panel4.TabIndex = 0;
             // 
-            // button1
+            // btnTotal
             // 
-            this.button1.Location = new System.Drawing.Point(45, 16);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Total";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnTotal.Location = new System.Drawing.Point(45, 16);
+            this.btnTotal.Name = "btnTotal";
+            this.btnTotal.Size = new System.Drawing.Size(75, 23);
+            this.btnTotal.TabIndex = 0;
+            this.btnTotal.Text = "Total";
+            this.btnTotal.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnReceipt
             // 
-            this.button2.Location = new System.Drawing.Point(126, 16);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Receipt";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnReceipt.Location = new System.Drawing.Point(126, 16);
+            this.btnReceipt.Name = "btnReceipt";
+            this.btnReceipt.Size = new System.Drawing.Size(75, 23);
+            this.btnReceipt.TabIndex = 1;
+            this.btnReceipt.Text = "Receipt";
+            this.btnReceipt.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnReset
             // 
-            this.button3.Location = new System.Drawing.Point(207, 16);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Reset";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnReset.Location = new System.Drawing.Point(207, 16);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(75, 23);
+            this.btnReset.TabIndex = 2;
+            this.btnReset.Text = "Reset";
+            this.btnReset.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnExit
             // 
-            this.button4.Location = new System.Drawing.Point(288, 16);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Exit";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnExit.Location = new System.Drawing.Point(288, 16);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(75, 23);
+            this.btnExit.TabIndex = 3;
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = true;
+            // 
+            // lblReceipt
+            // 
+            this.lblReceipt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblReceipt.Location = new System.Drawing.Point(3, 3);
+            this.lblReceipt.Multiline = true;
+            this.lblReceipt.Name = "lblReceipt";
+            this.lblReceipt.Size = new System.Drawing.Size(404, 526);
+            this.lblReceipt.TabIndex = 22;
             // 
             // Form1
             // 
@@ -1533,9 +1545,11 @@
             this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
@@ -1596,7 +1610,7 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.NumericUpDown numericUpDown2;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown nu;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.CheckBox lbl11x14;
         private System.Windows.Forms.CheckBox lbl8x10;
@@ -1708,10 +1722,11 @@
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.Button btnReceipt;
+        private System.Windows.Forms.Button btnTotal;
+        private System.Windows.Forms.TextBox lblReceipt;
     }
 }
 
