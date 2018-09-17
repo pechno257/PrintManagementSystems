@@ -17,13 +17,15 @@ namespace PrintManagementSystem
             InitializeComponent();
         }
 
-        // Disabling numericUpDown's and Textboxes when the checkbox is unchecked
+        // Enabling numericUpDown's and Textboxes when corresponding checkbox is checked
         private void chk4x6_Pop_CheckStateChanged(object sender, EventArgs e)
         {
             if (chk4x6_Pop.Checked)
             {
                 num4x6_Pop.Enabled = true;
                 txt4x6_Pop.Enabled = true;
+                num4x6_Pop.Focus();
+                num4x6_Pop.Select(0, num4x6_Pop.Text.Length);
             } else
             {
                 num4x6_Pop.Enabled = false;
@@ -39,6 +41,8 @@ namespace PrintManagementSystem
             {
                 num5x7_Pop.Enabled = true;
                 txt5x7_Pop.Enabled = true;
+                num5x7_Pop.Focus();
+                num5x7_Pop.Select(0, num5x7_Pop.Text.Length);
             }
             else
             {
@@ -55,6 +59,8 @@ namespace PrintManagementSystem
             {
                 num8x10_Pop.Enabled = true;
                 txt8x10_Pop.Enabled = true;
+                num8x10_Pop.Focus();
+                num8x10_Pop.Select(0, num8x10_Pop.Text.Length);
             }
             else
             {
@@ -70,7 +76,9 @@ namespace PrintManagementSystem
             if (chk11x14_Pop.Checked)
             {
                 num11x14_Pop.Enabled = true;
-                txt11x14_Pop.Enabled = true;
+                txt11x14.Enabled = true;
+                num11x14_Pop.Focus();
+                num11x14_Pop.Select(0, num11x14_Pop.Text.Length);
             }
             else
             {
@@ -87,6 +95,8 @@ namespace PrintManagementSystem
             {
                 num16x20_Lg.Enabled = true;
                 txt16x20_Lg.Enabled = true;
+                num16x20_Lg.Focus();
+                num16x20_Lg.Select(0, num16x20_Lg.Text.Length);
             }
             else
             {
@@ -103,6 +113,8 @@ namespace PrintManagementSystem
             {
                 num20x30_Lg.Enabled = true;
                 txt20x30_Lg.Enabled = true;
+                num20x30_Lg.Focus();
+                num20x30_Lg.Select(0, num20x30_Lg.Text.Length);
             }
             else
             {
@@ -119,6 +131,8 @@ namespace PrintManagementSystem
             {            
                 num20x30_Lg.Enabled = true;
                 txt24x30_Lg.Enabled = true;
+                num24x30_Lg.Focus();
+                num24x30_Lg.Select(0, num24x30_Lg.Text.Length);
             }
             else
             {
@@ -134,6 +148,8 @@ namespace PrintManagementSystem
             {
                 num30x36_Lg.Enabled = true;
                 txt30x36_Lg.Enabled = true;
+                num30x36_Lg.Focus();
+                num30x36_Lg.Select(0, num30x36_Lg.Text.Length);
             }
             else
             {
@@ -150,6 +166,8 @@ namespace PrintManagementSystem
             {
                 num3x5.Enabled = true;
                 txt3x5.Enabled = true;
+                num3x5.Focus();
+                num3x5.Select(0, num3x5.Text.Length);
             }
             else
             {
@@ -166,6 +184,8 @@ namespace PrintManagementSystem
             {
                 num4x5.Enabled = true;
                 txt4x5.Enabled = true;
+                num4x5.Focus();
+                num4x5.Select(0, num4x5.Text.Length);
             }
             else
             {
@@ -182,6 +202,8 @@ namespace PrintManagementSystem
             {
                 num4x6.Enabled = true;
                 txt4x6.Enabled = true;
+                num4x6.Focus();
+                num4x6.Select(0, num4x6.Text.Length);
             }
             else
             {
@@ -198,6 +220,8 @@ namespace PrintManagementSystem
             {
                 num4x12.Enabled = true;
                 txt4x12.Enabled = true;
+                num4x12.Focus();
+                num4x12.Select(0, num4x12.Text.Length);
             }
             else
             {
@@ -214,6 +238,8 @@ namespace PrintManagementSystem
             {
                 num5x5.Enabled = true;
                 txt5x5.Enabled = true;
+                num5x5.Focus();
+                num5x5.Select(0, num5x5.Text.Length);
             }
             else
             {
@@ -230,6 +256,8 @@ namespace PrintManagementSystem
             {
                 num5x7.Enabled = true;
                 txt5x7.Enabled = true;
+                num5x7.Focus();
+                num5x7.Select(0, num5x7.Text.Length);
             }
             else
             {
@@ -246,6 +274,8 @@ namespace PrintManagementSystem
             {
                 num6x9.Enabled = true;
                 txt6x9.Enabled = true;
+                num6x9.Focus();
+                num6x9.Select(0, num6x9.Text.Length);
             }
             else
             {
@@ -262,6 +292,8 @@ namespace PrintManagementSystem
             {
                 num6x18.Enabled = true;
                 txt6x18.Enabled = true;
+                num6x18.Focus();
+                num6x18.Select(0, num6x18.Text.Length);
             }
             else
             {
@@ -278,6 +310,8 @@ namespace PrintManagementSystem
             {
                 num8x10.Enabled = true;
                 txt8x10.Enabled = true;
+                num8x10.Focus();
+                num8x10.Select(0, num8x10.Text.Length);
             }
             else
             {
@@ -294,6 +328,8 @@ namespace PrintManagementSystem
             {
                 num8x10.Enabled = true;
                 txt8x10.Enabled = true;
+                num8x10.Focus();
+                num8x10.Select(0, num8x10.Text.Length);
             }
             else
             {
@@ -310,6 +346,8 @@ namespace PrintManagementSystem
             {
                 num8x11.Enabled = true;
                 txt8x11.Enabled = true;
+                num8x11.Focus();
+                num8x11.Select(0, num8x11.Text.Length);
             }
             else
             {
@@ -326,6 +364,8 @@ namespace PrintManagementSystem
             {
                 num9x12.Enabled = true;
                 txt9x12.Enabled = true;
+                num9x12.Focus();
+                num9x12.Select(0, num9x12.Text.Length);
             }
             else
             {
@@ -342,6 +382,8 @@ namespace PrintManagementSystem
             {
                 num10x10.Enabled = true;
                 txt10x10.Enabled = true;
+                num10x10.Focus();
+                num10x10.Select(0, num10x10.Text.Length);
             }
             else
             {
@@ -358,6 +400,8 @@ namespace PrintManagementSystem
             {
                 num10x13.Enabled = true;
                 txt10x13.Enabled = true;
+                num10x13.Focus();
+                num10x13.Select(0, num10x13.Text.Length);
             }
             else
             {
@@ -374,6 +418,8 @@ namespace PrintManagementSystem
             {
                 num10x15.Enabled = true;
                 txt10x15.Enabled = true;
+                num10x15.Focus();
+                num10x15.Select(0, num10x15.Text.Length);
             }
             else
             {
@@ -390,6 +436,8 @@ namespace PrintManagementSystem
             {
                 num11x14.Enabled = true;
                 txt11x14.Enabled = true;
+                num11x14.Focus();
+                num11x14.Select(0, num11x14.Text.Length);
             }
             else
             {
@@ -406,6 +454,8 @@ namespace PrintManagementSystem
             {
                 num11x17.Enabled = true;
                 txt11x17.Enabled = true;
+                num11x17.Focus();
+                num11x17.Select(0, num11x17.Text.Length);
             }
             else
             {
@@ -422,6 +472,8 @@ namespace PrintManagementSystem
             {
                 num12x12.Enabled = true;
                 txt12x12.Enabled = true;
+                num12x12.Focus();
+                num12x12.Select(0, num12x12.Text.Length);
             }
             else
             {
@@ -438,6 +490,8 @@ namespace PrintManagementSystem
             {
                 num12x18.Enabled = true;
                 txt12x18.Enabled = true;
+                num12x18.Focus();
+                num12x18.Select(0, num12x18.Text.Length);
             }
             else
             {
@@ -454,6 +508,8 @@ namespace PrintManagementSystem
             {
                 num16x16.Enabled = true;
                 txt16x16.Enabled = true;
+                num16x16.Focus();
+                num16x16.Select(0, num16x16.Text.Length);
             }
             else
             {
@@ -470,6 +526,8 @@ namespace PrintManagementSystem
             {
                 num16x20.Enabled = true;
                 txt16x20.Enabled = true;
+                num16x20.Focus();
+                num16x20.Select(0, num16x20.Text.Length);
             }
             else
             {
@@ -486,6 +544,8 @@ namespace PrintManagementSystem
             {
                 num16x24.Enabled = true;
                 txt16x24.Enabled = true;
+                num16x24.Focus();
+                num16x24.Select(0, num16x24.Text.Length);
             }
             else
             {
@@ -502,6 +562,8 @@ namespace PrintManagementSystem
             {
                 num20x20.Enabled = true;
                 txt20x20.Enabled = true;
+                num20x20.Focus();
+                num20x20.Select(0, num20x20.Text.Length);
             }
             else
             {
@@ -518,6 +580,8 @@ namespace PrintManagementSystem
             {
                 num20x24.Enabled = true;
                 txt20x24.Enabled = true;
+                num20x24.Focus();
+                num20x24.Select(0, num20x24.Text.Length);
             }
             else
             {
@@ -534,13 +598,15 @@ namespace PrintManagementSystem
             {
                 num20x30.Enabled = true;
                 txt20x30.Enabled = true;
+                num20x30.Focus();
+                num20x30.Select(0, num20x30.Text.Length);
             }
             else
             {
                 num20x30.Enabled = false;
                 txt20x30.Enabled = false;
-                num8x11.Value = 0;
-                txt8x11.Text = "0";
+                num20x30.Value = 0;
+                txt20x30.Text = "0";
             }
         }
 
@@ -550,6 +616,8 @@ namespace PrintManagementSystem
             {
                 num24x24.Enabled = true;
                 txt24x24.Enabled = true;
+                num24x24.Focus();
+                num24x24.Select(0, num24x24.Text.Length);
             }
             else
             {
@@ -566,6 +634,8 @@ namespace PrintManagementSystem
             {
                 num24x30.Enabled = true;
                 txt24x30.Enabled = true;
+                num24x30.Focus();
+                num24x30.Select(0, num24x30.Text.Length);
             }
             else
             {
@@ -582,6 +652,8 @@ namespace PrintManagementSystem
             {
                 num24x36.Enabled = true;
                 txt24x36.Enabled = true;
+                num24x36.Focus();
+                num24x36.Select(0, num24x36.Text.Length);
             }
             else
             {
@@ -598,6 +670,8 @@ namespace PrintManagementSystem
             {
                 num30x30.Enabled = true;
                 txt30x30.Enabled = true;
+                num30x30.Focus();
+                num30x30.Select(0, num30x30.Text.Length);
             }
             else
             {
@@ -614,6 +688,8 @@ namespace PrintManagementSystem
             {
                 num30x36.Enabled = true;
                 txt30x36.Enabled = true;
+                num30x36.Focus();
+                num30x36.Select(0, num30x36.Text.Length);
             }
             else
             {
@@ -624,7 +700,7 @@ namespace PrintManagementSystem
             }
         }
 
-        // Wire the checkboxes to calculate line item total into appropriate textbox
+        // Calculate line item total when NumericUpDown value changes
         private void num4x6_Pop_ValueChanged(object sender, EventArgs e)
         {
             var units_4x6 = (int)num4x6_Pop.Value;
