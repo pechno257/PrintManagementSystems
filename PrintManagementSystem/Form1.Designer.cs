@@ -735,6 +735,7 @@
             this.txt4x6_Pop.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt4x6_Pop.Location = new System.Drawing.Point(146, 23);
             this.txt4x6_Pop.Name = "txt4x6_Pop";
+            this.txt4x6_Pop.ReadOnly = true;
             this.txt4x6_Pop.Size = new System.Drawing.Size(42, 22);
             this.txt4x6_Pop.TabIndex = 14;
             this.txt4x6_Pop.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -767,6 +768,7 @@
             this.txt5x7_Pop.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt5x7_Pop.Location = new System.Drawing.Point(146, 49);
             this.txt5x7_Pop.Name = "txt5x7_Pop";
+            this.txt5x7_Pop.ReadOnly = true;
             this.txt5x7_Pop.Size = new System.Drawing.Size(42, 22);
             this.txt5x7_Pop.TabIndex = 16;
             this.txt5x7_Pop.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -788,6 +790,7 @@
             this.txt8x10_Pop.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt8x10_Pop.Location = new System.Drawing.Point(146, 75);
             this.txt8x10_Pop.Name = "txt8x10_Pop";
+            this.txt8x10_Pop.ReadOnly = true;
             this.txt8x10_Pop.Size = new System.Drawing.Size(42, 22);
             this.txt8x10_Pop.TabIndex = 18;
             this.txt8x10_Pop.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -809,6 +812,7 @@
             this.txt11x14_Pop.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt11x14_Pop.Location = new System.Drawing.Point(146, 101);
             this.txt11x14_Pop.Name = "txt11x14_Pop";
+            this.txt11x14_Pop.ReadOnly = true;
             this.txt11x14_Pop.Size = new System.Drawing.Size(42, 22);
             this.txt11x14_Pop.TabIndex = 20;
             this.txt11x14_Pop.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -830,6 +834,7 @@
             this.txt16x20_Lg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt16x20_Lg.Location = new System.Drawing.Point(146, 23);
             this.txt16x20_Lg.Name = "txt16x20_Lg";
+            this.txt16x20_Lg.ReadOnly = true;
             this.txt16x20_Lg.Size = new System.Drawing.Size(42, 22);
             this.txt16x20_Lg.TabIndex = 28;
             this.txt16x20_Lg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -851,6 +856,7 @@
             this.txt20x30_Lg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt20x30_Lg.Location = new System.Drawing.Point(146, 49);
             this.txt20x30_Lg.Name = "txt20x30_Lg";
+            this.txt20x30_Lg.ReadOnly = true;
             this.txt20x30_Lg.Size = new System.Drawing.Size(42, 22);
             this.txt20x30_Lg.TabIndex = 30;
             this.txt20x30_Lg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -872,6 +878,7 @@
             this.txt24x30_Lg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt24x30_Lg.Location = new System.Drawing.Point(146, 75);
             this.txt24x30_Lg.Name = "txt24x30_Lg";
+            this.txt24x30_Lg.ReadOnly = true;
             this.txt24x30_Lg.Size = new System.Drawing.Size(42, 22);
             this.txt24x30_Lg.TabIndex = 32;
             this.txt24x30_Lg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -893,6 +900,7 @@
             this.txt30x36_Lg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt30x36_Lg.Location = new System.Drawing.Point(146, 101);
             this.txt30x36_Lg.Name = "txt30x36_Lg";
+            this.txt30x36_Lg.ReadOnly = true;
             this.txt30x36_Lg.Size = new System.Drawing.Size(42, 22);
             this.txt30x36_Lg.TabIndex = 34;
             this.txt30x36_Lg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -913,6 +921,7 @@
             this.textBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox12.Location = new System.Drawing.Point(146, 127);
             this.textBox12.Name = "textBox12";
+            this.textBox12.ReadOnly = true;
             this.textBox12.Size = new System.Drawing.Size(42, 22);
             this.textBox12.TabIndex = 36;
             this.textBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -933,6 +942,7 @@
             this.txt3x5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt3x5.Location = new System.Drawing.Point(153, 23);
             this.txt3x5.Name = "txt3x5";
+            this.txt3x5.ReadOnly = true;
             this.txt3x5.Size = new System.Drawing.Size(42, 22);
             this.txt3x5.TabIndex = 42;
             this.txt3x5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -953,6 +963,7 @@
             this.txt4x5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt4x5.Location = new System.Drawing.Point(153, 49);
             this.txt4x5.Name = "txt4x5";
+            this.txt4x5.ReadOnly = true;
             this.txt4x5.Size = new System.Drawing.Size(42, 22);
             this.txt4x5.TabIndex = 60;
             this.txt4x5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -973,6 +984,7 @@
             this.txt4x6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt4x6.Location = new System.Drawing.Point(153, 75);
             this.txt4x6.Name = "txt4x6";
+            this.txt4x6.ReadOnly = true;
             this.txt4x6.Size = new System.Drawing.Size(42, 22);
             this.txt4x6.TabIndex = 62;
             this.txt4x6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -993,6 +1005,7 @@
             this.txt4x12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt4x12.Location = new System.Drawing.Point(153, 101);
             this.txt4x12.Name = "txt4x12";
+            this.txt4x12.ReadOnly = true;
             this.txt4x12.Size = new System.Drawing.Size(42, 22);
             this.txt4x12.TabIndex = 64;
             this.txt4x12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1013,6 +1026,7 @@
             this.txt5x5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt5x5.Location = new System.Drawing.Point(153, 127);
             this.txt5x5.Name = "txt5x5";
+            this.txt5x5.ReadOnly = true;
             this.txt5x5.Size = new System.Drawing.Size(42, 22);
             this.txt5x5.TabIndex = 66;
             this.txt5x5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1033,6 +1047,7 @@
             this.txt5x7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt5x7.Location = new System.Drawing.Point(153, 153);
             this.txt5x7.Name = "txt5x7";
+            this.txt5x7.ReadOnly = true;
             this.txt5x7.Size = new System.Drawing.Size(42, 22);
             this.txt5x7.TabIndex = 68;
             this.txt5x7.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1053,6 +1068,7 @@
             this.txt6x9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt6x9.Location = new System.Drawing.Point(153, 179);
             this.txt6x9.Name = "txt6x9";
+            this.txt6x9.ReadOnly = true;
             this.txt6x9.Size = new System.Drawing.Size(42, 22);
             this.txt6x9.TabIndex = 70;
             this.txt6x9.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1073,6 +1089,7 @@
             this.txt6x18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt6x18.Location = new System.Drawing.Point(153, 205);
             this.txt6x18.Name = "txt6x18";
+            this.txt6x18.ReadOnly = true;
             this.txt6x18.Size = new System.Drawing.Size(42, 22);
             this.txt6x18.TabIndex = 72;
             this.txt6x18.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1093,6 +1110,7 @@
             this.txt8x10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt8x10.Location = new System.Drawing.Point(153, 231);
             this.txt8x10.Name = "txt8x10";
+            this.txt8x10.ReadOnly = true;
             this.txt8x10.Size = new System.Drawing.Size(42, 22);
             this.txt8x10.TabIndex = 74;
             this.txt8x10.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1113,6 +1131,7 @@
             this.txt8x12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt8x12.Location = new System.Drawing.Point(153, 257);
             this.txt8x12.Name = "txt8x12";
+            this.txt8x12.ReadOnly = true;
             this.txt8x12.Size = new System.Drawing.Size(42, 22);
             this.txt8x12.TabIndex = 76;
             this.txt8x12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1133,6 +1152,7 @@
             this.txt8x11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt8x11.Location = new System.Drawing.Point(153, 283);
             this.txt8x11.Name = "txt8x11";
+            this.txt8x11.ReadOnly = true;
             this.txt8x11.Size = new System.Drawing.Size(42, 22);
             this.txt8x11.TabIndex = 78;
             this.txt8x11.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1153,6 +1173,7 @@
             this.txt10x15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt10x15.Location = new System.Drawing.Point(153, 387);
             this.txt10x15.Name = "txt10x15";
+            this.txt10x15.ReadOnly = true;
             this.txt10x15.Size = new System.Drawing.Size(42, 22);
             this.txt10x15.TabIndex = 80;
             this.txt10x15.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1173,6 +1194,7 @@
             this.txt11x14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt11x14.Location = new System.Drawing.Point(357, 23);
             this.txt11x14.Name = "txt11x14";
+            this.txt11x14.ReadOnly = true;
             this.txt11x14.Size = new System.Drawing.Size(42, 22);
             this.txt11x14.TabIndex = 82;
             this.txt11x14.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1193,6 +1215,7 @@
             this.txt11x17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt11x17.Location = new System.Drawing.Point(357, 49);
             this.txt11x17.Name = "txt11x17";
+            this.txt11x17.ReadOnly = true;
             this.txt11x17.Size = new System.Drawing.Size(42, 22);
             this.txt11x17.TabIndex = 84;
             this.txt11x17.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1213,6 +1236,7 @@
             this.txt12x12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt12x12.Location = new System.Drawing.Point(357, 75);
             this.txt12x12.Name = "txt12x12";
+            this.txt12x12.ReadOnly = true;
             this.txt12x12.Size = new System.Drawing.Size(42, 22);
             this.txt12x12.TabIndex = 86;
             this.txt12x12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1233,6 +1257,7 @@
             this.txt10x13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt10x13.Location = new System.Drawing.Point(153, 361);
             this.txt10x13.Name = "txt10x13";
+            this.txt10x13.ReadOnly = true;
             this.txt10x13.Size = new System.Drawing.Size(42, 22);
             this.txt10x13.TabIndex = 95;
             this.txt10x13.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1253,6 +1278,7 @@
             this.txt10x10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt10x10.Location = new System.Drawing.Point(153, 335);
             this.txt10x10.Name = "txt10x10";
+            this.txt10x10.ReadOnly = true;
             this.txt10x10.Size = new System.Drawing.Size(42, 22);
             this.txt10x10.TabIndex = 93;
             this.txt10x10.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1273,6 +1299,7 @@
             this.txt9x12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt9x12.Location = new System.Drawing.Point(153, 309);
             this.txt9x12.Name = "txt9x12";
+            this.txt9x12.ReadOnly = true;
             this.txt9x12.Size = new System.Drawing.Size(42, 22);
             this.txt9x12.TabIndex = 91;
             this.txt9x12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1329,6 +1356,7 @@
             this.txt16x24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt16x24.Location = new System.Drawing.Point(357, 179);
             this.txt16x24.Name = "txt16x24";
+            this.txt16x24.ReadOnly = true;
             this.txt16x24.Size = new System.Drawing.Size(42, 22);
             this.txt16x24.TabIndex = 107;
             this.txt16x24.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1349,6 +1377,7 @@
             this.txt16x20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt16x20.Location = new System.Drawing.Point(357, 153);
             this.txt16x20.Name = "txt16x20";
+            this.txt16x20.ReadOnly = true;
             this.txt16x20.Size = new System.Drawing.Size(42, 22);
             this.txt16x20.TabIndex = 105;
             this.txt16x20.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1369,6 +1398,7 @@
             this.txt16x16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt16x16.Location = new System.Drawing.Point(357, 127);
             this.txt16x16.Name = "txt16x16";
+            this.txt16x16.ReadOnly = true;
             this.txt16x16.Size = new System.Drawing.Size(42, 22);
             this.txt16x16.TabIndex = 103;
             this.txt16x16.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1389,6 +1419,7 @@
             this.txt12x18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt12x18.Location = new System.Drawing.Point(357, 101);
             this.txt12x18.Name = "txt12x18";
+            this.txt12x18.ReadOnly = true;
             this.txt12x18.Size = new System.Drawing.Size(42, 22);
             this.txt12x18.TabIndex = 101;
             this.txt12x18.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1457,6 +1488,7 @@
             this.txt24x24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt24x24.Location = new System.Drawing.Point(357, 283);
             this.txt24x24.Name = "txt24x24";
+            this.txt24x24.ReadOnly = true;
             this.txt24x24.Size = new System.Drawing.Size(42, 22);
             this.txt24x24.TabIndex = 119;
             this.txt24x24.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1477,6 +1509,7 @@
             this.txt20x30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt20x30.Location = new System.Drawing.Point(357, 257);
             this.txt20x30.Name = "txt20x30";
+            this.txt20x30.ReadOnly = true;
             this.txt20x30.Size = new System.Drawing.Size(42, 22);
             this.txt20x30.TabIndex = 117;
             this.txt20x30.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1497,6 +1530,7 @@
             this.txt20x24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt20x24.Location = new System.Drawing.Point(357, 231);
             this.txt20x24.Name = "txt20x24";
+            this.txt20x24.ReadOnly = true;
             this.txt20x24.Size = new System.Drawing.Size(42, 22);
             this.txt20x24.TabIndex = 115;
             this.txt20x24.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1517,6 +1551,7 @@
             this.txt20x20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt20x20.Location = new System.Drawing.Point(357, 205);
             this.txt20x20.Name = "txt20x20";
+            this.txt20x20.ReadOnly = true;
             this.txt20x20.Size = new System.Drawing.Size(42, 22);
             this.txt20x20.TabIndex = 113;
             this.txt20x20.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1585,6 +1620,7 @@
             this.txt24x36.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt24x36.Location = new System.Drawing.Point(357, 335);
             this.txt24x36.Name = "txt24x36";
+            this.txt24x36.ReadOnly = true;
             this.txt24x36.Size = new System.Drawing.Size(42, 22);
             this.txt24x36.TabIndex = 127;
             this.txt24x36.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1605,6 +1641,7 @@
             this.txt24x30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt24x30.Location = new System.Drawing.Point(357, 309);
             this.txt24x30.Name = "txt24x30";
+            this.txt24x30.ReadOnly = true;
             this.txt24x30.Size = new System.Drawing.Size(42, 22);
             this.txt24x30.TabIndex = 125;
             this.txt24x30.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1661,6 +1698,7 @@
             this.txt30x30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt30x30.Location = new System.Drawing.Point(357, 361);
             this.txt30x30.Name = "txt30x30";
+            this.txt30x30.ReadOnly = true;
             this.txt30x30.Size = new System.Drawing.Size(42, 22);
             this.txt30x30.TabIndex = 130;
             this.txt30x30.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1693,6 +1731,7 @@
             this.txt30x36.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt30x36.Location = new System.Drawing.Point(357, 387);
             this.txt30x36.Name = "txt30x36";
+            this.txt30x36.ReadOnly = true;
             this.txt30x36.Size = new System.Drawing.Size(42, 22);
             this.txt30x36.TabIndex = 133;
             this.txt30x36.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1786,6 +1825,7 @@
             // 
             this.textBox2.Location = new System.Drawing.Point(299, 44);
             this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(100, 22);
             this.textBox2.TabIndex = 2;
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1803,6 +1843,7 @@
             // 
             this.textBox3.Location = new System.Drawing.Point(299, 72);
             this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(100, 22);
             this.textBox3.TabIndex = 4;
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1838,6 +1879,7 @@
             // 
             this.textBox5.Location = new System.Drawing.Point(299, 128);
             this.textBox5.Name = "textBox5";
+            this.textBox5.ReadOnly = true;
             this.textBox5.Size = new System.Drawing.Size(100, 22);
             this.textBox5.TabIndex = 8;
             this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
