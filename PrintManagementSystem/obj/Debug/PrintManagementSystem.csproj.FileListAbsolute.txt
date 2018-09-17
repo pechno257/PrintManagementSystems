@@ -8,3 +8,13 @@ D:\projects\source\repos\PrintManagementSystem\PrintManagementSystem\obj\Debug\P
 D:\projects\source\repos\PrintManagementSystem\PrintManagementSystem\obj\Debug\PrintManagementSystem.csproj.CoreCompileInputs.cache
 D:\projects\source\repos\PrintManagementSystem\PrintManagementSystem\obj\Debug\PrintManagementSystem.exe
 D:\projects\source\repos\PrintManagementSystem\PrintManagementSystem\obj\Debug\PrintManagementSystem.pdb
+C:\Users\jean\source\repos\PrintManagementSystems\PrintManagementSystem\bin\Debug\PrintManagementSystem.exe.config
+C:\Users\jean\source\repos\PrintManagementSystems\PrintManagementSystem\bin\Debug\PrintManagementSystem.exe
+C:\Users\jean\source\repos\PrintManagementSystems\PrintManagementSystem\bin\Debug\PrintManagementSystem.pdb
+C:\Users\jean\source\repos\PrintManagementSystems\PrintManagementSystem\obj\Debug\PrintManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\jean\source\repos\PrintManagementSystems\PrintManagementSystem\obj\Debug\PrintManagementSystem.Form1.resources
+C:\Users\jean\source\repos\PrintManagementSystems\PrintManagementSystem\obj\Debug\PrintManagementSystem.Properties.Resources.resources
+C:\Users\jean\source\repos\PrintManagementSystems\PrintManagementSystem\obj\Debug\PrintManagementSystem.csproj.GenerateResource.Cache
+C:\Users\jean\source\repos\PrintManagementSystems\PrintManagementSystem\obj\Debug\PrintManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\jean\source\repos\PrintManagementSystems\PrintManagementSystem\obj\Debug\PrintManagementSystem.exe
+C:\Users\jean\source\repos\PrintManagementSystems\PrintManagementSystem\obj\Debug\PrintManagementSystem.pdb
