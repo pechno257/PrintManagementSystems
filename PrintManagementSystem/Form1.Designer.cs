@@ -239,6 +239,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(415, 193);
             this.panel1.TabIndex = 0;
+            this.panel1.TabStop = true;
             // 
             // num11x14_Pop
             // 
@@ -416,6 +417,7 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(415, 219);
             this.panel3.TabIndex = 0;
+            this.panel3.TabStop = true;
             // 
             // numericUpDown12
             // 
@@ -613,6 +615,7 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(415, 167);
             this.panel5.TabIndex = 0;
+            this.panel5.TabStop = true;
             // 
             // panel6
             // 
@@ -632,6 +635,7 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(415, 167);
             this.panel6.TabIndex = 0;
+            this.panel6.TabStop = true;
             // 
             // label5
             // 
@@ -732,6 +736,7 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(410, 532);
             this.panel7.TabIndex = 0;
+            this.panel7.TabStop = true;
             // 
             // lblReceipt
             // 
@@ -841,6 +846,7 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(415, 418);
             this.panel2.TabIndex = 0;
+            this.panel2.TabStop = true;
             // 
             // chk30x36
             // 
@@ -1938,6 +1944,7 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(410, 53);
             this.panel4.TabIndex = 0;
+            this.panel4.TabStop = true;
             // 
             // btnExit
             // 
@@ -1956,6 +1963,7 @@
             this.btnReset.TabIndex = 81;
             this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // btnReceipt
             // 

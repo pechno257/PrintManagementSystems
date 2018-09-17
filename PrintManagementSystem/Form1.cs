@@ -1004,5 +1004,55 @@ namespace PrintManagementSystem
             double value_30x36 = units_30x36 * price_30x36;
             txt30x36.Text = value_30x36.ToString();
         }
+
+        // Reset the Form
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            // Popular prints
+            chk4x6_Pop.Checked = false;
+            chk5x7_Pop.Checked = false;
+            chk8x10_Pop.Checked = false;
+            chk11x14_Pop.Checked = false;
+            
+            // Large prints
+            chk16x20_Lg.Checked = false;
+            chk20x30_Lg.Checked = false;
+            chk24x30_Lg.Checked = false;
+            chk30x36_Lg.Checked = false;
+
+            // All prints
+            chk3x5.Checked = false;
+            chk4x5.Checked = false;
+            chk4x6.Checked = false;
+            chk4x12.Checked = false;
+            chk5x5.Checked = false;
+            chk5x7.Checked = false;
+            chk6x9.Checked = false;
+            chk6x18.Checked = false;
+            chk8x10.Checked = false;
+            chk8x12.Checked = false;
+            chk8x11.Checked = false;
+            chk9x12.Checked = false;
+            chk10x10.Checked = false;
+            chk10x13.Checked = false;
+            chk10x15.Checked = false;
+            chk11x14.Checked = false;
+            chk11x17.Checked = false;
+            chk12x12.Checked = false;
+            chk12x18.Checked = false;
+            chk16x16.Checked = false;
+            chk16x20.Checked = false;
+            chk16x24.Checked = false;
+            chk20x20.Checked = false;
+            chk20x24.Checked = false;
+            chk20x30.Checked = false;
+            chk24x24.Checked = false;
+            chk24x30.Checked = false;
+            chk24x30.Checked = false;
+            chk24x36.Checked = false;
+            chk30x30.Checked = false;
+            chk30x36.Checked = false;
+
+        }
     }
 }
