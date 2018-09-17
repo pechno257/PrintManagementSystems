@@ -588,6 +588,7 @@
             // chk4x12
             // 
             this.chk4x12.AutoSize = true;
+            this.chk4x12.Enabled = false;
             this.chk4x12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk4x12.Location = new System.Drawing.Point(12, 103);
             this.chk4x12.Name = "chk4x12";
@@ -600,6 +601,7 @@
             // chk5x5
             // 
             this.chk5x5.AutoSize = true;
+            this.chk5x5.Enabled = false;
             this.chk5x5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk5x5.Location = new System.Drawing.Point(12, 129);
             this.chk5x5.Name = "chk5x5";
@@ -624,6 +626,7 @@
             // chk6x9
             // 
             this.chk6x9.AutoSize = true;
+            this.chk6x9.Enabled = false;
             this.chk6x9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk6x9.Location = new System.Drawing.Point(12, 181);
             this.chk6x9.Name = "chk6x9";
@@ -636,6 +639,7 @@
             // chk6x18
             // 
             this.chk6x18.AutoSize = true;
+            this.chk6x18.Enabled = false;
             this.chk6x18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk6x18.Location = new System.Drawing.Point(12, 207);
             this.chk6x18.Name = "chk6x18";
@@ -660,6 +664,7 @@
             // chk8x12
             // 
             this.chk8x12.AutoSize = true;
+            this.chk8x12.Enabled = false;
             this.chk8x12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk8x12.Location = new System.Drawing.Point(12, 259);
             this.chk8x12.Name = "chk8x12";
@@ -672,6 +677,7 @@
             // chk8x11
             // 
             this.chk8x11.AutoSize = true;
+            this.chk8x11.Enabled = false;
             this.chk8x11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk8x11.Location = new System.Drawing.Point(12, 285);
             this.chk8x11.Name = "chk8x11";
@@ -684,6 +690,7 @@
             // chk10x15
             // 
             this.chk10x15.AutoSize = true;
+            this.chk10x15.Enabled = false;
             this.chk10x15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk10x15.Location = new System.Drawing.Point(12, 389);
             this.chk10x15.Name = "chk10x15";
@@ -708,6 +715,7 @@
             // chk11x17
             // 
             this.chk11x17.AutoSize = true;
+            this.chk11x17.Enabled = false;
             this.chk11x17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk11x17.Location = new System.Drawing.Point(216, 51);
             this.chk11x17.Name = "chk11x17";
@@ -720,6 +728,7 @@
             // chk12x12
             // 
             this.chk12x12.AutoSize = true;
+            this.chk12x12.Enabled = false;
             this.chk12x12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk12x12.Location = new System.Drawing.Point(216, 77);
             this.chk12x12.Name = "chk12x12";
@@ -738,6 +747,7 @@
             this.txt4x6_Pop.ReadOnly = true;
             this.txt4x6_Pop.Size = new System.Drawing.Size(42, 22);
             this.txt4x6_Pop.TabIndex = 14;
+            this.txt4x6_Pop.Text = "0";
             this.txt4x6_Pop.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num4x6_Pop
@@ -771,6 +781,7 @@
             this.txt5x7_Pop.ReadOnly = true;
             this.txt5x7_Pop.Size = new System.Drawing.Size(42, 22);
             this.txt5x7_Pop.TabIndex = 16;
+            this.txt5x7_Pop.Text = "0";
             this.txt5x7_Pop.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num8x10_Pop
@@ -793,6 +804,7 @@
             this.txt8x10_Pop.ReadOnly = true;
             this.txt8x10_Pop.Size = new System.Drawing.Size(42, 22);
             this.txt8x10_Pop.TabIndex = 18;
+            this.txt8x10_Pop.Text = "0";
             this.txt8x10_Pop.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num11x14_Pop
@@ -815,6 +827,7 @@
             this.txt11x14_Pop.ReadOnly = true;
             this.txt11x14_Pop.Size = new System.Drawing.Size(42, 22);
             this.txt11x14_Pop.TabIndex = 20;
+            this.txt11x14_Pop.Text = "0";
             this.txt11x14_Pop.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num16x20_Lg
@@ -837,6 +850,7 @@
             this.txt16x20_Lg.ReadOnly = true;
             this.txt16x20_Lg.Size = new System.Drawing.Size(42, 22);
             this.txt16x20_Lg.TabIndex = 28;
+            this.txt16x20_Lg.Text = "0";
             this.txt16x20_Lg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num20x30_Lg
@@ -859,6 +873,7 @@
             this.txt20x30_Lg.ReadOnly = true;
             this.txt20x30_Lg.Size = new System.Drawing.Size(42, 22);
             this.txt20x30_Lg.TabIndex = 30;
+            this.txt20x30_Lg.Text = "0";
             this.txt20x30_Lg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num24x30_Lg
@@ -881,6 +896,7 @@
             this.txt24x30_Lg.ReadOnly = true;
             this.txt24x30_Lg.Size = new System.Drawing.Size(42, 22);
             this.txt24x30_Lg.TabIndex = 32;
+            this.txt24x30_Lg.Text = "0";
             this.txt24x30_Lg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num30x36_Lg
@@ -903,6 +919,7 @@
             this.txt30x36_Lg.ReadOnly = true;
             this.txt30x36_Lg.Size = new System.Drawing.Size(42, 22);
             this.txt30x36_Lg.TabIndex = 34;
+            this.txt30x36_Lg.Text = "0";
             this.txt30x36_Lg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // numericUpDown12
@@ -924,6 +941,7 @@
             this.textBox12.ReadOnly = true;
             this.textBox12.Size = new System.Drawing.Size(42, 22);
             this.textBox12.TabIndex = 36;
+            this.textBox12.Text = "0";
             this.textBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num3x5
@@ -935,6 +953,7 @@
             this.num3x5.Size = new System.Drawing.Size(36, 22);
             this.num3x5.TabIndex = 43;
             this.num3x5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num3x5.ValueChanged += new System.EventHandler(this.num3x5_ValueChanged);
             // 
             // txt3x5
             // 
@@ -945,6 +964,7 @@
             this.txt3x5.ReadOnly = true;
             this.txt3x5.Size = new System.Drawing.Size(42, 22);
             this.txt3x5.TabIndex = 42;
+            this.txt3x5.Text = "0";
             this.txt3x5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num4x5
@@ -956,6 +976,7 @@
             this.num4x5.Size = new System.Drawing.Size(36, 22);
             this.num4x5.TabIndex = 61;
             this.num4x5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num4x5.ValueChanged += new System.EventHandler(this.num4x5_ValueChanged);
             // 
             // txt4x5
             // 
@@ -966,6 +987,7 @@
             this.txt4x5.ReadOnly = true;
             this.txt4x5.Size = new System.Drawing.Size(42, 22);
             this.txt4x5.TabIndex = 60;
+            this.txt4x5.Text = "0";
             this.txt4x5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num4x6
@@ -977,6 +999,7 @@
             this.num4x6.Size = new System.Drawing.Size(36, 22);
             this.num4x6.TabIndex = 63;
             this.num4x6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num4x6.ValueChanged += new System.EventHandler(this.num4x6_ValueChanged);
             // 
             // txt4x6
             // 
@@ -987,6 +1010,7 @@
             this.txt4x6.ReadOnly = true;
             this.txt4x6.Size = new System.Drawing.Size(42, 22);
             this.txt4x6.TabIndex = 62;
+            this.txt4x6.Text = "0";
             this.txt4x6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num4x12
@@ -998,6 +1022,7 @@
             this.num4x12.Size = new System.Drawing.Size(36, 22);
             this.num4x12.TabIndex = 65;
             this.num4x12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num4x12.ValueChanged += new System.EventHandler(this.num4x12_ValueChanged);
             // 
             // txt4x12
             // 
@@ -1008,6 +1033,7 @@
             this.txt4x12.ReadOnly = true;
             this.txt4x12.Size = new System.Drawing.Size(42, 22);
             this.txt4x12.TabIndex = 64;
+            this.txt4x12.Text = "0";
             this.txt4x12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num5x5
@@ -1019,6 +1045,7 @@
             this.num5x5.Size = new System.Drawing.Size(36, 22);
             this.num5x5.TabIndex = 67;
             this.num5x5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num5x5.ValueChanged += new System.EventHandler(this.num5x5_ValueChanged);
             // 
             // txt5x5
             // 
@@ -1029,6 +1056,7 @@
             this.txt5x5.ReadOnly = true;
             this.txt5x5.Size = new System.Drawing.Size(42, 22);
             this.txt5x5.TabIndex = 66;
+            this.txt5x5.Text = "0";
             this.txt5x5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num5x7
@@ -1040,6 +1068,7 @@
             this.num5x7.Size = new System.Drawing.Size(36, 22);
             this.num5x7.TabIndex = 69;
             this.num5x7.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num5x7.ValueChanged += new System.EventHandler(this.num5x7_ValueChanged);
             // 
             // txt5x7
             // 
@@ -1050,6 +1079,7 @@
             this.txt5x7.ReadOnly = true;
             this.txt5x7.Size = new System.Drawing.Size(42, 22);
             this.txt5x7.TabIndex = 68;
+            this.txt5x7.Text = "0";
             this.txt5x7.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num6x9
@@ -1061,6 +1091,7 @@
             this.num6x9.Size = new System.Drawing.Size(36, 22);
             this.num6x9.TabIndex = 71;
             this.num6x9.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num6x9.ValueChanged += new System.EventHandler(this.num6x9_ValueChanged);
             // 
             // txt6x9
             // 
@@ -1071,6 +1102,7 @@
             this.txt6x9.ReadOnly = true;
             this.txt6x9.Size = new System.Drawing.Size(42, 22);
             this.txt6x9.TabIndex = 70;
+            this.txt6x9.Text = "0";
             this.txt6x9.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num6x18
@@ -1082,6 +1114,7 @@
             this.num6x18.Size = new System.Drawing.Size(36, 22);
             this.num6x18.TabIndex = 73;
             this.num6x18.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num6x18.ValueChanged += new System.EventHandler(this.num6x18_ValueChanged);
             // 
             // txt6x18
             // 
@@ -1092,6 +1125,7 @@
             this.txt6x18.ReadOnly = true;
             this.txt6x18.Size = new System.Drawing.Size(42, 22);
             this.txt6x18.TabIndex = 72;
+            this.txt6x18.Text = "0";
             this.txt6x18.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num8x10
@@ -1103,6 +1137,7 @@
             this.num8x10.Size = new System.Drawing.Size(36, 22);
             this.num8x10.TabIndex = 75;
             this.num8x10.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num8x10.ValueChanged += new System.EventHandler(this.num8x10_ValueChanged);
             // 
             // txt8x10
             // 
@@ -1113,6 +1148,7 @@
             this.txt8x10.ReadOnly = true;
             this.txt8x10.Size = new System.Drawing.Size(42, 22);
             this.txt8x10.TabIndex = 74;
+            this.txt8x10.Text = "0";
             this.txt8x10.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num8x12
@@ -1124,6 +1160,7 @@
             this.num8x12.Size = new System.Drawing.Size(36, 22);
             this.num8x12.TabIndex = 77;
             this.num8x12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num8x12.ValueChanged += new System.EventHandler(this.num8x12_ValueChanged);
             // 
             // txt8x12
             // 
@@ -1134,6 +1171,7 @@
             this.txt8x12.ReadOnly = true;
             this.txt8x12.Size = new System.Drawing.Size(42, 22);
             this.txt8x12.TabIndex = 76;
+            this.txt8x12.Text = "0";
             this.txt8x12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num8x11
@@ -1145,6 +1183,7 @@
             this.num8x11.Size = new System.Drawing.Size(36, 22);
             this.num8x11.TabIndex = 79;
             this.num8x11.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num8x11.ValueChanged += new System.EventHandler(this.num8x11_ValueChanged);
             // 
             // txt8x11
             // 
@@ -1155,6 +1194,7 @@
             this.txt8x11.ReadOnly = true;
             this.txt8x11.Size = new System.Drawing.Size(42, 22);
             this.txt8x11.TabIndex = 78;
+            this.txt8x11.Text = "0";
             this.txt8x11.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num10x15
@@ -1166,6 +1206,7 @@
             this.num10x15.Size = new System.Drawing.Size(36, 22);
             this.num10x15.TabIndex = 81;
             this.num10x15.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num10x15.ValueChanged += new System.EventHandler(this.num10x15_ValueChanged);
             // 
             // txt10x15
             // 
@@ -1176,6 +1217,7 @@
             this.txt10x15.ReadOnly = true;
             this.txt10x15.Size = new System.Drawing.Size(42, 22);
             this.txt10x15.TabIndex = 80;
+            this.txt10x15.Text = "0";
             this.txt10x15.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num11x14
@@ -1187,6 +1229,7 @@
             this.num11x14.Size = new System.Drawing.Size(36, 22);
             this.num11x14.TabIndex = 83;
             this.num11x14.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num11x14.ValueChanged += new System.EventHandler(this.num11x14_ValueChanged);
             // 
             // txt11x14
             // 
@@ -1197,6 +1240,7 @@
             this.txt11x14.ReadOnly = true;
             this.txt11x14.Size = new System.Drawing.Size(42, 22);
             this.txt11x14.TabIndex = 82;
+            this.txt11x14.Text = "0";
             this.txt11x14.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num11x17
@@ -1208,6 +1252,7 @@
             this.num11x17.Size = new System.Drawing.Size(36, 22);
             this.num11x17.TabIndex = 85;
             this.num11x17.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num11x17.ValueChanged += new System.EventHandler(this.num11x17_ValueChanged);
             // 
             // txt11x17
             // 
@@ -1218,6 +1263,7 @@
             this.txt11x17.ReadOnly = true;
             this.txt11x17.Size = new System.Drawing.Size(42, 22);
             this.txt11x17.TabIndex = 84;
+            this.txt11x17.Text = "0";
             this.txt11x17.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num12x12
@@ -1229,6 +1275,7 @@
             this.num12x12.Size = new System.Drawing.Size(36, 22);
             this.num12x12.TabIndex = 87;
             this.num12x12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num12x12.ValueChanged += new System.EventHandler(this.num12x12_ValueChanged);
             // 
             // txt12x12
             // 
@@ -1239,6 +1286,7 @@
             this.txt12x12.ReadOnly = true;
             this.txt12x12.Size = new System.Drawing.Size(42, 22);
             this.txt12x12.TabIndex = 86;
+            this.txt12x12.Text = "0";
             this.txt12x12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num10x13
@@ -1250,6 +1298,7 @@
             this.num10x13.Size = new System.Drawing.Size(36, 22);
             this.num10x13.TabIndex = 96;
             this.num10x13.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num10x13.ValueChanged += new System.EventHandler(this.num10x13_ValueChanged);
             // 
             // txt10x13
             // 
@@ -1260,6 +1309,7 @@
             this.txt10x13.ReadOnly = true;
             this.txt10x13.Size = new System.Drawing.Size(42, 22);
             this.txt10x13.TabIndex = 95;
+            this.txt10x13.Text = "0";
             this.txt10x13.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num10x10
@@ -1271,6 +1321,7 @@
             this.num10x10.Size = new System.Drawing.Size(36, 22);
             this.num10x10.TabIndex = 94;
             this.num10x10.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num10x10.ValueChanged += new System.EventHandler(this.num10x10_ValueChanged);
             // 
             // txt10x10
             // 
@@ -1281,6 +1332,7 @@
             this.txt10x10.ReadOnly = true;
             this.txt10x10.Size = new System.Drawing.Size(42, 22);
             this.txt10x10.TabIndex = 93;
+            this.txt10x10.Text = "0";
             this.txt10x10.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num9x12
@@ -1292,6 +1344,7 @@
             this.num9x12.Size = new System.Drawing.Size(36, 22);
             this.num9x12.TabIndex = 92;
             this.num9x12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num9x12.ValueChanged += new System.EventHandler(this.num9x12_ValueChanged);
             // 
             // txt9x12
             // 
@@ -1302,11 +1355,13 @@
             this.txt9x12.ReadOnly = true;
             this.txt9x12.Size = new System.Drawing.Size(42, 22);
             this.txt9x12.TabIndex = 91;
+            this.txt9x12.Text = "0";
             this.txt9x12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // chk10x13
             // 
             this.chk10x13.AutoSize = true;
+            this.chk10x13.Enabled = false;
             this.chk10x13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk10x13.Location = new System.Drawing.Point(12, 363);
             this.chk10x13.Name = "chk10x13";
@@ -1319,6 +1374,7 @@
             // chk10x10
             // 
             this.chk10x10.AutoSize = true;
+            this.chk10x10.Enabled = false;
             this.chk10x10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk10x10.Location = new System.Drawing.Point(12, 337);
             this.chk10x10.Name = "chk10x10";
@@ -1331,6 +1387,7 @@
             // chk9x12
             // 
             this.chk9x12.AutoSize = true;
+            this.chk9x12.Enabled = false;
             this.chk9x12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk9x12.Location = new System.Drawing.Point(12, 311);
             this.chk9x12.Name = "chk9x12";
@@ -1349,6 +1406,7 @@
             this.num16x24.Size = new System.Drawing.Size(36, 22);
             this.num16x24.TabIndex = 108;
             this.num16x24.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num16x24.ValueChanged += new System.EventHandler(this.num16x24_ValueChanged);
             // 
             // txt16x24
             // 
@@ -1359,6 +1417,7 @@
             this.txt16x24.ReadOnly = true;
             this.txt16x24.Size = new System.Drawing.Size(42, 22);
             this.txt16x24.TabIndex = 107;
+            this.txt16x24.Text = "0";
             this.txt16x24.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num16x20
@@ -1370,6 +1429,7 @@
             this.num16x20.Size = new System.Drawing.Size(36, 22);
             this.num16x20.TabIndex = 106;
             this.num16x20.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num16x20.ValueChanged += new System.EventHandler(this.num16x20_ValueChanged);
             // 
             // txt16x20
             // 
@@ -1380,6 +1440,7 @@
             this.txt16x20.ReadOnly = true;
             this.txt16x20.Size = new System.Drawing.Size(42, 22);
             this.txt16x20.TabIndex = 105;
+            this.txt16x20.Text = "0";
             this.txt16x20.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num16x16
@@ -1391,6 +1452,7 @@
             this.num16x16.Size = new System.Drawing.Size(36, 22);
             this.num16x16.TabIndex = 104;
             this.num16x16.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num16x16.ValueChanged += new System.EventHandler(this.num16x16_ValueChanged);
             // 
             // txt16x16
             // 
@@ -1401,6 +1463,7 @@
             this.txt16x16.ReadOnly = true;
             this.txt16x16.Size = new System.Drawing.Size(42, 22);
             this.txt16x16.TabIndex = 103;
+            this.txt16x16.Text = "0";
             this.txt16x16.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num12x18
@@ -1412,6 +1475,7 @@
             this.num12x18.Size = new System.Drawing.Size(36, 22);
             this.num12x18.TabIndex = 102;
             this.num12x18.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num12x18.ValueChanged += new System.EventHandler(this.num12x18_ValueChanged);
             // 
             // txt12x18
             // 
@@ -1422,11 +1486,13 @@
             this.txt12x18.ReadOnly = true;
             this.txt12x18.Size = new System.Drawing.Size(42, 22);
             this.txt12x18.TabIndex = 101;
+            this.txt12x18.Text = "0";
             this.txt12x18.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // chk16x24
             // 
             this.chk16x24.AutoSize = true;
+            this.chk16x24.Enabled = false;
             this.chk16x24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk16x24.Location = new System.Drawing.Point(216, 181);
             this.chk16x24.Name = "chk16x24";
@@ -1451,6 +1517,7 @@
             // chk16x16
             // 
             this.chk16x16.AutoSize = true;
+            this.chk16x16.Enabled = false;
             this.chk16x16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk16x16.Location = new System.Drawing.Point(216, 129);
             this.chk16x16.Name = "chk16x16";
@@ -1463,6 +1530,7 @@
             // chk12x18
             // 
             this.chk12x18.AutoSize = true;
+            this.chk12x18.Enabled = false;
             this.chk12x18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk12x18.Location = new System.Drawing.Point(216, 103);
             this.chk12x18.Name = "chk12x18";
@@ -1481,6 +1549,7 @@
             this.num24x24.Size = new System.Drawing.Size(36, 22);
             this.num24x24.TabIndex = 120;
             this.num24x24.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num24x24.ValueChanged += new System.EventHandler(this.num24x24_ValueChanged);
             // 
             // txt24x24
             // 
@@ -1491,6 +1560,7 @@
             this.txt24x24.ReadOnly = true;
             this.txt24x24.Size = new System.Drawing.Size(42, 22);
             this.txt24x24.TabIndex = 119;
+            this.txt24x24.Text = "0";
             this.txt24x24.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num20x30
@@ -1502,6 +1572,7 @@
             this.num20x30.Size = new System.Drawing.Size(36, 22);
             this.num20x30.TabIndex = 118;
             this.num20x30.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num20x30.ValueChanged += new System.EventHandler(this.num20x30_ValueChanged);
             // 
             // txt20x30
             // 
@@ -1512,6 +1583,7 @@
             this.txt20x30.ReadOnly = true;
             this.txt20x30.Size = new System.Drawing.Size(42, 22);
             this.txt20x30.TabIndex = 117;
+            this.txt20x30.Text = "0";
             this.txt20x30.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num20x24
@@ -1523,6 +1595,7 @@
             this.num20x24.Size = new System.Drawing.Size(36, 22);
             this.num20x24.TabIndex = 116;
             this.num20x24.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num20x24.ValueChanged += new System.EventHandler(this.num20x24_ValueChanged);
             // 
             // txt20x24
             // 
@@ -1533,6 +1606,7 @@
             this.txt20x24.ReadOnly = true;
             this.txt20x24.Size = new System.Drawing.Size(42, 22);
             this.txt20x24.TabIndex = 115;
+            this.txt20x24.Text = "0";
             this.txt20x24.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num20x20
@@ -1544,6 +1618,7 @@
             this.num20x20.Size = new System.Drawing.Size(36, 22);
             this.num20x20.TabIndex = 114;
             this.num20x20.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num20x20.ValueChanged += new System.EventHandler(this.num20x20_ValueChanged);
             // 
             // txt20x20
             // 
@@ -1554,11 +1629,13 @@
             this.txt20x20.ReadOnly = true;
             this.txt20x20.Size = new System.Drawing.Size(42, 22);
             this.txt20x20.TabIndex = 113;
+            this.txt20x20.Text = "0";
             this.txt20x20.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // chk24x24
             // 
             this.chk24x24.AutoSize = true;
+            this.chk24x24.Enabled = false;
             this.chk24x24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk24x24.Location = new System.Drawing.Point(216, 285);
             this.chk24x24.Name = "chk24x24";
@@ -1583,6 +1660,7 @@
             // chk20x24
             // 
             this.chk20x24.AutoSize = true;
+            this.chk20x24.Enabled = false;
             this.chk20x24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk20x24.Location = new System.Drawing.Point(216, 233);
             this.chk20x24.Name = "chk20x24";
@@ -1595,6 +1673,7 @@
             // chk20x20
             // 
             this.chk20x20.AutoSize = true;
+            this.chk20x20.Enabled = false;
             this.chk20x20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk20x20.Location = new System.Drawing.Point(216, 207);
             this.chk20x20.Name = "chk20x20";
@@ -1613,6 +1692,7 @@
             this.num24x36.Size = new System.Drawing.Size(36, 22);
             this.num24x36.TabIndex = 128;
             this.num24x36.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num24x36.ValueChanged += new System.EventHandler(this.num24x36_ValueChanged);
             // 
             // txt24x36
             // 
@@ -1623,6 +1703,7 @@
             this.txt24x36.ReadOnly = true;
             this.txt24x36.Size = new System.Drawing.Size(42, 22);
             this.txt24x36.TabIndex = 127;
+            this.txt24x36.Text = "0";
             this.txt24x36.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num24x30
@@ -1634,6 +1715,7 @@
             this.num24x30.Size = new System.Drawing.Size(36, 22);
             this.num24x30.TabIndex = 126;
             this.num24x30.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num24x30.ValueChanged += new System.EventHandler(this.num24x30_ValueChanged);
             // 
             // txt24x30
             // 
@@ -1644,11 +1726,13 @@
             this.txt24x30.ReadOnly = true;
             this.txt24x30.Size = new System.Drawing.Size(42, 22);
             this.txt24x30.TabIndex = 125;
+            this.txt24x30.Text = "0";
             this.txt24x30.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // chk24x36
             // 
             this.chk24x36.AutoSize = true;
+            this.chk24x36.Enabled = false;
             this.chk24x36.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk24x36.Location = new System.Drawing.Point(216, 337);
             this.chk24x36.Name = "chk24x36";
@@ -1661,6 +1745,7 @@
             // chk24x30
             // 
             this.chk24x30.AutoSize = true;
+            this.chk24x30.Enabled = false;
             this.chk24x30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk24x30.Location = new System.Drawing.Point(216, 311);
             this.chk24x30.Name = "chk24x30";
@@ -1673,6 +1758,7 @@
             // chk30x30
             // 
             this.chk30x30.AutoSize = true;
+            this.chk30x30.Enabled = false;
             this.chk30x30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk30x30.Location = new System.Drawing.Point(216, 363);
             this.chk30x30.Name = "chk30x30";
@@ -1691,6 +1777,7 @@
             this.num30x30.Size = new System.Drawing.Size(36, 22);
             this.num30x30.TabIndex = 131;
             this.num30x30.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num30x30.ValueChanged += new System.EventHandler(this.num30x30_ValueChanged);
             // 
             // txt30x30
             // 
@@ -1701,11 +1788,13 @@
             this.txt30x30.ReadOnly = true;
             this.txt30x30.Size = new System.Drawing.Size(42, 22);
             this.txt30x30.TabIndex = 130;
+            this.txt30x30.Text = "0";
             this.txt30x30.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // chk30x36
             // 
             this.chk30x36.AutoSize = true;
+            this.chk30x36.Enabled = false;
             this.chk30x36.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk30x36.Location = new System.Drawing.Point(216, 389);
             this.chk30x36.Name = "chk30x36";
@@ -1724,6 +1813,7 @@
             this.num30x36.Size = new System.Drawing.Size(36, 22);
             this.num30x36.TabIndex = 134;
             this.num30x36.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num30x36.ValueChanged += new System.EventHandler(this.num30x36_ValueChanged);
             // 
             // txt30x36
             // 
@@ -1734,6 +1824,7 @@
             this.txt30x36.ReadOnly = true;
             this.txt30x36.Size = new System.Drawing.Size(42, 22);
             this.txt30x36.TabIndex = 133;
+            this.txt30x36.Text = "0";
             this.txt30x36.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // panel4

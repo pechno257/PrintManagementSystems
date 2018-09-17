@@ -688,5 +688,245 @@ namespace PrintManagementSystem
             double value_30x36 = units_30x36 * price_30x36;
             txt30x36_Lg.Text = value_30x36.ToString();
         }
+
+        private void num3x5_ValueChanged(object sender, EventArgs e)
+        {
+            var units_3x5 = (int)num3x5.Value;
+            double price_3x5 = 2.95;
+            double value_3x5 = units_3x5 * price_3x5;
+            txt3x5.Text = value_3x5.ToString();
+        }
+
+        private void num4x5_ValueChanged(object sender, EventArgs e)
+        {
+            var units_4x5 = (int)num4x5.Value;
+            double price_4x5 = 3.95;
+            double value_4x5 = units_4x5 * price_4x5;
+            txt4x5.Text = value_4x5.ToString();
+        }
+
+        private void num4x6_ValueChanged(object sender, EventArgs e)
+        {
+            var units_4x6 = (int)num4x6.Value;
+            double price_4x6 = 4.95;
+            double value_4x6 = units_4x6 * price_4x6;
+            txt4x6.Text = value_4x6.ToString();
+        }
+
+        private void num4x12_ValueChanged(object sender, EventArgs e)
+        {
+            var units_4x12 = (int)num4x12.Value;
+            double price_4x12 = 0;
+            double value_4x12 = units_4x12 * price_4x12;
+            txt4x12.Text = value_4x12.ToString();
+        }
+
+        private void num5x5_ValueChanged(object sender, EventArgs e)
+        {
+            var units_5x5 = (int)num5x5.Value;
+            double price_5x5 = 0;
+            double value_5x5 = units_5x5 * price_5x5;
+            txt5x5.Text = value_5x5.ToString();
+        }
+
+        private void num5x7_ValueChanged(object sender, EventArgs e)
+        {
+            var units_5x7 = (int)num4x6.Value;
+            double price_5x7 = 5.95;
+            double value_5x7 = units_5x7 * price_5x7;
+            txt5x7.Text = value_5x7.ToString();
+        }
+
+        private void num6x9_ValueChanged(object sender, EventArgs e)
+        {
+            var units_6x9 = (int)num6x9.Value;
+            double price_6x9 = 0;
+            double value_6x9 = units_6x9 * price_6x9;
+            txt6x9.Text = value_6x9.ToString();
+        }
+
+        private void num6x18_ValueChanged(object sender, EventArgs e)
+        {
+            var units_6x18 = (int)num6x18.Value;
+            double price_6x18 = 0;
+            double value_6x18 = units_6x18 * price_6x18;
+            txt6x18.Text = value_6x18.ToString();
+        }
+
+        private void num8x10_ValueChanged(object sender, EventArgs e)
+        {
+            var units_8x10 = (int)num4x6.Value;
+            double price_8x10 = 9.95;
+            double value_8x10 = units_8x10 * price_8x10;
+            txt8x10.Text = value_8x10.ToString();
+        }
+
+        private void num8x12_ValueChanged(object sender, EventArgs e)
+        {
+            var units_4x12 = (int)num4x12.Value;
+            double price_4x12 = 0;
+            double value_4x12 = units_4x12 * price_4x12;
+            txt4x12.Text = value_4x12.ToString();
+        }
+
+        private void num8x11_ValueChanged(object sender, EventArgs e)
+        {
+            var units_8x11 = (int)num8x11.Value;
+            double price_8x11 = 0;
+            double value_8x11 = units_8x11 * price_8x11;
+            txt8x11.Text = value_8x11.ToString();
+        }
+
+        private void num9x12_ValueChanged(object sender, EventArgs e)
+        {
+            var units_9x12 = (int)num9x12.Value;
+            double price_9x12 = 0;
+            double value_9x12 = units_9x12 * price_9x12;
+            txt9x12.Text = value_9x12.ToString();
+        }
+
+        private void num10x10_ValueChanged(object sender, EventArgs e)
+        {
+            var units_10x10 = (int)num10x10.Value;
+            double price_10x10 = 0;
+            double value_10x10 = units_10x10 * price_10x10;
+            txt10x10.Text = value_10x10.ToString();
+        }
+
+        private void num10x13_ValueChanged(object sender, EventArgs e)
+        {
+            var units_10x13 = (int)num10x13.Value;
+            double price_10x13 = 0;
+            double value_10x13 = units_10x13 * price_10x13;
+            txt10x13.Text = value_10x13.ToString();
+        }
+
+        private void num10x15_ValueChanged(object sender, EventArgs e)
+        {
+            var units_10x15 = (int)num10x15.Value;
+            double price_10x15 = 0;
+            double value_10x15 = units_10x15 * price_10x15;
+            txt10x15.Text = value_10x15.ToString();
+        }
+
+        private void num11x14_ValueChanged(object sender, EventArgs e)
+        {
+            var units_11x14 = (int)num11x14.Value;
+            double price_11x14 = 19.95;
+            double value_11x14 = units_11x14 * price_11x14;
+            txt11x14.Text = value_11x14.ToString();
+        }
+
+        private void num11x17_ValueChanged(object sender, EventArgs e)
+        {
+            var units_11x17 = (int)num11x17.Value;
+            double price_11x17 = 0;
+            double value_11x17 = units_11x17 * price_11x17;
+            txt11x17.Text = value_11x17.ToString();
+        }
+
+        private void num12x12_ValueChanged(object sender, EventArgs e)
+        {
+            var units_12x12 = (int)num10x10.Value;
+            double price_12x12 = 0;
+            double value_12x12 = units_12x12 * price_12x12;
+            txt12x12.Text = value_12x12.ToString();
+        }
+
+        private void num12x18_ValueChanged(object sender, EventArgs e)
+        {
+            var units_12x18 = (int)num12x18.Value;
+            double price_12x18 = 0;
+            double value_12x18 = units_12x18 * price_12x18;
+            txt12x18.Text = value_12x18.ToString();
+        }
+
+        private void num16x16_ValueChanged(object sender, EventArgs e)
+        {
+            var units_16x16 = (int)num16x16.Value;
+            double price_16x16 = 0;
+            double value_16x16 = units_16x16 * price_16x16;
+            txt16x16.Text = value_16x16.ToString();
+        }
+
+        private void num16x20_ValueChanged(object sender, EventArgs e)
+        {
+            var units_16x20 = (int)num16x20.Value;
+            double price_16x20 = 49.95;
+            double value_16x20 = units_16x20 * price_16x20;
+            txt16x20.Text = value_16x20.ToString();
+        }
+
+        private void num16x24_ValueChanged(object sender, EventArgs e)
+        {
+            var units_16x24 = (int)num16x24.Value;
+            double price_16x24 = 0;
+            double value_16x24 = units_16x24 * price_16x24;
+            txt16x24.Text = value_16x24.ToString();
+        }
+
+        private void num20x20_ValueChanged(object sender, EventArgs e)
+        {
+            var units_20x20 = (int)num20x20.Value;
+            double price_20x20 = 0;
+            double value_20x20 = units_20x20 * price_20x20;
+            txt20x20.Text = value_20x20.ToString();
+        }
+
+        private void num20x24_ValueChanged(object sender, EventArgs e)
+        {
+            var units_20x24 = (int)num20x24.Value;
+            double price_20x24 = 0;
+            double value_20x24 = units_20x24 * price_20x24;
+            txt20x24.Text = value_20x24.ToString();
+        }
+
+        private void num20x30_ValueChanged(object sender, EventArgs e)
+        {
+            var units_20x30 = (int)num20x30.Value;
+            double price_20x30 = 94.95;
+            double value_20x30 = units_20x30 * price_20x30;
+            txt20x30.Text = value_20x30.ToString();
+        }
+
+        private void num24x24_ValueChanged(object sender, EventArgs e)
+        {
+            var units_24x24 = (int)num24x24.Value;
+            double price_24x24 = 0;
+            double value_24x24 = units_24x24 * price_24x24;
+            txt24x24.Text = value_24x24.ToString();
+        }
+
+        private void num24x30_ValueChanged(object sender, EventArgs e)
+        {
+            var units_24x30 = (int)num24x30.Value;
+            double price_24x30 = 0;
+            double value_24x30 = units_24x30 * price_24x30;
+            txt24x30.Text = value_24x30.ToString();
+        }
+
+        private void num24x36_ValueChanged(object sender, EventArgs e)
+        {
+            var units_24x36 = (int)num24x36.Value;
+            double price_24x36 = 0;
+            double value_24x36 = units_24x36 * price_24x36;
+            txt24x36.Text = value_24x36.ToString();
+        }
+
+        private void num30x30_ValueChanged(object sender, EventArgs e)
+        {
+            var units_30x30 = (int)num30x30.Value;
+            double price_30x30 = 0;
+            double value_30x30 = units_30x30 * price_30x30;
+            txt30x30.Text = value_30x30.ToString();
+        }
+
+        private void num30x36_ValueChanged(object sender, EventArgs e)
+        {
+            var units_30x36 = (int)num16x24.Value;
+            double price_30x36 = 0;
+            double value_30x36 = units_30x36 * price_30x36;
+            txt30x36.Text = value_30x36.ToString();
+        }
     }
 }
