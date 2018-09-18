@@ -110,6 +110,23 @@ namespace PrintManagementSystem
             }
         }
 
+        private void chk20x24_Lg_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chk20x24_Lg.Checked)
+            {
+                num20x24_Lg.Enabled = true;
+                txt20x24_Lg.Enabled = true;
+                num20x24_Lg.Focus();
+                num20x24_Lg.Select(0, num20x24_Lg.Text.Length);
+            } else
+            {
+                num20x24_Lg.Enabled = false;
+                txt20x24_Lg.Enabled = false;
+                num20x24_Lg.Value = 0;
+                txt20x24_Lg.Text = "0";
+            }
+        }
+
         private void chk20x30_Lg_CheckedChanged(object sender, EventArgs e)
         {
             if (chk20x30_Lg.Checked)
@@ -1128,6 +1145,6 @@ namespace PrintManagementSystem
             printPreviewDialog1.ShowDialog();
         }
 
-
+      
     }
 }
