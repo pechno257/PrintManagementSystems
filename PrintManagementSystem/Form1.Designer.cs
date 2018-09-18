@@ -1,6 +1,6 @@
 ﻿namespace PrintManagementSystem
 {
-    partial class lblSubtotal
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(lblSubtotal));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
             this.num11x14_Pop = new System.Windows.Forms.NumericUpDown();
             this.txt11x14_Pop = new System.Windows.Forms.TextBox();
@@ -66,9 +66,7 @@
             this.txtGrandTotal = new System.Windows.Forms.TextBox();
             this.lblShipping = new System.Windows.Forms.Label();
             this.txtShipping = new System.Windows.Forms.TextBox();
-            this.lblTax = new System.Windows.Forms.Label();
-            this.txtTax = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblSubtotal = new System.Windows.Forms.Label();
             this.txtSubtotal = new System.Windows.Forms.TextBox();
             this.lblDiscount = new System.Windows.Forms.Label();
             this.txtDiscount = new System.Windows.Forms.TextBox();
@@ -632,9 +630,7 @@
             this.panel6.Controls.Add(this.txtGrandTotal);
             this.panel6.Controls.Add(this.lblShipping);
             this.panel6.Controls.Add(this.txtShipping);
-            this.panel6.Controls.Add(this.lblTax);
-            this.panel6.Controls.Add(this.txtTax);
-            this.panel6.Controls.Add(this.label2);
+            this.panel6.Controls.Add(this.lblSubtotal);
             this.panel6.Controls.Add(this.txtSubtotal);
             this.panel6.Controls.Add(this.lblDiscount);
             this.panel6.Controls.Add(this.txtDiscount);
@@ -681,33 +677,15 @@
             this.txtShipping.TabIndex = 6;
             this.txtShipping.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // lblTax
+            // lblSubtotal
             // 
-            this.lblTax.AutoSize = true;
-            this.lblTax.Location = new System.Drawing.Point(262, 75);
-            this.lblTax.Name = "lblTax";
-            this.lblTax.Size = new System.Drawing.Size(31, 16);
-            this.lblTax.TabIndex = 5;
-            this.lblTax.Text = "Tax";
-            // 
-            // txtTax
-            // 
-            this.txtTax.Location = new System.Drawing.Point(299, 72);
-            this.txtTax.Name = "txtTax";
-            this.txtTax.ReadOnly = true;
-            this.txtTax.Size = new System.Drawing.Size(100, 22);
-            this.txtTax.TabIndex = 4;
-            this.txtTax.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(228, 47);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 16);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Subtotal";
+            this.lblSubtotal.AutoSize = true;
+            this.lblSubtotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubtotal.Location = new System.Drawing.Point(228, 47);
+            this.lblSubtotal.Name = "lblSubtotal";
+            this.lblSubtotal.Size = new System.Drawing.Size(65, 16);
+            this.lblSubtotal.TabIndex = 3;
+            this.lblSubtotal.Text = "Subtotal";
             // 
             // txtSubtotal
             // 
@@ -2040,7 +2018,7 @@
             this.printPreviewDialog1.Name = "printPreviewDialog1";
             this.printPreviewDialog1.Visible = false;
             // 
-            // lblSubtotal
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -2056,7 +2034,7 @@
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1296, 654);
             this.MinimumSize = new System.Drawing.Size(1296, 654);
-            this.Name = "lblSubtotal";
+            this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Print Management Systems -JP Studio Pro";
             this.panel1.ResumeLayout(false);
@@ -2252,9 +2230,7 @@
         private System.Windows.Forms.TextBox txtGrandTotal;
         private System.Windows.Forms.Label lblShipping;
         private System.Windows.Forms.TextBox txtShipping;
-        private System.Windows.Forms.Label lblTax;
-        private System.Windows.Forms.TextBox txtTax;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblSubtotal;
         private System.Windows.Forms.TextBox txtSubtotal;
         private System.Windows.Forms.Label lblDiscount;
         private System.Windows.Forms.TextBox txtDiscount;

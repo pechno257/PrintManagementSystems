@@ -21,10 +21,10 @@ D:\projects\source\repos\PrintManagementSystems\PrintManagementSystem\bin\Debug\
 D:\projects\source\repos\PrintManagementSystems\PrintManagementSystem\bin\Debug\PrintManagementSystem.exe
 D:\projects\source\repos\PrintManagementSystems\PrintManagementSystem\bin\Debug\PrintManagementSystem.pdb
 D:\projects\source\repos\PrintManagementSystems\PrintManagementSystem\obj\Debug\PrintManagementSystem.csprojAssemblyReference.cache
-D:\projects\source\repos\PrintManagementSystems\PrintManagementSystem\obj\Debug\PrintManagementSystem.Form1.resources
 D:\projects\source\repos\PrintManagementSystems\PrintManagementSystem\obj\Debug\PrintManagementSystem.Properties.Resources.resources
 D:\projects\source\repos\PrintManagementSystems\PrintManagementSystem\obj\Debug\PrintManagementSystem.csproj.GenerateResource.cache
 D:\projects\source\repos\PrintManagementSystems\PrintManagementSystem\obj\Debug\PrintManagementSystem.csproj.CoreCompileInputs.cache
 D:\projects\source\repos\PrintManagementSystems\PrintManagementSystem\obj\Debug\PrintManagementSystem.exe
 D:\projects\source\repos\PrintManagementSystems\PrintManagementSystem\obj\Debug\PrintManagementSystem.pdb
 C:\Users\jean\source\repos\PrintManagementSystems\PrintManagementSystem\obj\Debug\PrintManagementSystem.lblSubtotal.resources
+D:\projects\source\repos\PrintManagementSystems\PrintManagementSystem\obj\Debug\PrintManagementSystem.lblSubtotal.resources

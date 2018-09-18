@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PrintManagementSystem
 {
-    public partial class lblSubtotal : Form
+    public partial class Form1: Form
     {
-        public lblSubtotal()
+        public Form1()
         {
             InitializeComponent();
         }
