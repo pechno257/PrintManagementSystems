@@ -1010,7 +1010,7 @@ namespace PrintManagementSystem
 
         private void btnTotal_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void btnReceipt_Click(object sender, EventArgs e)
