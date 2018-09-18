@@ -78,7 +78,7 @@ namespace PrintManagementSystem
             if (chk11x14_Pop.Checked)
             {
                 num11x14_Pop.Enabled = true;
-                txt11x14.Enabled = true;
+                txt11x14_Pop.Enabled = true;
                 num11x14_Pop.Focus();
                 num11x14_Pop.Select(0, num11x14_Pop.Text.Length);
             }
