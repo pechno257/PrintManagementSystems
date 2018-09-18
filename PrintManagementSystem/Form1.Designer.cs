@@ -1,6 +1,6 @@
 ﻿namespace PrintManagementSystem
 {
-    partial class Form1
+    partial class lblSubtotal
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(lblSubtotal));
             this.panel1 = new System.Windows.Forms.Panel();
             this.num11x14_Pop = new System.Windows.Forms.NumericUpDown();
             this.txt11x14_Pop = new System.Windows.Forms.TextBox();
@@ -62,16 +62,16 @@
             this.lblLargeSizes = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.lblGrandTotal = new System.Windows.Forms.Label();
+            this.txtGrandTotal = new System.Windows.Forms.TextBox();
+            this.lblShipping = new System.Windows.Forms.Label();
+            this.txtShipping = new System.Windows.Forms.TextBox();
+            this.lblTax = new System.Windows.Forms.Label();
+            this.txtTax = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtSubtotal = new System.Windows.Forms.TextBox();
+            this.lblDiscount = new System.Windows.Forms.Label();
+            this.txtDiscount = new System.Windows.Forms.TextBox();
             this.panel7 = new System.Windows.Forms.Panel();
             this.rtfReceipt = new System.Windows.Forms.RichTextBox();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
@@ -628,16 +628,16 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel6.Controls.Add(this.label5);
-            this.panel6.Controls.Add(this.textBox5);
-            this.panel6.Controls.Add(this.label4);
-            this.panel6.Controls.Add(this.textBox4);
-            this.panel6.Controls.Add(this.label3);
-            this.panel6.Controls.Add(this.textBox3);
+            this.panel6.Controls.Add(this.lblGrandTotal);
+            this.panel6.Controls.Add(this.txtGrandTotal);
+            this.panel6.Controls.Add(this.lblShipping);
+            this.panel6.Controls.Add(this.txtShipping);
+            this.panel6.Controls.Add(this.lblTax);
+            this.panel6.Controls.Add(this.txtTax);
             this.panel6.Controls.Add(this.label2);
-            this.panel6.Controls.Add(this.textBox2);
-            this.panel6.Controls.Add(this.label1);
-            this.panel6.Controls.Add(this.textBox1);
+            this.panel6.Controls.Add(this.txtSubtotal);
+            this.panel6.Controls.Add(this.lblDiscount);
+            this.panel6.Controls.Add(this.txtDiscount);
             this.panel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel6.Location = new System.Drawing.Point(433, 436);
             this.panel6.Name = "panel6";
@@ -645,59 +645,59 @@
             this.panel6.TabIndex = 0;
             this.panel6.TabStop = true;
             // 
-            // label5
+            // lblGrandTotal
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(207, 131);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 16);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "GrandTotal";
+            this.lblGrandTotal.AutoSize = true;
+            this.lblGrandTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGrandTotal.Location = new System.Drawing.Point(207, 131);
+            this.lblGrandTotal.Name = "lblGrandTotal";
+            this.lblGrandTotal.Size = new System.Drawing.Size(86, 16);
+            this.lblGrandTotal.TabIndex = 9;
+            this.lblGrandTotal.Text = "GrandTotal";
             // 
-            // textBox5
+            // txtGrandTotal
             // 
-            this.textBox5.Location = new System.Drawing.Point(299, 128);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(100, 22);
-            this.textBox5.TabIndex = 8;
-            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGrandTotal.Location = new System.Drawing.Point(299, 128);
+            this.txtGrandTotal.Name = "txtGrandTotal";
+            this.txtGrandTotal.ReadOnly = true;
+            this.txtGrandTotal.Size = new System.Drawing.Size(100, 22);
+            this.txtGrandTotal.TabIndex = 8;
+            this.txtGrandTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label4
+            // lblShipping
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(232, 103);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(61, 16);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Shipping";
+            this.lblShipping.AutoSize = true;
+            this.lblShipping.Location = new System.Drawing.Point(232, 103);
+            this.lblShipping.Name = "lblShipping";
+            this.lblShipping.Size = new System.Drawing.Size(61, 16);
+            this.lblShipping.TabIndex = 7;
+            this.lblShipping.Text = "Shipping";
             // 
-            // textBox4
+            // txtShipping
             // 
-            this.textBox4.Location = new System.Drawing.Point(299, 100);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 22);
-            this.textBox4.TabIndex = 6;
-            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtShipping.Location = new System.Drawing.Point(299, 100);
+            this.txtShipping.Name = "txtShipping";
+            this.txtShipping.Size = new System.Drawing.Size(100, 22);
+            this.txtShipping.TabIndex = 6;
+            this.txtShipping.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label3
+            // lblTax
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(262, 75);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(31, 16);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Tax";
+            this.lblTax.AutoSize = true;
+            this.lblTax.Location = new System.Drawing.Point(262, 75);
+            this.lblTax.Name = "lblTax";
+            this.lblTax.Size = new System.Drawing.Size(31, 16);
+            this.lblTax.TabIndex = 5;
+            this.lblTax.Text = "Tax";
             // 
-            // textBox3
+            // txtTax
             // 
-            this.textBox3.Location = new System.Drawing.Point(299, 72);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
-            this.textBox3.TabIndex = 4;
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtTax.Location = new System.Drawing.Point(299, 72);
+            this.txtTax.Name = "txtTax";
+            this.txtTax.ReadOnly = true;
+            this.txtTax.Size = new System.Drawing.Size(100, 22);
+            this.txtTax.TabIndex = 4;
+            this.txtTax.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label2
             // 
@@ -709,31 +709,31 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Subtotal";
             // 
-            // textBox2
+            // txtSubtotal
             // 
-            this.textBox2.Location = new System.Drawing.Point(299, 44);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 2;
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtSubtotal.Location = new System.Drawing.Point(299, 44);
+            this.txtSubtotal.Name = "txtSubtotal";
+            this.txtSubtotal.ReadOnly = true;
+            this.txtSubtotal.Size = new System.Drawing.Size(100, 22);
+            this.txtSubtotal.TabIndex = 2;
+            this.txtSubtotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label1
+            // lblDiscount
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(233, 19);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 16);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Discount";
+            this.lblDiscount.AutoSize = true;
+            this.lblDiscount.Location = new System.Drawing.Point(233, 19);
+            this.lblDiscount.Name = "lblDiscount";
+            this.lblDiscount.Size = new System.Drawing.Size(60, 16);
+            this.lblDiscount.TabIndex = 1;
+            this.lblDiscount.Text = "Discount";
             // 
-            // textBox1
+            // txtDiscount
             // 
-            this.textBox1.Location = new System.Drawing.Point(299, 16);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 78;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtDiscount.Location = new System.Drawing.Point(299, 16);
+            this.txtDiscount.Name = "txtDiscount";
+            this.txtDiscount.Size = new System.Drawing.Size(100, 22);
+            this.txtDiscount.TabIndex = 78;
+            this.txtDiscount.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // panel7
             // 
@@ -2040,7 +2040,7 @@
             this.printPreviewDialog1.Name = "printPreviewDialog1";
             this.printPreviewDialog1.Visible = false;
             // 
-            // Form1
+            // lblSubtotal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -2056,7 +2056,7 @@
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1296, 654);
             this.MinimumSize = new System.Drawing.Size(1296, 654);
-            this.Name = "Form1";
+            this.Name = "lblSubtotal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Print Management Systems -JP Studio Pro";
             this.panel1.ResumeLayout(false);
@@ -2248,16 +2248,16 @@
         private System.Windows.Forms.Button btnReset;
         private System.Windows.Forms.Button btnReceipt;
         private System.Windows.Forms.Button btnTotal;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label lblGrandTotal;
+        private System.Windows.Forms.TextBox txtGrandTotal;
+        private System.Windows.Forms.Label lblShipping;
+        private System.Windows.Forms.TextBox txtShipping;
+        private System.Windows.Forms.Label lblTax;
+        private System.Windows.Forms.TextBox txtTax;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtSubtotal;
+        private System.Windows.Forms.Label lblDiscount;
+        private System.Windows.Forms.TextBox txtDiscount;
         private System.Windows.Forms.RichTextBox rtfReceipt;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton openToolStripButton;

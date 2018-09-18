@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PrintManagementSystem
 {
-    public partial class Form1 : Form
+    public partial class lblSubtotal : Form
     {
-        public Form1()
+        public lblSubtotal()
         {
             InitializeComponent();
         }
@@ -1038,12 +1038,70 @@ namespace PrintManagementSystem
             txt30x40.Text = String.Format("{0:0.00}", value_30x40);
         }
 
-        // Currency Formatting
-        
-
+        // Checkout to calculate Order Total
         private void btnTotal_Click(object sender, EventArgs e)
         {
-            
+            /// Popular print sizes
+            double _4x6_Pop, _5x7_Pop, _8x10_Pop, _11x14_Pop;
+            // Large print sizes
+            double _16x20_Lg, _20x24_Lg, _20x30_Lg, _24x30_Lg, _30x40_Lg;
+            // All print sizes
+            double _3x5, _4x5, _4x6, _4x12, _5x5, _5x7, _6x9, _6x18, _8x10, _8x12, _8x11, _9x12, _10x10, _10x13, _10x15, _11x14, 
+                _11x17, _12x12, _12x18, _16x16, _16x20, _16x24, _20x20, _20x24, _20x30, _24x24, _24x30, _24x36, _30x30, _30x40;
+            double discount, subtotal, tax, grandTotal;
+
+            // Casting line total text into a double
+            // Popular print sizes
+            Double.TryParse(txt4x6_Pop.Text, out _4x6_Pop);
+            Double.TryParse(txt5x7_Pop.Text, out _5x7_Pop);
+            Double.TryParse(txt8x10_Pop.Text, out _8x10_Pop);
+            Double.TryParse(txt11x14_Pop.Text, out _11x14_Pop);
+
+            // Large print size
+            Double.TryParse(txt16x20_Lg.Text, out _16x20_Lg);
+            Double.TryParse(txt20x24_Lg.Text, out _20x24_Lg);
+            Double.TryParse(txt20x30_Lg.Text, out _20x30_Lg);
+            Double.TryParse(txt24x30_Lg.Text, out _24x30_Lg);
+            Double.TryParse(txt30x40_Lg.Text, out _30x40_Lg);
+
+            // All print sizes
+            Double.TryParse(txt3x5.Text, out _3x5);
+            Double.TryParse(txt4x5.Text, out _4x5);
+            Double.TryParse(txt4x6.Text, out _4x6);
+            Double.TryParse(txt4x12.Text, out _4x12);
+            Double.TryParse(txt5x5.Text, out _5x5);
+            Double.TryParse(txt5x7.Text, out _5x7);
+            Double.TryParse(txt6x9.Text, out _6x9);
+            Double.TryParse(txt6x18.Text, out _6x18);
+            Double.TryParse(txt8x10.Text, out _8x10);
+            Double.TryParse(txt8x12.Text, out _8x12);
+            Double.TryParse(txt8x11.Text, out _8x11);
+            Double.TryParse(txt9x12.Text, out _9x12);
+            Double.TryParse(txt10x10.Text, out _10x10);
+            Double.TryParse(txt10x13.Text, out _10x13);
+            Double.TryParse(txt10x15.Text, out _10x15);
+            Double.TryParse(txt11x14.Text, out _11x14);
+            Double.TryParse(txt11x17.Text, out _11x17);
+            Double.TryParse(txt12x12.Text, out _12x12);
+            Double.TryParse(txt12x18.Text, out _12x18);
+            Double.TryParse(txt16x16.Text, out _16x16);
+            Double.TryParse(txt16x20.Text, out _16x20);
+            Double.TryParse(txt16x24.Text, out _16x24);
+            Double.TryParse(txt20x20.Text, out _20x20);
+            Double.TryParse(txt20x24.Text, out _20x24);
+            Double.TryParse(txt24x30.Text, out _20x30);
+            Double.TryParse(txt24x24.Text, out _24x24);
+            Double.TryParse(txt24x30.Text, out _24x30);
+            Double.TryParse(txt24x36.Text, out _24x36);
+            Double.TryParse(txt30x30.Text, out _30x30);
+            Double.TryParse(txt30x40.Text, out _30x40);
+            Double.TryParse(txtDiscount.Text, out discount);
+            Double.TryParse(txtTax.Text, out tax);
+
+            subtotal = _4x6_Pop + _5x7_Pop + _8x10_Pop + _11x14_Pop + _16x20_Lg + _20x24_Lg + _20x30_Lg + _24x30_Lg + _30x40_Lg + _3x5 +
+                _4x5 + _4x6 + _4x12 + _5x5 + _5x7 + _6x9 + _6x18 + _8x10 + _8x12 + _8x11 + _9x12 + _10x10 + _10x13 + _10x15 + _11x14 +
+                _11x17 + _12x12 + _12x18 + _16x16 + _16x20 + _16x24 + _20x20 + _20x24 + _20x30 + _24x24 + _24x30 + _24x36 + _30x30 + _30x40 - discount;
+            txtSubtotal.Text = subtotal.ToString();
         }
 
         private void btnReceipt_Click(object sender, EventArgs e)
