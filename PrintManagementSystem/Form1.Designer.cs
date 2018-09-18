@@ -1,6 +1,6 @@
 ﻿namespace PrintManagementSystem
 {
-    partial class Form1
+    partial class lblSubtotal
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(lblSubtotal));
             this.panel1 = new System.Windows.Forms.Panel();
             this.num11x14_Pop = new System.Windows.Forms.NumericUpDown();
             this.txt11x14_Pop = new System.Windows.Forms.TextBox();
@@ -44,8 +44,8 @@
             this.chk4x6_Pop = new System.Windows.Forms.CheckBox();
             this.lblPopSizes = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.numericUpDown12 = new System.Windows.Forms.NumericUpDown();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.num20x24_Lg = new System.Windows.Forms.NumericUpDown();
+            this.txt20x24_Lg = new System.Windows.Forms.TextBox();
             this.num30x40_Lg = new System.Windows.Forms.NumericUpDown();
             this.txt30x40_Lg = new System.Windows.Forms.TextBox();
             this.num24x30_Lg = new System.Windows.Forms.NumericUpDown();
@@ -54,7 +54,7 @@
             this.txt20x30_Lg = new System.Windows.Forms.TextBox();
             this.num16x20_Lg = new System.Windows.Forms.NumericUpDown();
             this.txt16x20_Lg = new System.Windows.Forms.TextBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
+            this.chk20x24_Lg = new System.Windows.Forms.CheckBox();
             this.chk30x40_Lg = new System.Windows.Forms.CheckBox();
             this.chk24x30_Lg = new System.Windows.Forms.CheckBox();
             this.chk16x20_Lg = new System.Windows.Forms.CheckBox();
@@ -62,16 +62,16 @@
             this.lblLargeSizes = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.lblGrandTotal = new System.Windows.Forms.Label();
+            this.txtGrandTotal = new System.Windows.Forms.TextBox();
+            this.lblShipping = new System.Windows.Forms.Label();
+            this.txtShipping = new System.Windows.Forms.TextBox();
+            this.lblTax = new System.Windows.Forms.Label();
+            this.txtTax = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtSubtotal = new System.Windows.Forms.TextBox();
+            this.lblDiscount = new System.Windows.Forms.Label();
+            this.txtDiscount = new System.Windows.Forms.TextBox();
             this.panel7 = new System.Windows.Forms.Panel();
             this.rtfReceipt = new System.Windows.Forms.RichTextBox();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
@@ -185,7 +185,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.num5x7_Pop)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.num4x6_Pop)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num20x24_Lg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.num30x40_Lg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.num24x30_Lg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.num20x30_Lg)).BeginInit();
@@ -405,8 +405,8 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel3.Controls.Add(this.numericUpDown12);
-            this.panel3.Controls.Add(this.textBox12);
+            this.panel3.Controls.Add(this.num20x24_Lg);
+            this.panel3.Controls.Add(this.txt20x24_Lg);
             this.panel3.Controls.Add(this.num30x40_Lg);
             this.panel3.Controls.Add(this.txt30x40_Lg);
             this.panel3.Controls.Add(this.num24x30_Lg);
@@ -415,7 +415,7 @@
             this.panel3.Controls.Add(this.txt20x30_Lg);
             this.panel3.Controls.Add(this.num16x20_Lg);
             this.panel3.Controls.Add(this.txt16x20_Lg);
-            this.panel3.Controls.Add(this.checkBox12);
+            this.panel3.Controls.Add(this.chk20x24_Lg);
             this.panel3.Controls.Add(this.chk30x40_Lg);
             this.panel3.Controls.Add(this.chk24x30_Lg);
             this.panel3.Controls.Add(this.chk16x20_Lg);
@@ -428,33 +428,34 @@
             this.panel3.TabIndex = 0;
             this.panel3.TabStop = true;
             // 
-            // numericUpDown12
+            // num20x24_Lg
             // 
-            this.numericUpDown12.Enabled = false;
-            this.numericUpDown12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown12.Location = new System.Drawing.Point(84, 128);
-            this.numericUpDown12.Name = "numericUpDown12";
-            this.numericUpDown12.Size = new System.Drawing.Size(36, 22);
-            this.numericUpDown12.TabIndex = 17;
-            this.numericUpDown12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num20x24_Lg.Enabled = false;
+            this.num20x24_Lg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.num20x24_Lg.Location = new System.Drawing.Point(84, 50);
+            this.num20x24_Lg.Name = "num20x24_Lg";
+            this.num20x24_Lg.Size = new System.Drawing.Size(36, 22);
+            this.num20x24_Lg.TabIndex = 17;
+            this.num20x24_Lg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num20x24_Lg.ValueChanged += new System.EventHandler(this.num20x24_Lg_ValueChanged);
             // 
-            // textBox12
+            // txt20x24_Lg
             // 
-            this.textBox12.Enabled = false;
-            this.textBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.Location = new System.Drawing.Point(126, 127);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.ReadOnly = true;
-            this.textBox12.Size = new System.Drawing.Size(42, 22);
-            this.textBox12.TabIndex = 999;
-            this.textBox12.Text = "0";
-            this.textBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txt20x24_Lg.Enabled = false;
+            this.txt20x24_Lg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt20x24_Lg.Location = new System.Drawing.Point(126, 49);
+            this.txt20x24_Lg.Name = "txt20x24_Lg";
+            this.txt20x24_Lg.ReadOnly = true;
+            this.txt20x24_Lg.Size = new System.Drawing.Size(42, 22);
+            this.txt20x24_Lg.TabIndex = 999;
+            this.txt20x24_Lg.Text = "0";
+            this.txt20x24_Lg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num30x40_Lg
             // 
             this.num30x40_Lg.Enabled = false;
             this.num30x40_Lg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num30x40_Lg.Location = new System.Drawing.Point(84, 102);
+            this.num30x40_Lg.Location = new System.Drawing.Point(84, 128);
             this.num30x40_Lg.Name = "num30x40_Lg";
             this.num30x40_Lg.Size = new System.Drawing.Size(36, 22);
             this.num30x40_Lg.TabIndex = 15;
@@ -465,7 +466,7 @@
             // 
             this.txt30x40_Lg.Enabled = false;
             this.txt30x40_Lg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt30x40_Lg.Location = new System.Drawing.Point(126, 101);
+            this.txt30x40_Lg.Location = new System.Drawing.Point(126, 127);
             this.txt30x40_Lg.Name = "txt30x40_Lg";
             this.txt30x40_Lg.ReadOnly = true;
             this.txt30x40_Lg.Size = new System.Drawing.Size(42, 22);
@@ -477,7 +478,7 @@
             // 
             this.num24x30_Lg.Enabled = false;
             this.num24x30_Lg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num24x30_Lg.Location = new System.Drawing.Point(84, 76);
+            this.num24x30_Lg.Location = new System.Drawing.Point(84, 102);
             this.num24x30_Lg.Name = "num24x30_Lg";
             this.num24x30_Lg.Size = new System.Drawing.Size(36, 22);
             this.num24x30_Lg.TabIndex = 13;
@@ -488,7 +489,7 @@
             // 
             this.txt24x30_Lg.Enabled = false;
             this.txt24x30_Lg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt24x30_Lg.Location = new System.Drawing.Point(126, 75);
+            this.txt24x30_Lg.Location = new System.Drawing.Point(126, 101);
             this.txt24x30_Lg.Name = "txt24x30_Lg";
             this.txt24x30_Lg.ReadOnly = true;
             this.txt24x30_Lg.Size = new System.Drawing.Size(42, 22);
@@ -500,7 +501,7 @@
             // 
             this.num20x30_Lg.Enabled = false;
             this.num20x30_Lg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num20x30_Lg.Location = new System.Drawing.Point(84, 50);
+            this.num20x30_Lg.Location = new System.Drawing.Point(84, 76);
             this.num20x30_Lg.Name = "num20x30_Lg";
             this.num20x30_Lg.Size = new System.Drawing.Size(36, 22);
             this.num20x30_Lg.TabIndex = 11;
@@ -511,7 +512,7 @@
             // 
             this.txt20x30_Lg.Enabled = false;
             this.txt20x30_Lg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt20x30_Lg.Location = new System.Drawing.Point(126, 49);
+            this.txt20x30_Lg.Location = new System.Drawing.Point(126, 75);
             this.txt20x30_Lg.Name = "txt20x30_Lg";
             this.txt20x30_Lg.ReadOnly = true;
             this.txt20x30_Lg.Size = new System.Drawing.Size(42, 22);
@@ -542,23 +543,23 @@
             this.txt16x20_Lg.Text = "0";
             this.txt16x20_Lg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // checkBox12
+            // chk20x24_Lg
             // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Enabled = false;
-            this.checkBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox12.Location = new System.Drawing.Point(7, 129);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(100, 20);
-            this.checkBox12.TabIndex = 16;
-            this.checkBox12.Text = "checkBox12";
-            this.checkBox12.UseVisualStyleBackColor = true;
+            this.chk20x24_Lg.AutoSize = true;
+            this.chk20x24_Lg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chk20x24_Lg.Location = new System.Drawing.Point(7, 51);
+            this.chk20x24_Lg.Name = "chk20x24_Lg";
+            this.chk20x24_Lg.Size = new System.Drawing.Size(61, 20);
+            this.chk20x24_Lg.TabIndex = 16;
+            this.chk20x24_Lg.Text = "20x24";
+            this.chk20x24_Lg.UseVisualStyleBackColor = true;
+            this.chk20x24_Lg.CheckedChanged += new System.EventHandler(this.chk20x24_Lg_CheckedChanged);
             // 
             // chk30x40_Lg
             // 
             this.chk30x40_Lg.AutoSize = true;
             this.chk30x40_Lg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chk30x40_Lg.Location = new System.Drawing.Point(7, 103);
+            this.chk30x40_Lg.Location = new System.Drawing.Point(7, 129);
             this.chk30x40_Lg.Name = "chk30x40_Lg";
             this.chk30x40_Lg.Size = new System.Drawing.Size(61, 20);
             this.chk30x40_Lg.TabIndex = 14;
@@ -570,7 +571,7 @@
             // 
             this.chk24x30_Lg.AutoSize = true;
             this.chk24x30_Lg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chk24x30_Lg.Location = new System.Drawing.Point(7, 77);
+            this.chk24x30_Lg.Location = new System.Drawing.Point(7, 103);
             this.chk24x30_Lg.Name = "chk24x30_Lg";
             this.chk24x30_Lg.Size = new System.Drawing.Size(61, 20);
             this.chk24x30_Lg.TabIndex = 12;
@@ -594,7 +595,7 @@
             // 
             this.chk20x30_Lg.AutoSize = true;
             this.chk20x30_Lg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chk20x30_Lg.Location = new System.Drawing.Point(7, 51);
+            this.chk20x30_Lg.Location = new System.Drawing.Point(7, 77);
             this.chk20x30_Lg.Name = "chk20x30_Lg";
             this.chk20x30_Lg.Size = new System.Drawing.Size(61, 20);
             this.chk20x30_Lg.TabIndex = 10;
@@ -627,16 +628,16 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel6.Controls.Add(this.label5);
-            this.panel6.Controls.Add(this.textBox5);
-            this.panel6.Controls.Add(this.label4);
-            this.panel6.Controls.Add(this.textBox4);
-            this.panel6.Controls.Add(this.label3);
-            this.panel6.Controls.Add(this.textBox3);
+            this.panel6.Controls.Add(this.lblGrandTotal);
+            this.panel6.Controls.Add(this.txtGrandTotal);
+            this.panel6.Controls.Add(this.lblShipping);
+            this.panel6.Controls.Add(this.txtShipping);
+            this.panel6.Controls.Add(this.lblTax);
+            this.panel6.Controls.Add(this.txtTax);
             this.panel6.Controls.Add(this.label2);
-            this.panel6.Controls.Add(this.textBox2);
-            this.panel6.Controls.Add(this.label1);
-            this.panel6.Controls.Add(this.textBox1);
+            this.panel6.Controls.Add(this.txtSubtotal);
+            this.panel6.Controls.Add(this.lblDiscount);
+            this.panel6.Controls.Add(this.txtDiscount);
             this.panel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel6.Location = new System.Drawing.Point(433, 436);
             this.panel6.Name = "panel6";
@@ -644,59 +645,59 @@
             this.panel6.TabIndex = 0;
             this.panel6.TabStop = true;
             // 
-            // label5
+            // lblGrandTotal
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(207, 131);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 16);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "GrandTotal";
+            this.lblGrandTotal.AutoSize = true;
+            this.lblGrandTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGrandTotal.Location = new System.Drawing.Point(207, 131);
+            this.lblGrandTotal.Name = "lblGrandTotal";
+            this.lblGrandTotal.Size = new System.Drawing.Size(86, 16);
+            this.lblGrandTotal.TabIndex = 9;
+            this.lblGrandTotal.Text = "GrandTotal";
             // 
-            // textBox5
+            // txtGrandTotal
             // 
-            this.textBox5.Location = new System.Drawing.Point(299, 128);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(100, 22);
-            this.textBox5.TabIndex = 8;
-            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGrandTotal.Location = new System.Drawing.Point(299, 128);
+            this.txtGrandTotal.Name = "txtGrandTotal";
+            this.txtGrandTotal.ReadOnly = true;
+            this.txtGrandTotal.Size = new System.Drawing.Size(100, 22);
+            this.txtGrandTotal.TabIndex = 8;
+            this.txtGrandTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label4
+            // lblShipping
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(232, 103);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(61, 16);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Shipping";
+            this.lblShipping.AutoSize = true;
+            this.lblShipping.Location = new System.Drawing.Point(232, 103);
+            this.lblShipping.Name = "lblShipping";
+            this.lblShipping.Size = new System.Drawing.Size(61, 16);
+            this.lblShipping.TabIndex = 7;
+            this.lblShipping.Text = "Shipping";
             // 
-            // textBox4
+            // txtShipping
             // 
-            this.textBox4.Location = new System.Drawing.Point(299, 100);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 22);
-            this.textBox4.TabIndex = 6;
-            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtShipping.Location = new System.Drawing.Point(299, 100);
+            this.txtShipping.Name = "txtShipping";
+            this.txtShipping.Size = new System.Drawing.Size(100, 22);
+            this.txtShipping.TabIndex = 6;
+            this.txtShipping.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label3
+            // lblTax
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(262, 75);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(31, 16);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Tax";
+            this.lblTax.AutoSize = true;
+            this.lblTax.Location = new System.Drawing.Point(262, 75);
+            this.lblTax.Name = "lblTax";
+            this.lblTax.Size = new System.Drawing.Size(31, 16);
+            this.lblTax.TabIndex = 5;
+            this.lblTax.Text = "Tax";
             // 
-            // textBox3
+            // txtTax
             // 
-            this.textBox3.Location = new System.Drawing.Point(299, 72);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
-            this.textBox3.TabIndex = 4;
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtTax.Location = new System.Drawing.Point(299, 72);
+            this.txtTax.Name = "txtTax";
+            this.txtTax.ReadOnly = true;
+            this.txtTax.Size = new System.Drawing.Size(100, 22);
+            this.txtTax.TabIndex = 4;
+            this.txtTax.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label2
             // 
@@ -708,31 +709,31 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Subtotal";
             // 
-            // textBox2
+            // txtSubtotal
             // 
-            this.textBox2.Location = new System.Drawing.Point(299, 44);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 2;
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtSubtotal.Location = new System.Drawing.Point(299, 44);
+            this.txtSubtotal.Name = "txtSubtotal";
+            this.txtSubtotal.ReadOnly = true;
+            this.txtSubtotal.Size = new System.Drawing.Size(100, 22);
+            this.txtSubtotal.TabIndex = 2;
+            this.txtSubtotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label1
+            // lblDiscount
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(233, 19);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 16);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Discount";
+            this.lblDiscount.AutoSize = true;
+            this.lblDiscount.Location = new System.Drawing.Point(233, 19);
+            this.lblDiscount.Name = "lblDiscount";
+            this.lblDiscount.Size = new System.Drawing.Size(60, 16);
+            this.lblDiscount.TabIndex = 1;
+            this.lblDiscount.Text = "Discount";
             // 
-            // textBox1
+            // txtDiscount
             // 
-            this.textBox1.Location = new System.Drawing.Point(299, 16);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 78;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtDiscount.Location = new System.Drawing.Point(299, 16);
+            this.txtDiscount.Name = "txtDiscount";
+            this.txtDiscount.Size = new System.Drawing.Size(100, 22);
+            this.txtDiscount.TabIndex = 78;
+            this.txtDiscount.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // panel7
             // 
@@ -2039,7 +2040,7 @@
             this.printPreviewDialog1.Name = "printPreviewDialog1";
             this.printPreviewDialog1.Visible = false;
             // 
-            // Form1
+            // lblSubtotal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -2055,7 +2056,7 @@
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1296, 654);
             this.MinimumSize = new System.Drawing.Size(1296, 654);
-            this.Name = "Form1";
+            this.Name = "lblSubtotal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Print Management Systems -JP Studio Pro";
             this.panel1.ResumeLayout(false);
@@ -2066,7 +2067,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.num4x6_Pop)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num20x24_Lg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.num30x40_Lg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.num24x30_Lg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.num20x30_Lg)).EndInit();
@@ -2137,8 +2138,8 @@
         private System.Windows.Forms.CheckBox chk8x10_Pop;
         private System.Windows.Forms.CheckBox chk5x7_Pop;
         private System.Windows.Forms.CheckBox chk4x6_Pop;
-        private System.Windows.Forms.NumericUpDown numericUpDown12;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.NumericUpDown num20x24_Lg;
+        private System.Windows.Forms.TextBox txt20x24_Lg;
         private System.Windows.Forms.NumericUpDown num30x40_Lg;
         private System.Windows.Forms.TextBox txt30x40_Lg;
         private System.Windows.Forms.NumericUpDown num24x30_Lg;
@@ -2147,7 +2148,7 @@
         private System.Windows.Forms.TextBox txt20x30_Lg;
         private System.Windows.Forms.NumericUpDown num16x20_Lg;
         private System.Windows.Forms.TextBox txt16x20_Lg;
-        private System.Windows.Forms.CheckBox checkBox12;
+        private System.Windows.Forms.CheckBox chk20x24_Lg;
         private System.Windows.Forms.CheckBox chk30x40_Lg;
         private System.Windows.Forms.CheckBox chk24x30_Lg;
         private System.Windows.Forms.CheckBox chk16x20_Lg;
@@ -2247,16 +2248,16 @@
         private System.Windows.Forms.Button btnReset;
         private System.Windows.Forms.Button btnReceipt;
         private System.Windows.Forms.Button btnTotal;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label lblGrandTotal;
+        private System.Windows.Forms.TextBox txtGrandTotal;
+        private System.Windows.Forms.Label lblShipping;
+        private System.Windows.Forms.TextBox txtShipping;
+        private System.Windows.Forms.Label lblTax;
+        private System.Windows.Forms.TextBox txtTax;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtSubtotal;
+        private System.Windows.Forms.Label lblDiscount;
+        private System.Windows.Forms.TextBox txtDiscount;
         private System.Windows.Forms.RichTextBox rtfReceipt;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton openToolStripButton;
