@@ -18,6 +18,8 @@ namespace PrintManagementSystem
         }
 
         // Enabling numericUpDown's and Textboxes when corresponding checkbox is checked
+
+        // Popular print sizes
         private void chk4x6_Pop_CheckStateChanged(object sender, EventArgs e)
         {
             if (chk4x6_Pop.Checked)
@@ -89,6 +91,7 @@ namespace PrintManagementSystem
             }
         }
 
+        // Large print sizes
         private void chk16x20_Lg_CheckedChanged(object sender, EventArgs e)
         {
             if (chk16x20_Lg.Checked)
@@ -129,7 +132,7 @@ namespace PrintManagementSystem
         {
             if (chk24x30_Lg.Checked)
             {            
-                num20x30_Lg.Enabled = true;
+                num24x30_Lg.Enabled = true;
                 txt24x30_Lg.Enabled = true;
                 num24x30_Lg.Focus();
                 num24x30_Lg.Select(0, num24x30_Lg.Text.Length);
@@ -142,24 +145,25 @@ namespace PrintManagementSystem
                 txt24x30_Lg.Text = "0";
             }
         }
-        private void chk30x36_Lg_CheckedChanged(object sender, EventArgs e)
+        private void chk30x40_Lg_CheckedChanged(object sender, EventArgs e)
         {
-            if (chk30x36_Lg.Checked)
+            if (chk30x40_Lg.Checked)
             {
-                num30x36_Lg.Enabled = true;
-                txt30x36_Lg.Enabled = true;
-                num30x36_Lg.Focus();
-                num30x36_Lg.Select(0, num30x36_Lg.Text.Length);
+                num30x40_Lg.Enabled = true;
+                txt30x40_Lg.Enabled = true;
+                num30x40_Lg.Focus();
+                num30x40_Lg.Select(0, num30x40_Lg.Text.Length);
             }
             else
             {
-                num30x36_Lg.Enabled = false;
-                txt30x36_Lg.Enabled = false;
-                num30x36_Lg.Value = 0;
-                txt30x36_Lg.Text = "0";
+                num30x40_Lg.Enabled = false;
+                txt30x40_Lg.Enabled = false;
+                num30x40_Lg.Value = 0;
+                txt30x40_Lg.Text = "0";
             }
         }
 
+        // All print size
         private void chk3x5_CheckedChanged(object sender, EventArgs e)
         {
             if (chk3x5.Checked)
@@ -324,12 +328,12 @@ namespace PrintManagementSystem
 
         private void chk8x12_CheckedChanged(object sender, EventArgs e)
         {
-            if (chk8x10.Checked)
+            if (chk8x12.Checked)
             {
-                num8x10.Enabled = true;
-                txt8x10.Enabled = true;
-                num8x10.Focus();
-                num8x10.Select(0, num8x10.Text.Length);
+                num8x12.Enabled = true;
+                txt8x12.Enabled = true;
+                num8x12.Focus();
+                num8x12.Select(0, num8x12.Text.Length);
             }
             else
             {
@@ -682,25 +686,27 @@ namespace PrintManagementSystem
             }
         }
 
-        private void chk30x36_CheckedChanged(object sender, EventArgs e)
+        private void chk30x40_CheckedChanged(object sender, EventArgs e)
         {
-            if (chk30x36.Checked)
+            if (chk30x40.Checked)
             {
-                num30x36.Enabled = true;
-                txt30x36.Enabled = true;
-                num30x36.Focus();
-                num30x36.Select(0, num30x36.Text.Length);
+                num30x40.Enabled = true;
+                txt30x40.Enabled = true;
+                num30x40.Focus();
+                num30x40.Select(0, num30x40.Text.Length);
             }
             else
             {
-                num30x36.Enabled = false;
-                txt30x36.Enabled = false;
-                num30x36.Value = 0;
-                txt30x36.Text = "0";
+                num30x40.Enabled = false;
+                txt30x40.Enabled = false;
+                num30x40.Value = 0;
+                txt30x40.Text = "0";
             }
         }
 
         // Calculate line item total when NumericUpDown value changes
+
+        // Popular print sizes
         private void num4x6_Pop_ValueChanged(object sender, EventArgs e)
         {
             var units_4x6 = (int)num4x6_Pop.Value;
@@ -733,6 +739,7 @@ namespace PrintManagementSystem
             txt11x14_Pop.Text = String.Format("{0:0.00}", value_11x14);
         }
 
+        // Large print sizes
         private void num16x20_Lg_ValueChanged(object sender, EventArgs e)
         {
             var units_16x20 = (int)num16x20_Lg.Value;
@@ -752,19 +759,20 @@ namespace PrintManagementSystem
         private void num24x30_Lg_ValueChanged(object sender, EventArgs e)
         {
             var units_24x30 = (int)num24x30_Lg.Value;
-            double price_24x30 = 0;
+            double price_24x30 = 149.95;
             double value_24x30 = units_24x30 * price_24x30;
             txt24x30_Lg.Text = String.Format("{0:0.00}", value_24x30);
         }
 
-        private void num30x36_Lg_ValueChanged(object sender, EventArgs e)
+        private void num30x40_Lg_ValueChanged(object sender, EventArgs e)
         {
-            var units_30x36 = (int)num30x36_Lg.Value;
+            var units_30x36 = (int)num30x40_Lg.Value;
             double price_30x36 = 0;
             double value_30x36 = units_30x36 * price_30x36;
-            txt30x36_Lg.Text = String.Format("{0:0.00}", value_30x36);
+            txt30x40_Lg.Text = String.Format("{0:0.00}", value_30x36);
         }
 
+        // All print sizes
         private void num3x5_ValueChanged(object sender, EventArgs e)
         {
             var units_3x5 = (int)num3x5.Value;
@@ -792,7 +800,7 @@ namespace PrintManagementSystem
         private void num4x12_ValueChanged(object sender, EventArgs e)
         {
             var units_4x12 = (int)num4x12.Value;
-            double price_4x12 = 0;
+            double price_4x12 = 6.95;
             double value_4x12 = units_4x12 * price_4x12;
             txt4x12.Text = String.Format("{0:0.00}", value_4x12);
         }
@@ -800,7 +808,7 @@ namespace PrintManagementSystem
         private void num5x5_ValueChanged(object sender, EventArgs e)
         {
             var units_5x5 = (int)num5x5.Value;
-            double price_5x5 = 0;
+            double price_5x5 = 4.95;
             double value_5x5 = units_5x5 * price_5x5;
             txt5x5.Text = String.Format("{0:0.00}", value_5x5);
         }
@@ -816,7 +824,7 @@ namespace PrintManagementSystem
         private void num6x9_ValueChanged(object sender, EventArgs e)
         {
             var units_6x9 = (int)num6x9.Value;
-            double price_6x9 = 0;
+            double price_6x9 = 6.95;
             double value_6x9 = units_6x9 * price_6x9;
             txt6x9.Text = String.Format("{0:0.00}", value_6x9);
         }
@@ -824,7 +832,7 @@ namespace PrintManagementSystem
         private void num6x18_ValueChanged(object sender, EventArgs e)
         {
             var units_6x18 = (int)num6x18.Value;
-            double price_6x18 = 0;
+            double price_6x18 = 14.95;
             double value_6x18 = units_6x18 * price_6x18;
             txt6x18.Text = String.Format("{0:0.00}", value_6x18);
         }
@@ -839,16 +847,16 @@ namespace PrintManagementSystem
 
         private void num8x12_ValueChanged(object sender, EventArgs e)
         {
-            var units_4x12 = (int)num4x12.Value;
-            double price_4x12 = 0;
-            double value_4x12 = units_4x12 * price_4x12;
-            txt4x12.Text = String.Format("{0:0.00}", value_4x12);
+            var units_8x12 = (int)num8x12.Value;
+            double price_8x12 = 12.95;
+            double value_8x12 = units_8x12 * price_8x12;
+            txt8x12.Text = String.Format("{0:0.00}", value_8x12);
         }
 
         private void num8x11_ValueChanged(object sender, EventArgs e)
         {
             var units_8x11 = (int)num8x11.Value;
-            double price_8x11 = 0;
+            double price_8x11 = 11.95;
             double value_8x11 = units_8x11 * price_8x11;
             txt8x11.Text = String.Format("{0:0.00}", value_8x11);
         }
@@ -856,7 +864,7 @@ namespace PrintManagementSystem
         private void num9x12_ValueChanged(object sender, EventArgs e)
         {
             var units_9x12 = (int)num9x12.Value;
-            double price_9x12 = 0;
+            double price_9x12 = 13.95;
             double value_9x12 = units_9x12 * price_9x12;
             txt9x12.Text = String.Format("{0:0.00}", value_9x12);
         }
@@ -864,7 +872,7 @@ namespace PrintManagementSystem
         private void num10x10_ValueChanged(object sender, EventArgs e)
         {
             var units_10x10 = (int)num10x10.Value;
-            double price_10x10 = 0;
+            double price_10x10 = 13.95;
             double value_10x10 = units_10x10 * price_10x10;
             txt10x10.Text = String.Format("{0:0.00}", value_10x10);
         }
@@ -872,7 +880,7 @@ namespace PrintManagementSystem
         private void num10x13_ValueChanged(object sender, EventArgs e)
         {
             var units_10x13 = (int)num10x13.Value;
-            double price_10x13 = 0;
+            double price_10x13 = 17.95;
             double value_10x13 = units_10x13 * price_10x13;
             txt10x13.Text = String.Format("{0:0.00}", value_10x13);
         }
@@ -880,7 +888,7 @@ namespace PrintManagementSystem
         private void num10x15_ValueChanged(object sender, EventArgs e)
         {
             var units_10x15 = (int)num10x15.Value;
-            double price_10x15 = 0;
+            double price_10x15 = 18.95;
             double value_10x15 = units_10x15 * price_10x15;
             txt10x15.Text = String.Format("{0:0.00}", value_10x15);
         }
@@ -896,7 +904,7 @@ namespace PrintManagementSystem
         private void num11x17_ValueChanged(object sender, EventArgs e)
         {
             var units_11x17 = (int)num11x17.Value;
-            double price_11x17 = 0;
+            double price_11x17 = 24.95;
             double value_11x17 = units_11x17 * price_11x17;
             txt11x17.Text = String.Format("{0:0.00}", value_11x17);
         }
@@ -904,7 +912,7 @@ namespace PrintManagementSystem
         private void num12x12_ValueChanged(object sender, EventArgs e)
         {
             var units_12x12 = (int)num10x10.Value;
-            double price_12x12 = 0;
+            double price_12x12 = 19.95;
             double value_12x12 = units_12x12 * price_12x12;
             txt12x12.Text = String.Format("{0:0.00}", value_12x12);
         }
@@ -912,7 +920,7 @@ namespace PrintManagementSystem
         private void num12x18_ValueChanged(object sender, EventArgs e)
         {
             var units_12x18 = (int)num12x18.Value;
-            double price_12x18 = 0;
+            double price_12x18 = 28.95;
             double value_12x18 = units_12x18 * price_12x18;
             txt12x18.Text = String.Format("{0:0.00}", value_12x18);
         }
@@ -920,7 +928,7 @@ namespace PrintManagementSystem
         private void num16x16_ValueChanged(object sender, EventArgs e)
         {
             var units_16x16 = (int)num16x16.Value;
-            double price_16x16 = 0;
+            double price_16x16 = 89.99;
             double value_16x16 = units_16x16 * price_16x16;
             txt16x16.Text = String.Format("{0:0.00}", value_16x16);
         }
@@ -936,7 +944,7 @@ namespace PrintManagementSystem
         private void num16x24_ValueChanged(object sender, EventArgs e)
         {
             var units_16x24 = (int)num16x24.Value;
-            double price_16x24 = 0;
+            double price_16x24 = 59.95;
             double value_16x24 = units_16x24 * price_16x24;
             txt16x24.Text = String.Format("{0:0.00}", value_16x24);
         }
@@ -944,7 +952,7 @@ namespace PrintManagementSystem
         private void num20x20_ValueChanged(object sender, EventArgs e)
         {
             var units_20x20 = (int)num20x20.Value;
-            double price_20x20 = 0;
+            double price_20x20 = 59.95;
             double value_20x20 = units_20x20 * price_20x20;
             txt20x20.Text = String.Format("{0:0.00}", value_20x20);
         }
@@ -952,7 +960,7 @@ namespace PrintManagementSystem
         private void num20x24_ValueChanged(object sender, EventArgs e)
         {
             var units_20x24 = (int)num20x24.Value;
-            double price_20x24 = 0;
+            double price_20x24 = 74.95;
             double value_20x24 = units_20x24 * price_20x24;
             txt20x24.Text = String.Format("{0:0.00}", value_20x24);
         }
@@ -968,7 +976,7 @@ namespace PrintManagementSystem
         private void num24x24_ValueChanged(object sender, EventArgs e)
         {
             var units_24x24 = (int)num24x24.Value;
-            double price_24x24 = 0;
+            double price_24x24 = 89.95;
             double value_24x24 = units_24x24 * price_24x24;
             txt24x24.Text = String.Format("{0:0.00}", value_24x24);
         }
@@ -976,7 +984,7 @@ namespace PrintManagementSystem
         private void num24x30_ValueChanged(object sender, EventArgs e)
         {
             var units_24x30 = (int)num24x30.Value;
-            double price_24x30 = 0;
+            double price_24x30 = 149.95;
             double value_24x30 = units_24x30 * price_24x30;
             txt24x30.Text = String.Format("{0:0.00}", value_24x30);
         }
@@ -984,7 +992,7 @@ namespace PrintManagementSystem
         private void num24x36_ValueChanged(object sender, EventArgs e)
         {
             var units_24x36 = (int)num24x36.Value;
-            double price_24x36 = 0;
+            double price_24x36 = 139.95;
             double value_24x36 = units_24x36 * price_24x36;
             txt24x36.Text = String.Format("{0:0.00}", value_24x36);
         }
@@ -992,17 +1000,17 @@ namespace PrintManagementSystem
         private void num30x30_ValueChanged(object sender, EventArgs e)
         {
             var units_30x30 = (int)num30x30.Value;
-            double price_30x30 = 0;
+            double price_30x30 = 169.95;
             double value_30x30 = units_30x30 * price_30x30;
             txt30x30.Text = String.Format("{0:0.00}", value_30x30);
         }
 
-        private void num30x36_ValueChanged(object sender, EventArgs e)
+        private void num30x40_ValueChanged(object sender, EventArgs e)
         {
-            var units_30x36 = (int)num16x24.Value;
-            double price_30x36 = 0;
-            double value_30x36 = units_30x36 * price_30x36;
-            txt30x36.Text = String.Format("{0:0.00}", value_30x36);
+            var units_30x40 = (int)num16x24.Value;
+            double price_30x40 = 269.95;
+            double value_30x40 = units_30x40 * price_30x40;
+            txt30x40.Text = String.Format("{0:0.00}", value_30x40);
         }
 
         // Currency Formatting
@@ -1037,7 +1045,7 @@ namespace PrintManagementSystem
             chk16x20_Lg.Checked = false;
             chk20x30_Lg.Checked = false;
             chk24x30_Lg.Checked = false;
-            chk30x36_Lg.Checked = false;
+            chk30x40_Lg.Checked = false;
 
             // All prints
             chk3x5.Checked = false;
@@ -1070,7 +1078,7 @@ namespace PrintManagementSystem
             chk24x30.Checked = false;
             chk24x36.Checked = false;
             chk30x30.Checked = false;
-            chk30x36.Checked = false;
+            chk30x40.Checked = false;
 
         }
         // Exits the Application when clicking on the Exit button
@@ -1119,5 +1127,7 @@ namespace PrintManagementSystem
             printPreviewDialog1.Document = printDocument1;
             printPreviewDialog1.ShowDialog();
         }
+
+
     }
 }

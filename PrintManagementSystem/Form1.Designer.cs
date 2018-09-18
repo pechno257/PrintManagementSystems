@@ -46,8 +46,8 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.numericUpDown12 = new System.Windows.Forms.NumericUpDown();
             this.textBox12 = new System.Windows.Forms.TextBox();
-            this.num30x36_Lg = new System.Windows.Forms.NumericUpDown();
-            this.txt30x36_Lg = new System.Windows.Forms.TextBox();
+            this.num30x40_Lg = new System.Windows.Forms.NumericUpDown();
+            this.txt30x40_Lg = new System.Windows.Forms.TextBox();
             this.num24x30_Lg = new System.Windows.Forms.NumericUpDown();
             this.txt24x30_Lg = new System.Windows.Forms.TextBox();
             this.num20x30_Lg = new System.Windows.Forms.NumericUpDown();
@@ -55,7 +55,7 @@
             this.num16x20_Lg = new System.Windows.Forms.NumericUpDown();
             this.txt16x20_Lg = new System.Windows.Forms.TextBox();
             this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.chk30x36_Lg = new System.Windows.Forms.CheckBox();
+            this.chk30x40_Lg = new System.Windows.Forms.CheckBox();
             this.chk24x30_Lg = new System.Windows.Forms.CheckBox();
             this.chk16x20_Lg = new System.Windows.Forms.CheckBox();
             this.chk20x30_Lg = new System.Windows.Forms.CheckBox();
@@ -81,9 +81,9 @@
             this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.chk30x36 = new System.Windows.Forms.CheckBox();
-            this.num30x36 = new System.Windows.Forms.NumericUpDown();
-            this.txt30x36 = new System.Windows.Forms.TextBox();
+            this.chk30x40 = new System.Windows.Forms.CheckBox();
+            this.num30x40 = new System.Windows.Forms.NumericUpDown();
+            this.txt30x40 = new System.Windows.Forms.TextBox();
             this.chk30x30 = new System.Windows.Forms.CheckBox();
             this.num30x30 = new System.Windows.Forms.NumericUpDown();
             this.txt30x30 = new System.Windows.Forms.TextBox();
@@ -186,7 +186,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.num4x6_Pop)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.num30x36_Lg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num30x40_Lg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.num24x30_Lg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.num20x30_Lg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.num16x20_Lg)).BeginInit();
@@ -194,7 +194,7 @@
             this.panel7.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.num30x36)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num30x40)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.num30x30)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.num24x24)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.num20x30)).BeginInit();
@@ -407,8 +407,8 @@
             this.panel3.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel3.Controls.Add(this.numericUpDown12);
             this.panel3.Controls.Add(this.textBox12);
-            this.panel3.Controls.Add(this.num30x36_Lg);
-            this.panel3.Controls.Add(this.txt30x36_Lg);
+            this.panel3.Controls.Add(this.num30x40_Lg);
+            this.panel3.Controls.Add(this.txt30x40_Lg);
             this.panel3.Controls.Add(this.num24x30_Lg);
             this.panel3.Controls.Add(this.txt24x30_Lg);
             this.panel3.Controls.Add(this.num20x30_Lg);
@@ -416,7 +416,7 @@
             this.panel3.Controls.Add(this.num16x20_Lg);
             this.panel3.Controls.Add(this.txt16x20_Lg);
             this.panel3.Controls.Add(this.checkBox12);
-            this.panel3.Controls.Add(this.chk30x36_Lg);
+            this.panel3.Controls.Add(this.chk30x40_Lg);
             this.panel3.Controls.Add(this.chk24x30_Lg);
             this.panel3.Controls.Add(this.chk16x20_Lg);
             this.panel3.Controls.Add(this.chk20x30_Lg);
@@ -450,28 +450,28 @@
             this.textBox12.Text = "0";
             this.textBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // num30x36_Lg
+            // num30x40_Lg
             // 
-            this.num30x36_Lg.Enabled = false;
-            this.num30x36_Lg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num30x36_Lg.Location = new System.Drawing.Point(84, 102);
-            this.num30x36_Lg.Name = "num30x36_Lg";
-            this.num30x36_Lg.Size = new System.Drawing.Size(36, 22);
-            this.num30x36_Lg.TabIndex = 15;
-            this.num30x36_Lg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.num30x36_Lg.ValueChanged += new System.EventHandler(this.num30x36_Lg_ValueChanged);
+            this.num30x40_Lg.Enabled = false;
+            this.num30x40_Lg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.num30x40_Lg.Location = new System.Drawing.Point(84, 102);
+            this.num30x40_Lg.Name = "num30x40_Lg";
+            this.num30x40_Lg.Size = new System.Drawing.Size(36, 22);
+            this.num30x40_Lg.TabIndex = 15;
+            this.num30x40_Lg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num30x40_Lg.ValueChanged += new System.EventHandler(this.num30x40_Lg_ValueChanged);
             // 
-            // txt30x36_Lg
+            // txt30x40_Lg
             // 
-            this.txt30x36_Lg.Enabled = false;
-            this.txt30x36_Lg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt30x36_Lg.Location = new System.Drawing.Point(126, 101);
-            this.txt30x36_Lg.Name = "txt30x36_Lg";
-            this.txt30x36_Lg.ReadOnly = true;
-            this.txt30x36_Lg.Size = new System.Drawing.Size(42, 22);
-            this.txt30x36_Lg.TabIndex = 999;
-            this.txt30x36_Lg.Text = "0";
-            this.txt30x36_Lg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txt30x40_Lg.Enabled = false;
+            this.txt30x40_Lg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt30x40_Lg.Location = new System.Drawing.Point(126, 101);
+            this.txt30x40_Lg.Name = "txt30x40_Lg";
+            this.txt30x40_Lg.ReadOnly = true;
+            this.txt30x40_Lg.Size = new System.Drawing.Size(42, 22);
+            this.txt30x40_Lg.TabIndex = 999;
+            this.txt30x40_Lg.Text = "0";
+            this.txt30x40_Lg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // num24x30_Lg
             // 
@@ -554,23 +554,21 @@
             this.checkBox12.Text = "checkBox12";
             this.checkBox12.UseVisualStyleBackColor = true;
             // 
-            // chk30x36_Lg
+            // chk30x40_Lg
             // 
-            this.chk30x36_Lg.AutoSize = true;
-            this.chk30x36_Lg.Enabled = false;
-            this.chk30x36_Lg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chk30x36_Lg.Location = new System.Drawing.Point(7, 103);
-            this.chk30x36_Lg.Name = "chk30x36_Lg";
-            this.chk30x36_Lg.Size = new System.Drawing.Size(61, 20);
-            this.chk30x36_Lg.TabIndex = 14;
-            this.chk30x36_Lg.Text = "30x36";
-            this.chk30x36_Lg.UseVisualStyleBackColor = true;
-            this.chk30x36_Lg.CheckedChanged += new System.EventHandler(this.chk30x36_Lg_CheckedChanged);
+            this.chk30x40_Lg.AutoSize = true;
+            this.chk30x40_Lg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chk30x40_Lg.Location = new System.Drawing.Point(7, 103);
+            this.chk30x40_Lg.Name = "chk30x40_Lg";
+            this.chk30x40_Lg.Size = new System.Drawing.Size(61, 20);
+            this.chk30x40_Lg.TabIndex = 14;
+            this.chk30x40_Lg.Text = "30x40";
+            this.chk30x40_Lg.UseVisualStyleBackColor = true;
+            this.chk30x40_Lg.CheckedChanged += new System.EventHandler(this.chk30x40_Lg_CheckedChanged);
             // 
             // chk24x30_Lg
             // 
             this.chk24x30_Lg.AutoSize = true;
-            this.chk24x30_Lg.Enabled = false;
             this.chk24x30_Lg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk24x30_Lg.Location = new System.Drawing.Point(7, 77);
             this.chk24x30_Lg.Name = "chk24x30_Lg";
@@ -813,9 +811,9 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel2.Controls.Add(this.chk30x36);
-            this.panel2.Controls.Add(this.num30x36);
-            this.panel2.Controls.Add(this.txt30x36);
+            this.panel2.Controls.Add(this.chk30x40);
+            this.panel2.Controls.Add(this.num30x40);
+            this.panel2.Controls.Add(this.txt30x40);
             this.panel2.Controls.Add(this.chk30x30);
             this.panel2.Controls.Add(this.num30x30);
             this.panel2.Controls.Add(this.txt30x30);
@@ -911,46 +909,44 @@
             this.panel2.TabIndex = 0;
             this.panel2.TabStop = true;
             // 
-            // chk30x36
+            // chk30x40
             // 
-            this.chk30x36.AutoSize = true;
-            this.chk30x36.Enabled = false;
-            this.chk30x36.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chk30x36.Location = new System.Drawing.Point(236, 389);
-            this.chk30x36.Name = "chk30x36";
-            this.chk30x36.Size = new System.Drawing.Size(61, 20);
-            this.chk30x36.TabIndex = 76;
-            this.chk30x36.Text = "30x36";
-            this.chk30x36.UseVisualStyleBackColor = true;
-            this.chk30x36.CheckedChanged += new System.EventHandler(this.chk30x36_CheckedChanged);
+            this.chk30x40.AutoSize = true;
+            this.chk30x40.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chk30x40.Location = new System.Drawing.Point(236, 389);
+            this.chk30x40.Name = "chk30x40";
+            this.chk30x40.Size = new System.Drawing.Size(61, 20);
+            this.chk30x40.TabIndex = 76;
+            this.chk30x40.Text = "30x40";
+            this.chk30x40.UseVisualStyleBackColor = true;
+            this.chk30x40.CheckedChanged += new System.EventHandler(this.chk30x40_CheckedChanged);
             // 
-            // num30x36
+            // num30x40
             // 
-            this.num30x36.Enabled = false;
-            this.num30x36.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num30x36.Location = new System.Drawing.Point(315, 388);
-            this.num30x36.Name = "num30x36";
-            this.num30x36.Size = new System.Drawing.Size(36, 22);
-            this.num30x36.TabIndex = 77;
-            this.num30x36.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.num30x36.ValueChanged += new System.EventHandler(this.num30x36_ValueChanged);
+            this.num30x40.Enabled = false;
+            this.num30x40.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.num30x40.Location = new System.Drawing.Point(315, 388);
+            this.num30x40.Name = "num30x40";
+            this.num30x40.Size = new System.Drawing.Size(36, 22);
+            this.num30x40.TabIndex = 77;
+            this.num30x40.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num30x40.ValueChanged += new System.EventHandler(this.num30x40_ValueChanged);
             // 
-            // txt30x36
+            // txt30x40
             // 
-            this.txt30x36.Enabled = false;
-            this.txt30x36.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt30x36.Location = new System.Drawing.Point(357, 387);
-            this.txt30x36.Name = "txt30x36";
-            this.txt30x36.ReadOnly = true;
-            this.txt30x36.Size = new System.Drawing.Size(42, 22);
-            this.txt30x36.TabIndex = 999;
-            this.txt30x36.Text = "0";
-            this.txt30x36.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txt30x40.Enabled = false;
+            this.txt30x40.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt30x40.Location = new System.Drawing.Point(357, 387);
+            this.txt30x40.Name = "txt30x40";
+            this.txt30x40.ReadOnly = true;
+            this.txt30x40.Size = new System.Drawing.Size(42, 22);
+            this.txt30x40.TabIndex = 999;
+            this.txt30x40.Text = "0";
+            this.txt30x40.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // chk30x30
             // 
             this.chk30x30.AutoSize = true;
-            this.chk30x30.Enabled = false;
             this.chk30x30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk30x30.Location = new System.Drawing.Point(236, 363);
             this.chk30x30.Name = "chk30x30";
@@ -997,7 +993,6 @@
             // chk24x30
             // 
             this.chk24x30.AutoSize = true;
-            this.chk24x30.Enabled = false;
             this.chk24x30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk24x30.Location = new System.Drawing.Point(236, 311);
             this.chk24x30.Name = "chk24x30";
@@ -1022,7 +1017,6 @@
             // chk24x36
             // 
             this.chk24x36.AutoSize = true;
-            this.chk24x36.Enabled = false;
             this.chk24x36.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk24x36.Location = new System.Drawing.Point(236, 337);
             this.chk24x36.Name = "chk24x36";
@@ -1127,7 +1121,6 @@
             // chk24x24
             // 
             this.chk24x24.AutoSize = true;
-            this.chk24x24.Enabled = false;
             this.chk24x24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk24x24.Location = new System.Drawing.Point(236, 285);
             this.chk24x24.Name = "chk24x24";
@@ -1175,7 +1168,6 @@
             // chk20x24
             // 
             this.chk20x24.AutoSize = true;
-            this.chk20x24.Enabled = false;
             this.chk20x24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk20x24.Location = new System.Drawing.Point(236, 233);
             this.chk20x24.Name = "chk20x24";
@@ -1188,7 +1180,6 @@
             // chk20x20
             // 
             this.chk20x20.AutoSize = true;
-            this.chk20x20.Enabled = false;
             this.chk20x20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk20x20.Location = new System.Drawing.Point(236, 207);
             this.chk20x20.Name = "chk20x20";
@@ -1293,7 +1284,6 @@
             // chk16x24
             // 
             this.chk16x24.AutoSize = true;
-            this.chk16x24.Enabled = false;
             this.chk16x24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk16x24.Location = new System.Drawing.Point(236, 181);
             this.chk16x24.Name = "chk16x24";
@@ -1318,7 +1308,6 @@
             // chk16x16
             // 
             this.chk16x16.AutoSize = true;
-            this.chk16x16.Enabled = false;
             this.chk16x16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk16x16.Location = new System.Drawing.Point(236, 129);
             this.chk16x16.Name = "chk16x16";
@@ -1331,7 +1320,6 @@
             // chk12x18
             // 
             this.chk12x18.AutoSize = true;
-            this.chk12x18.Enabled = false;
             this.chk12x18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk12x18.Location = new System.Drawing.Point(236, 103);
             this.chk12x18.Name = "chk12x18";
@@ -1413,7 +1401,6 @@
             // chk10x13
             // 
             this.chk10x13.AutoSize = true;
-            this.chk10x13.Enabled = false;
             this.chk10x13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk10x13.Location = new System.Drawing.Point(12, 363);
             this.chk10x13.Name = "chk10x13";
@@ -1426,7 +1413,6 @@
             // chk10x10
             // 
             this.chk10x10.AutoSize = true;
-            this.chk10x10.Enabled = false;
             this.chk10x10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk10x10.Location = new System.Drawing.Point(12, 337);
             this.chk10x10.Name = "chk10x10";
@@ -1439,7 +1425,6 @@
             // chk9x12
             // 
             this.chk9x12.AutoSize = true;
-            this.chk9x12.Enabled = false;
             this.chk9x12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk9x12.Location = new System.Drawing.Point(12, 311);
             this.chk9x12.Name = "chk9x12";
@@ -1797,7 +1782,6 @@
             // chk12x12
             // 
             this.chk12x12.AutoSize = true;
-            this.chk12x12.Enabled = false;
             this.chk12x12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk12x12.Location = new System.Drawing.Point(236, 77);
             this.chk12x12.Name = "chk12x12";
@@ -1810,7 +1794,6 @@
             // chk11x17
             // 
             this.chk11x17.AutoSize = true;
-            this.chk11x17.Enabled = false;
             this.chk11x17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk11x17.Location = new System.Drawing.Point(236, 51);
             this.chk11x17.Name = "chk11x17";
@@ -1835,7 +1818,6 @@
             // chk10x15
             // 
             this.chk10x15.AutoSize = true;
-            this.chk10x15.Enabled = false;
             this.chk10x15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk10x15.Location = new System.Drawing.Point(12, 389);
             this.chk10x15.Name = "chk10x15";
@@ -1848,7 +1830,6 @@
             // chk8x11
             // 
             this.chk8x11.AutoSize = true;
-            this.chk8x11.Enabled = false;
             this.chk8x11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk8x11.Location = new System.Drawing.Point(12, 285);
             this.chk8x11.Name = "chk8x11";
@@ -1861,7 +1842,6 @@
             // chk8x12
             // 
             this.chk8x12.AutoSize = true;
-            this.chk8x12.Enabled = false;
             this.chk8x12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk8x12.Location = new System.Drawing.Point(12, 259);
             this.chk8x12.Name = "chk8x12";
@@ -1886,7 +1866,6 @@
             // chk6x18
             // 
             this.chk6x18.AutoSize = true;
-            this.chk6x18.Enabled = false;
             this.chk6x18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk6x18.Location = new System.Drawing.Point(12, 207);
             this.chk6x18.Name = "chk6x18";
@@ -1899,7 +1878,6 @@
             // chk6x9
             // 
             this.chk6x9.AutoSize = true;
-            this.chk6x9.Enabled = false;
             this.chk6x9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk6x9.Location = new System.Drawing.Point(12, 181);
             this.chk6x9.Name = "chk6x9";
@@ -1924,7 +1902,6 @@
             // chk5x5
             // 
             this.chk5x5.AutoSize = true;
-            this.chk5x5.Enabled = false;
             this.chk5x5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk5x5.Location = new System.Drawing.Point(12, 129);
             this.chk5x5.Name = "chk5x5";
@@ -1937,7 +1914,6 @@
             // chk4x12
             // 
             this.chk4x12.AutoSize = true;
-            this.chk4x12.Enabled = false;
             this.chk4x12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk4x12.Location = new System.Drawing.Point(12, 103);
             this.chk4x12.Name = "chk4x12";
@@ -2091,7 +2067,7 @@
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.num30x36_Lg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num30x40_Lg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.num24x30_Lg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.num20x30_Lg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.num16x20_Lg)).EndInit();
@@ -2103,7 +2079,7 @@
             this.toolStrip1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.num30x36)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num30x40)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.num30x30)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.num24x24)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.num20x30)).EndInit();
@@ -2163,8 +2139,8 @@
         private System.Windows.Forms.CheckBox chk4x6_Pop;
         private System.Windows.Forms.NumericUpDown numericUpDown12;
         private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.NumericUpDown num30x36_Lg;
-        private System.Windows.Forms.TextBox txt30x36_Lg;
+        private System.Windows.Forms.NumericUpDown num30x40_Lg;
+        private System.Windows.Forms.TextBox txt30x40_Lg;
         private System.Windows.Forms.NumericUpDown num24x30_Lg;
         private System.Windows.Forms.TextBox txt24x30_Lg;
         private System.Windows.Forms.NumericUpDown num20x30_Lg;
@@ -2172,7 +2148,7 @@
         private System.Windows.Forms.NumericUpDown num16x20_Lg;
         private System.Windows.Forms.TextBox txt16x20_Lg;
         private System.Windows.Forms.CheckBox checkBox12;
-        private System.Windows.Forms.CheckBox chk30x36_Lg;
+        private System.Windows.Forms.CheckBox chk30x40_Lg;
         private System.Windows.Forms.CheckBox chk24x30_Lg;
         private System.Windows.Forms.CheckBox chk16x20_Lg;
         private System.Windows.Forms.CheckBox chk20x30_Lg;
@@ -2221,9 +2197,9 @@
         private System.Windows.Forms.CheckBox chk4x6;
         private System.Windows.Forms.CheckBox chk4x5;
         private System.Windows.Forms.CheckBox chk3x5;
-        private System.Windows.Forms.CheckBox chk30x36;
-        private System.Windows.Forms.NumericUpDown num30x36;
-        private System.Windows.Forms.TextBox txt30x36;
+        private System.Windows.Forms.CheckBox chk30x40;
+        private System.Windows.Forms.NumericUpDown num30x40;
+        private System.Windows.Forms.TextBox txt30x40;
         private System.Windows.Forms.CheckBox chk30x30;
         private System.Windows.Forms.NumericUpDown num30x30;
         private System.Windows.Forms.TextBox txt30x30;
