@@ -765,6 +765,14 @@ namespace PrintManagementSystem
             txt16x20_Lg.Text = String.Format("{0:0.00}", value_16x20);
         }
 
+        private void num20x24_Lg_ValueChanged(object sender, EventArgs e)
+        {
+            var units_20x24 = (int)num20x24_Lg.Value;
+            double price_20x24 = 74.95;
+            double value_20x24 = units_20x24 * price_20x24;
+            txt20x24_Lg.Text = String.Format("{0:0.00}", value_20x24);
+        }
+
         private void num20x30_Lg_ValueChanged(object sender, EventArgs e)
         {
             var units_20x30 = (int)num20x30_Lg.Value;
@@ -783,10 +791,10 @@ namespace PrintManagementSystem
 
         private void num30x40_Lg_ValueChanged(object sender, EventArgs e)
         {
-            var units_30x36 = (int)num30x40_Lg.Value;
-            double price_30x36 = 0;
-            double value_30x36 = units_30x36 * price_30x36;
-            txt30x40_Lg.Text = String.Format("{0:0.00}", value_30x36);
+            var units_30x40 = (int)num30x40_Lg.Value;
+            double price_30x40 = 0;
+            double value_30x40 = units_30x40 * price_30x40;
+            txt30x40_Lg.Text = String.Format("{0:0.00}", value_30x40);
         }
 
         // All print sizes
@@ -1145,6 +1153,5 @@ namespace PrintManagementSystem
             printPreviewDialog1.ShowDialog();
         }
 
-      
     }
 }

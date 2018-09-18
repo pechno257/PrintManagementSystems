@@ -437,6 +437,7 @@
             this.num20x24_Lg.Size = new System.Drawing.Size(36, 22);
             this.num20x24_Lg.TabIndex = 17;
             this.num20x24_Lg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.num20x24_Lg.ValueChanged += new System.EventHandler(this.num20x24_Lg_ValueChanged);
             // 
             // txt20x24_Lg
             // 
