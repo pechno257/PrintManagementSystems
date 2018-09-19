@@ -653,11 +653,13 @@
             // 
             // txtGrandTotal
             // 
+            this.txtGrandTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGrandTotal.Location = new System.Drawing.Point(299, 108);
             this.txtGrandTotal.Name = "txtGrandTotal";
             this.txtGrandTotal.ReadOnly = true;
             this.txtGrandTotal.Size = new System.Drawing.Size(100, 22);
             this.txtGrandTotal.TabIndex = 8;
+            this.txtGrandTotal.Text = "0";
             this.txtGrandTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lblShipping
@@ -675,6 +677,7 @@
             this.txtShipping.Name = "txtShipping";
             this.txtShipping.Size = new System.Drawing.Size(100, 22);
             this.txtShipping.TabIndex = 6;
+            this.txtShipping.Text = "0";
             this.txtShipping.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lblSubtotal
@@ -694,6 +697,7 @@
             this.txtSubtotal.ReadOnly = true;
             this.txtSubtotal.Size = new System.Drawing.Size(100, 22);
             this.txtSubtotal.TabIndex = 2;
+            this.txtSubtotal.Text = "0";
             this.txtSubtotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lblDiscount
@@ -711,6 +715,7 @@
             this.txtDiscount.Name = "txtDiscount";
             this.txtDiscount.Size = new System.Drawing.Size(100, 22);
             this.txtDiscount.TabIndex = 78;
+            this.txtDiscount.Text = "0";
             this.txtDiscount.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // panel7

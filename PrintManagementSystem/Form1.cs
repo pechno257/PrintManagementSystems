@@ -1049,7 +1049,8 @@ namespace PrintManagementSystem
             double _3x5, _4x5, _4x6, _4x12, _5x5, _5x7, _6x9, _6x18, _8x10, _8x12, _8x11, _9x12, _10x10, _10x13, _10x15, _11x14, 
                 _11x17, _12x12, _12x18, _16x16, _16x20, _16x24, _20x20, _20x24, _20x30, _24x24, _24x30, _24x36, _30x30, _30x40;
 
-            double discount, subtotal, shipping, grandTotal;
+            double subtotal, shipping, grandTotal;
+            double discount = 0;
 
             // Casting line total text into a double
             // Popular print sizes
@@ -1168,6 +1169,11 @@ namespace PrintManagementSystem
             chk30x30.Checked = false;
             chk30x40.Checked = false;
 
+            // Subtotal, Discount, Shipping, and Grand Total
+            txtSubtotal.Text = "0";
+            txtDiscount.Text = "0";
+            txtShipping.Text = "0";
+            txtGrandTotal.Text = "0";
         }
         // Exits the Application when clicking on the Exit button
         private void btnExit_Click(object sender, EventArgs e)
@@ -1215,7 +1221,5 @@ namespace PrintManagementSystem
             printPreviewDialog1.Document = printDocument1;
             printPreviewDialog1.ShowDialog();
         }
-
-
     }
 }
