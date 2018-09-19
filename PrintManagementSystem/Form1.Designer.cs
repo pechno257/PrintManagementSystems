@@ -647,9 +647,9 @@
             this.lblGrandTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGrandTotal.Location = new System.Drawing.Point(207, 111);
             this.lblGrandTotal.Name = "lblGrandTotal";
-            this.lblGrandTotal.Size = new System.Drawing.Size(86, 16);
+            this.lblGrandTotal.Size = new System.Drawing.Size(90, 16);
             this.lblGrandTotal.TabIndex = 9;
-            this.lblGrandTotal.Text = "GrandTotal";
+            this.lblGrandTotal.Text = "Grand Total";
             // 
             // txtGrandTotal
             // 
