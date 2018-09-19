@@ -675,6 +675,7 @@
             // 
             this.txtShipping.Location = new System.Drawing.Point(299, 80);
             this.txtShipping.Name = "txtShipping";
+            this.txtShipping.ReadOnly = true;
             this.txtShipping.Size = new System.Drawing.Size(100, 22);
             this.txtShipping.TabIndex = 6;
             this.txtShipping.Text = "0";
