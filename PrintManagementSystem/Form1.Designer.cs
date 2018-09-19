@@ -685,7 +685,7 @@
             // 
             this.lblSubtotal.AutoSize = true;
             this.lblSubtotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSubtotal.Location = new System.Drawing.Point(228, 55);
+            this.lblSubtotal.Location = new System.Drawing.Point(228, 27);
             this.lblSubtotal.Name = "lblSubtotal";
             this.lblSubtotal.Size = new System.Drawing.Size(65, 16);
             this.lblSubtotal.TabIndex = 3;
@@ -693,7 +693,7 @@
             // 
             // txtSubtotal
             // 
-            this.txtSubtotal.Location = new System.Drawing.Point(299, 52);
+            this.txtSubtotal.Location = new System.Drawing.Point(299, 24);
             this.txtSubtotal.Name = "txtSubtotal";
             this.txtSubtotal.ReadOnly = true;
             this.txtSubtotal.Size = new System.Drawing.Size(100, 22);
@@ -704,7 +704,7 @@
             // lblDiscount
             // 
             this.lblDiscount.AutoSize = true;
-            this.lblDiscount.Location = new System.Drawing.Point(233, 27);
+            this.lblDiscount.Location = new System.Drawing.Point(233, 55);
             this.lblDiscount.Name = "lblDiscount";
             this.lblDiscount.Size = new System.Drawing.Size(60, 16);
             this.lblDiscount.TabIndex = 1;
@@ -712,7 +712,7 @@
             // 
             // txtDiscount
             // 
-            this.txtDiscount.Location = new System.Drawing.Point(299, 24);
+            this.txtDiscount.Location = new System.Drawing.Point(299, 52);
             this.txtDiscount.Name = "txtDiscount";
             this.txtDiscount.Size = new System.Drawing.Size(100, 22);
             this.txtDiscount.TabIndex = 78;
