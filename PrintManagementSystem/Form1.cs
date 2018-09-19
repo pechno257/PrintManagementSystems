@@ -1100,17 +1100,29 @@ namespace PrintManagementSystem
             Double.TryParse(txtDiscount.Text, out discount);
             Double.TryParse(txtShipping.Text, out shipping);
 
-            // This code will calculate the Subtotal and display the result in the Subtotal field
-            txtDiscount.Text = String.Format("{0:0.00}", discount);
+            // Format Shipping textbox
             txtShipping.Text = String.Format("{0:0.00}", shipping);
 
+            // Add a minus to discount value and turn the color to red when != 0
+            if (discount != 0)
+            {
+                txtDiscount.ForeColor = Color.Red;
+                txtDiscount.Text ="-" + String.Format("{0:0.00}", discount);
+                
+            } else
+            {
+                txtDiscount.ForeColor = Color.Black;
+                txtDiscount.Text = String.Format("{0:0.00}", discount);
+            }
+
+            // This code will calculate the Subtotal and display the result in the Subtotal field
             subtotal = _4x6_Pop + _5x7_Pop + _8x10_Pop + _11x14_Pop + _16x20_Lg + _20x24_Lg + _20x30_Lg + _24x30_Lg + _30x40_Lg + _3x5 +
                 _4x5 + _4x6 + _4x12 + _5x5 + _5x7 + _6x9 + _6x18 + _8x10 + _8x12 + _8x11 + _9x12 + _10x10 + _10x13 + _10x15 + _11x14 +
-                _11x17 + _12x12 + _12x18 + _16x16 + _16x20 + _16x24 + _20x20 + _20x24 + _20x30 + _24x24 + _24x30 + _24x36 + _30x30 + _30x40 - discount;
+                _11x17 + _12x12 + _12x18 + _16x16 + _16x20 + _16x24 + _20x20 + _20x24 + _20x30 + _24x24 + _24x30 + _24x36 + _30x30 + _30x40;
             txtSubtotal.Text = String.Format("{0:0.00}", subtotal);
 
             // This code will calculate the Grand Total and display the result in the GrandTotal field
-            grandTotal = subtotal + shipping;
+            grandTotal = subtotal + shipping - discount;
             txtGrandTotal.Text = String.Format("{0:0.00}", grandTotal);
         }
 
@@ -1177,6 +1189,7 @@ namespace PrintManagementSystem
             txtSubtotal.Text = "0";
             txtDiscount.Text = "0";
             txtShipping.Text = "0";
+            txtShipping.ForeColor = Color.Black;
             txtGrandTotal.Text = "0";
         }
         // Exits the Application when clicking on the Exit button
