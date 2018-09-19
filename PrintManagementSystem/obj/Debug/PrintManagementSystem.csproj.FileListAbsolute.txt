@@ -27,4 +27,4 @@ D:\projects\source\repos\PrintManagementSystems\PrintManagementSystem\obj\Debug\
 D:\projects\source\repos\PrintManagementSystems\PrintManagementSystem\obj\Debug\PrintManagementSystem.exe
 D:\projects\source\repos\PrintManagementSystems\PrintManagementSystem\obj\Debug\PrintManagementSystem.pdb
 C:\Users\jean\source\repos\PrintManagementSystems\PrintManagementSystem\obj\Debug\PrintManagementSystem.lblSubtotal.resources
-D:\projects\source\repos\PrintManagementSystems\PrintManagementSystem\obj\Debug\PrintManagementSystem.lblSubtotal.resources
+D:\projects\source\repos\PrintManagementSystems\PrintManagementSystem\obj\Debug\PrintManagementSystem.Form1.resources

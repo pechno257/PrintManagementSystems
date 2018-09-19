@@ -16,7 +16,7 @@ namespace PrintManagementSystem
         {
             InitializeComponent();
         }
-
+        
         // Enabling numericUpDown's and Textboxes when corresponding checkbox is checked
 
         // Popular print sizes
@@ -1039,7 +1039,7 @@ namespace PrintManagementSystem
         }
 
         // Checkout to calculate Order Total
-        private void btnTotal_Click(object sender, EventArgs e)
+        private void btnCheckOut_Click(object sender, EventArgs e)
         {
             /// Popular print sizes
             double _4x6_Pop, _5x7_Pop, _8x10_Pop, _11x14_Pop;
@@ -1048,7 +1048,8 @@ namespace PrintManagementSystem
             // All print sizes
             double _3x5, _4x5, _4x6, _4x12, _5x5, _5x7, _6x9, _6x18, _8x10, _8x12, _8x11, _9x12, _10x10, _10x13, _10x15, _11x14, 
                 _11x17, _12x12, _12x18, _16x16, _16x20, _16x24, _20x20, _20x24, _20x30, _24x24, _24x30, _24x36, _30x30, _30x40;
-            double discount, subtotal, tax, grandTotal;
+
+            double discount, subtotal, shipping, grandTotal;
 
             // Casting line total text into a double
             // Popular print sizes
@@ -1096,12 +1097,16 @@ namespace PrintManagementSystem
             Double.TryParse(txt30x30.Text, out _30x30);
             Double.TryParse(txt30x40.Text, out _30x40);
             Double.TryParse(txtDiscount.Text, out discount);
-            Double.TryParse(txtTax.Text, out tax);
+            Double.TryParse(txtShipping.Text, out shipping);
 
+            // This code will calculate the Subtotal and display the result in the Subtotal field
             subtotal = _4x6_Pop + _5x7_Pop + _8x10_Pop + _11x14_Pop + _16x20_Lg + _20x24_Lg + _20x30_Lg + _24x30_Lg + _30x40_Lg + _3x5 +
                 _4x5 + _4x6 + _4x12 + _5x5 + _5x7 + _6x9 + _6x18 + _8x10 + _8x12 + _8x11 + _9x12 + _10x10 + _10x13 + _10x15 + _11x14 +
                 _11x17 + _12x12 + _12x18 + _16x16 + _16x20 + _16x24 + _20x20 + _20x24 + _20x30 + _24x24 + _24x30 + _24x36 + _30x30 + _30x40 - discount;
             txtSubtotal.Text = subtotal.ToString();
+            // This code will calculate the Grand Total and display the result in the GrandTotal field
+            grandTotal = subtotal + shipping;
+            txtGrandTotal.Text = grandTotal.ToString();
         }
 
         private void btnReceipt_Click(object sender, EventArgs e)
@@ -1210,6 +1215,7 @@ namespace PrintManagementSystem
             printPreviewDialog1.Document = printDocument1;
             printPreviewDialog1.ShowDialog();
         }
+
 
     }
 }

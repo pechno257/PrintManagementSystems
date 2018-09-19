@@ -174,7 +174,7 @@
             this.btnExit = new System.Windows.Forms.Button();
             this.btnReset = new System.Windows.Forms.Button();
             this.btnReceipt = new System.Windows.Forms.Button();
-            this.btnTotal = new System.Windows.Forms.Button();
+            this.btnCheckOut = new System.Windows.Forms.Button();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
             this.panel1.SuspendLayout();
@@ -645,7 +645,7 @@
             // 
             this.lblGrandTotal.AutoSize = true;
             this.lblGrandTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGrandTotal.Location = new System.Drawing.Point(207, 131);
+            this.lblGrandTotal.Location = new System.Drawing.Point(207, 111);
             this.lblGrandTotal.Name = "lblGrandTotal";
             this.lblGrandTotal.Size = new System.Drawing.Size(86, 16);
             this.lblGrandTotal.TabIndex = 9;
@@ -653,7 +653,7 @@
             // 
             // txtGrandTotal
             // 
-            this.txtGrandTotal.Location = new System.Drawing.Point(299, 128);
+            this.txtGrandTotal.Location = new System.Drawing.Point(299, 108);
             this.txtGrandTotal.Name = "txtGrandTotal";
             this.txtGrandTotal.ReadOnly = true;
             this.txtGrandTotal.Size = new System.Drawing.Size(100, 22);
@@ -663,7 +663,7 @@
             // lblShipping
             // 
             this.lblShipping.AutoSize = true;
-            this.lblShipping.Location = new System.Drawing.Point(232, 103);
+            this.lblShipping.Location = new System.Drawing.Point(232, 83);
             this.lblShipping.Name = "lblShipping";
             this.lblShipping.Size = new System.Drawing.Size(61, 16);
             this.lblShipping.TabIndex = 7;
@@ -671,7 +671,7 @@
             // 
             // txtShipping
             // 
-            this.txtShipping.Location = new System.Drawing.Point(299, 100);
+            this.txtShipping.Location = new System.Drawing.Point(299, 80);
             this.txtShipping.Name = "txtShipping";
             this.txtShipping.Size = new System.Drawing.Size(100, 22);
             this.txtShipping.TabIndex = 6;
@@ -681,7 +681,7 @@
             // 
             this.lblSubtotal.AutoSize = true;
             this.lblSubtotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSubtotal.Location = new System.Drawing.Point(228, 47);
+            this.lblSubtotal.Location = new System.Drawing.Point(228, 55);
             this.lblSubtotal.Name = "lblSubtotal";
             this.lblSubtotal.Size = new System.Drawing.Size(65, 16);
             this.lblSubtotal.TabIndex = 3;
@@ -689,7 +689,7 @@
             // 
             // txtSubtotal
             // 
-            this.txtSubtotal.Location = new System.Drawing.Point(299, 44);
+            this.txtSubtotal.Location = new System.Drawing.Point(299, 52);
             this.txtSubtotal.Name = "txtSubtotal";
             this.txtSubtotal.ReadOnly = true;
             this.txtSubtotal.Size = new System.Drawing.Size(100, 22);
@@ -699,7 +699,7 @@
             // lblDiscount
             // 
             this.lblDiscount.AutoSize = true;
-            this.lblDiscount.Location = new System.Drawing.Point(233, 19);
+            this.lblDiscount.Location = new System.Drawing.Point(233, 27);
             this.lblDiscount.Name = "lblDiscount";
             this.lblDiscount.Size = new System.Drawing.Size(60, 16);
             this.lblDiscount.TabIndex = 1;
@@ -707,7 +707,7 @@
             // 
             // txtDiscount
             // 
-            this.txtDiscount.Location = new System.Drawing.Point(299, 16);
+            this.txtDiscount.Location = new System.Drawing.Point(299, 24);
             this.txtDiscount.Name = "txtDiscount";
             this.txtDiscount.Size = new System.Drawing.Size(100, 22);
             this.txtDiscount.TabIndex = 78;
@@ -1956,7 +1956,7 @@
             this.panel4.Controls.Add(this.btnExit);
             this.panel4.Controls.Add(this.btnReset);
             this.panel4.Controls.Add(this.btnReceipt);
-            this.panel4.Controls.Add(this.btnTotal);
+            this.panel4.Controls.Add(this.btnCheckOut);
             this.panel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel4.Location = new System.Drawing.Point(858, 550);
             this.panel4.Name = "panel4";
@@ -1994,15 +1994,15 @@
             this.btnReceipt.UseVisualStyleBackColor = true;
             this.btnReceipt.Click += new System.EventHandler(this.btnReceipt_Click);
             // 
-            // btnTotal
+            // btnCheckOut
             // 
-            this.btnTotal.Location = new System.Drawing.Point(48, 15);
-            this.btnTotal.Name = "btnTotal";
-            this.btnTotal.Size = new System.Drawing.Size(75, 23);
-            this.btnTotal.TabIndex = 79;
-            this.btnTotal.Text = "Total";
-            this.btnTotal.UseVisualStyleBackColor = true;
-            this.btnTotal.Click += new System.EventHandler(this.btnTotal_Click);
+            this.btnCheckOut.Location = new System.Drawing.Point(48, 15);
+            this.btnCheckOut.Name = "btnCheckOut";
+            this.btnCheckOut.Size = new System.Drawing.Size(75, 23);
+            this.btnCheckOut.TabIndex = 79;
+            this.btnCheckOut.Text = "Checkout";
+            this.btnCheckOut.UseVisualStyleBackColor = true;
+            this.btnCheckOut.Click += new System.EventHandler(this.btnCheckOut_Click);
             // 
             // printDocument1
             // 
@@ -2225,7 +2225,7 @@
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnReset;
         private System.Windows.Forms.Button btnReceipt;
-        private System.Windows.Forms.Button btnTotal;
+        private System.Windows.Forms.Button btnCheckOut;
         private System.Windows.Forms.Label lblGrandTotal;
         private System.Windows.Forms.TextBox txtGrandTotal;
         private System.Windows.Forms.Label lblShipping;
