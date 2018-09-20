@@ -173,7 +173,7 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnReset = new System.Windows.Forms.Button();
-            this.btnReceipt = new System.Windows.Forms.Button();
+            this.btnOrder = new System.Windows.Forms.Button();
             this.btnCheckOut = new System.Windows.Forms.Button();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
@@ -1961,7 +1961,7 @@
             this.panel4.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel4.Controls.Add(this.btnExit);
             this.panel4.Controls.Add(this.btnReset);
-            this.panel4.Controls.Add(this.btnReceipt);
+            this.panel4.Controls.Add(this.btnOrder);
             this.panel4.Controls.Add(this.btnCheckOut);
             this.panel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel4.Location = new System.Drawing.Point(858, 550);
@@ -1972,7 +1972,7 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(291, 15);
+            this.btnExit.Location = new System.Drawing.Point(300, 15);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 82;
@@ -1982,7 +1982,7 @@
             // 
             // btnReset
             // 
-            this.btnReset.Location = new System.Drawing.Point(210, 15);
+            this.btnReset.Location = new System.Drawing.Point(219, 15);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(75, 23);
             this.btnReset.TabIndex = 81;
@@ -1990,21 +1990,21 @@
             this.btnReset.UseVisualStyleBackColor = true;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
-            // btnReceipt
+            // btnOrder
             // 
-            this.btnReceipt.Location = new System.Drawing.Point(129, 15);
-            this.btnReceipt.Name = "btnReceipt";
-            this.btnReceipt.Size = new System.Drawing.Size(75, 23);
-            this.btnReceipt.TabIndex = 80;
-            this.btnReceipt.Text = "Receipt";
-            this.btnReceipt.UseVisualStyleBackColor = true;
-            this.btnReceipt.Click += new System.EventHandler(this.btnReceipt_Click);
+            this.btnOrder.Location = new System.Drawing.Point(123, 15);
+            this.btnOrder.Name = "btnOrder";
+            this.btnOrder.Size = new System.Drawing.Size(90, 23);
+            this.btnOrder.TabIndex = 80;
+            this.btnOrder.Text = "Place Order";
+            this.btnOrder.UseVisualStyleBackColor = true;
+            this.btnOrder.Click += new System.EventHandler(this.btnReceipt_Click);
             // 
             // btnCheckOut
             // 
-            this.btnCheckOut.Location = new System.Drawing.Point(48, 15);
+            this.btnCheckOut.Location = new System.Drawing.Point(39, 15);
             this.btnCheckOut.Name = "btnCheckOut";
-            this.btnCheckOut.Size = new System.Drawing.Size(75, 23);
+            this.btnCheckOut.Size = new System.Drawing.Size(78, 23);
             this.btnCheckOut.TabIndex = 79;
             this.btnCheckOut.Text = "Checkout";
             this.btnCheckOut.UseVisualStyleBackColor = true;
@@ -2230,7 +2230,7 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnReset;
-        private System.Windows.Forms.Button btnReceipt;
+        private System.Windows.Forms.Button btnOrder;
         private System.Windows.Forms.Button btnCheckOut;
         private System.Windows.Forms.Label lblGrandTotal;
         private System.Windows.Forms.TextBox txtGrandTotal;
