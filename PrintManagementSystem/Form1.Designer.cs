@@ -266,7 +266,7 @@
             this.txt11x14_Pop.Location = new System.Drawing.Point(126, 101);
             this.txt11x14_Pop.Name = "txt11x14_Pop";
             this.txt11x14_Pop.ReadOnly = true;
-            this.txt11x14_Pop.Size = new System.Drawing.Size(42, 22);
+            this.txt11x14_Pop.Size = new System.Drawing.Size(52, 22);
             this.txt11x14_Pop.TabIndex = 999;
             this.txt11x14_Pop.Text = "0";
             this.txt11x14_Pop.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -289,7 +289,7 @@
             this.txt8x10_Pop.Location = new System.Drawing.Point(126, 75);
             this.txt8x10_Pop.Name = "txt8x10_Pop";
             this.txt8x10_Pop.ReadOnly = true;
-            this.txt8x10_Pop.Size = new System.Drawing.Size(42, 22);
+            this.txt8x10_Pop.Size = new System.Drawing.Size(52, 22);
             this.txt8x10_Pop.TabIndex = 999;
             this.txt8x10_Pop.Text = "0";
             this.txt8x10_Pop.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -312,7 +312,7 @@
             this.txt5x7_Pop.Location = new System.Drawing.Point(126, 49);
             this.txt5x7_Pop.Name = "txt5x7_Pop";
             this.txt5x7_Pop.ReadOnly = true;
-            this.txt5x7_Pop.Size = new System.Drawing.Size(42, 22);
+            this.txt5x7_Pop.Size = new System.Drawing.Size(52, 22);
             this.txt5x7_Pop.TabIndex = 999;
             this.txt5x7_Pop.Text = "0";
             this.txt5x7_Pop.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -335,7 +335,7 @@
             this.txt4x6_Pop.Location = new System.Drawing.Point(126, 23);
             this.txt4x6_Pop.Name = "txt4x6_Pop";
             this.txt4x6_Pop.ReadOnly = true;
-            this.txt4x6_Pop.Size = new System.Drawing.Size(42, 22);
+            this.txt4x6_Pop.Size = new System.Drawing.Size(52, 22);
             this.txt4x6_Pop.TabIndex = 999;
             this.txt4x6_Pop.Text = "0";
             this.txt4x6_Pop.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -444,7 +444,7 @@
             this.txt20x24_Lg.Location = new System.Drawing.Point(126, 49);
             this.txt20x24_Lg.Name = "txt20x24_Lg";
             this.txt20x24_Lg.ReadOnly = true;
-            this.txt20x24_Lg.Size = new System.Drawing.Size(42, 22);
+            this.txt20x24_Lg.Size = new System.Drawing.Size(52, 22);
             this.txt20x24_Lg.TabIndex = 999;
             this.txt20x24_Lg.Text = "0";
             this.txt20x24_Lg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -467,7 +467,7 @@
             this.txt30x40_Lg.Location = new System.Drawing.Point(126, 127);
             this.txt30x40_Lg.Name = "txt30x40_Lg";
             this.txt30x40_Lg.ReadOnly = true;
-            this.txt30x40_Lg.Size = new System.Drawing.Size(42, 22);
+            this.txt30x40_Lg.Size = new System.Drawing.Size(52, 22);
             this.txt30x40_Lg.TabIndex = 999;
             this.txt30x40_Lg.Text = "0";
             this.txt30x40_Lg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -490,7 +490,7 @@
             this.txt24x30_Lg.Location = new System.Drawing.Point(126, 101);
             this.txt24x30_Lg.Name = "txt24x30_Lg";
             this.txt24x30_Lg.ReadOnly = true;
-            this.txt24x30_Lg.Size = new System.Drawing.Size(42, 22);
+            this.txt24x30_Lg.Size = new System.Drawing.Size(52, 22);
             this.txt24x30_Lg.TabIndex = 999;
             this.txt24x30_Lg.Text = "0";
             this.txt24x30_Lg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -513,7 +513,7 @@
             this.txt20x30_Lg.Location = new System.Drawing.Point(126, 75);
             this.txt20x30_Lg.Name = "txt20x30_Lg";
             this.txt20x30_Lg.ReadOnly = true;
-            this.txt20x30_Lg.Size = new System.Drawing.Size(42, 22);
+            this.txt20x30_Lg.Size = new System.Drawing.Size(52, 22);
             this.txt20x30_Lg.TabIndex = 999;
             this.txt20x30_Lg.Text = "0";
             this.txt20x30_Lg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -536,7 +536,7 @@
             this.txt16x20_Lg.Location = new System.Drawing.Point(126, 23);
             this.txt16x20_Lg.Name = "txt16x20_Lg";
             this.txt16x20_Lg.ReadOnly = true;
-            this.txt16x20_Lg.Size = new System.Drawing.Size(42, 22);
+            this.txt16x20_Lg.Size = new System.Drawing.Size(52, 22);
             this.txt16x20_Lg.TabIndex = 999;
             this.txt16x20_Lg.Text = "0";
             this.txt16x20_Lg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -924,7 +924,7 @@
             this.txt30x40.Location = new System.Drawing.Point(357, 387);
             this.txt30x40.Name = "txt30x40";
             this.txt30x40.ReadOnly = true;
-            this.txt30x40.Size = new System.Drawing.Size(42, 22);
+            this.txt30x40.Size = new System.Drawing.Size(52, 22);
             this.txt30x40.TabIndex = 999;
             this.txt30x40.Text = "0";
             this.txt30x40.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -959,7 +959,7 @@
             this.txt30x30.Location = new System.Drawing.Point(357, 361);
             this.txt30x30.Name = "txt30x30";
             this.txt30x30.ReadOnly = true;
-            this.txt30x30.Size = new System.Drawing.Size(42, 22);
+            this.txt30x30.Size = new System.Drawing.Size(52, 22);
             this.txt30x30.TabIndex = 999;
             this.txt30x30.Text = "0";
             this.txt30x30.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -994,7 +994,7 @@
             this.txt24x24.Location = new System.Drawing.Point(357, 283);
             this.txt24x24.Name = "txt24x24";
             this.txt24x24.ReadOnly = true;
-            this.txt24x24.Size = new System.Drawing.Size(42, 22);
+            this.txt24x24.Size = new System.Drawing.Size(52, 22);
             this.txt24x24.TabIndex = 999;
             this.txt24x24.Text = "0";
             this.txt24x24.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1029,7 +1029,7 @@
             this.txt20x30.Location = new System.Drawing.Point(357, 257);
             this.txt20x30.Name = "txt20x30";
             this.txt20x30.ReadOnly = true;
-            this.txt20x30.Size = new System.Drawing.Size(42, 22);
+            this.txt20x30.Size = new System.Drawing.Size(52, 22);
             this.txt20x30.TabIndex = 999;
             this.txt20x30.Text = "0";
             this.txt20x30.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1052,7 +1052,7 @@
             this.txt20x24.Location = new System.Drawing.Point(357, 231);
             this.txt20x24.Name = "txt20x24";
             this.txt20x24.ReadOnly = true;
-            this.txt20x24.Size = new System.Drawing.Size(42, 22);
+            this.txt20x24.Size = new System.Drawing.Size(52, 22);
             this.txt20x24.TabIndex = 999;
             this.txt20x24.Text = "0";
             this.txt20x24.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1086,7 +1086,7 @@
             this.txt20x20.Location = new System.Drawing.Point(357, 205);
             this.txt20x20.Name = "txt20x20";
             this.txt20x20.ReadOnly = true;
-            this.txt20x20.Size = new System.Drawing.Size(42, 22);
+            this.txt20x20.Size = new System.Drawing.Size(52, 22);
             this.txt20x20.TabIndex = 999;
             this.txt20x20.Text = "0";
             this.txt20x20.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1098,7 +1098,7 @@
             this.txt24x30.Location = new System.Drawing.Point(357, 309);
             this.txt24x30.Name = "txt24x30";
             this.txt24x30.ReadOnly = true;
-            this.txt24x30.Size = new System.Drawing.Size(42, 22);
+            this.txt24x30.Size = new System.Drawing.Size(52, 22);
             this.txt24x30.TabIndex = 999;
             this.txt24x30.Text = "0";
             this.txt24x30.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1122,7 +1122,7 @@
             this.txt24x36.Location = new System.Drawing.Point(357, 335);
             this.txt24x36.Name = "txt24x36";
             this.txt24x36.ReadOnly = true;
-            this.txt24x36.Size = new System.Drawing.Size(42, 22);
+            this.txt24x36.Size = new System.Drawing.Size(52, 22);
             this.txt24x36.TabIndex = 999;
             this.txt24x36.Text = "0";
             this.txt24x36.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1192,7 +1192,7 @@
             this.txt16x24.Location = new System.Drawing.Point(357, 179);
             this.txt16x24.Name = "txt16x24";
             this.txt16x24.ReadOnly = true;
-            this.txt16x24.Size = new System.Drawing.Size(42, 22);
+            this.txt16x24.Size = new System.Drawing.Size(52, 22);
             this.txt16x24.TabIndex = 999;
             this.txt16x24.Text = "0";
             this.txt16x24.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1215,7 +1215,7 @@
             this.txt16x20.Location = new System.Drawing.Point(357, 153);
             this.txt16x20.Name = "txt16x20";
             this.txt16x20.ReadOnly = true;
-            this.txt16x20.Size = new System.Drawing.Size(42, 22);
+            this.txt16x20.Size = new System.Drawing.Size(52, 22);
             this.txt16x20.TabIndex = 999;
             this.txt16x20.Text = "0";
             this.txt16x20.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1238,7 +1238,7 @@
             this.txt16x16.Location = new System.Drawing.Point(357, 127);
             this.txt16x16.Name = "txt16x16";
             this.txt16x16.ReadOnly = true;
-            this.txt16x16.Size = new System.Drawing.Size(42, 22);
+            this.txt16x16.Size = new System.Drawing.Size(52, 22);
             this.txt16x16.TabIndex = 999;
             this.txt16x16.Text = "0";
             this.txt16x16.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1261,7 +1261,7 @@
             this.txt12x18.Location = new System.Drawing.Point(357, 101);
             this.txt12x18.Name = "txt12x18";
             this.txt12x18.ReadOnly = true;
-            this.txt12x18.Size = new System.Drawing.Size(42, 22);
+            this.txt12x18.Size = new System.Drawing.Size(52, 22);
             this.txt12x18.TabIndex = 999;
             this.txt12x18.Text = "0";
             this.txt12x18.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1332,7 +1332,7 @@
             this.txt10x13.Location = new System.Drawing.Point(133, 361);
             this.txt10x13.Name = "txt10x13";
             this.txt10x13.ReadOnly = true;
-            this.txt10x13.Size = new System.Drawing.Size(42, 22);
+            this.txt10x13.Size = new System.Drawing.Size(52, 22);
             this.txt10x13.TabIndex = 999;
             this.txt10x13.Text = "0";
             this.txt10x13.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1355,7 +1355,7 @@
             this.txt10x10.Location = new System.Drawing.Point(133, 335);
             this.txt10x10.Name = "txt10x10";
             this.txt10x10.ReadOnly = true;
-            this.txt10x10.Size = new System.Drawing.Size(42, 22);
+            this.txt10x10.Size = new System.Drawing.Size(52, 22);
             this.txt10x10.TabIndex = 999;
             this.txt10x10.Text = "0";
             this.txt10x10.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1378,7 +1378,7 @@
             this.txt9x12.Location = new System.Drawing.Point(133, 309);
             this.txt9x12.Name = "txt9x12";
             this.txt9x12.ReadOnly = true;
-            this.txt9x12.Size = new System.Drawing.Size(42, 22);
+            this.txt9x12.Size = new System.Drawing.Size(52, 22);
             this.txt9x12.TabIndex = 999;
             this.txt9x12.Text = "0";
             this.txt9x12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1437,7 +1437,7 @@
             this.txt12x12.Location = new System.Drawing.Point(357, 75);
             this.txt12x12.Name = "txt12x12";
             this.txt12x12.ReadOnly = true;
-            this.txt12x12.Size = new System.Drawing.Size(42, 22);
+            this.txt12x12.Size = new System.Drawing.Size(52, 22);
             this.txt12x12.TabIndex = 999;
             this.txt12x12.Text = "0";
             this.txt12x12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1460,7 +1460,7 @@
             this.txt11x17.Location = new System.Drawing.Point(357, 49);
             this.txt11x17.Name = "txt11x17";
             this.txt11x17.ReadOnly = true;
-            this.txt11x17.Size = new System.Drawing.Size(42, 22);
+            this.txt11x17.Size = new System.Drawing.Size(52, 22);
             this.txt11x17.TabIndex = 999;
             this.txt11x17.Text = "0";
             this.txt11x17.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1483,7 +1483,7 @@
             this.txt11x14.Location = new System.Drawing.Point(357, 23);
             this.txt11x14.Name = "txt11x14";
             this.txt11x14.ReadOnly = true;
-            this.txt11x14.Size = new System.Drawing.Size(42, 22);
+            this.txt11x14.Size = new System.Drawing.Size(52, 22);
             this.txt11x14.TabIndex = 999;
             this.txt11x14.Text = "0";
             this.txt11x14.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1506,7 +1506,7 @@
             this.txt10x15.Location = new System.Drawing.Point(133, 387);
             this.txt10x15.Name = "txt10x15";
             this.txt10x15.ReadOnly = true;
-            this.txt10x15.Size = new System.Drawing.Size(42, 22);
+            this.txt10x15.Size = new System.Drawing.Size(52, 22);
             this.txt10x15.TabIndex = 999;
             this.txt10x15.Text = "0";
             this.txt10x15.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1529,7 +1529,7 @@
             this.txt8x11.Location = new System.Drawing.Point(133, 283);
             this.txt8x11.Name = "txt8x11";
             this.txt8x11.ReadOnly = true;
-            this.txt8x11.Size = new System.Drawing.Size(42, 22);
+            this.txt8x11.Size = new System.Drawing.Size(52, 22);
             this.txt8x11.TabIndex = 999;
             this.txt8x11.Text = "0";
             this.txt8x11.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1552,7 +1552,7 @@
             this.txt8x12.Location = new System.Drawing.Point(133, 257);
             this.txt8x12.Name = "txt8x12";
             this.txt8x12.ReadOnly = true;
-            this.txt8x12.Size = new System.Drawing.Size(42, 22);
+            this.txt8x12.Size = new System.Drawing.Size(52, 22);
             this.txt8x12.TabIndex = 999;
             this.txt8x12.Text = "0";
             this.txt8x12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1575,7 +1575,7 @@
             this.txt8x10.Location = new System.Drawing.Point(133, 231);
             this.txt8x10.Name = "txt8x10";
             this.txt8x10.ReadOnly = true;
-            this.txt8x10.Size = new System.Drawing.Size(42, 22);
+            this.txt8x10.Size = new System.Drawing.Size(52, 22);
             this.txt8x10.TabIndex = 999;
             this.txt8x10.Text = "0";
             this.txt8x10.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1598,7 +1598,7 @@
             this.txt6x18.Location = new System.Drawing.Point(133, 205);
             this.txt6x18.Name = "txt6x18";
             this.txt6x18.ReadOnly = true;
-            this.txt6x18.Size = new System.Drawing.Size(42, 22);
+            this.txt6x18.Size = new System.Drawing.Size(52, 22);
             this.txt6x18.TabIndex = 999;
             this.txt6x18.Text = "0";
             this.txt6x18.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1621,7 +1621,7 @@
             this.txt6x9.Location = new System.Drawing.Point(133, 179);
             this.txt6x9.Name = "txt6x9";
             this.txt6x9.ReadOnly = true;
-            this.txt6x9.Size = new System.Drawing.Size(42, 22);
+            this.txt6x9.Size = new System.Drawing.Size(52, 22);
             this.txt6x9.TabIndex = 999;
             this.txt6x9.Text = "0";
             this.txt6x9.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1644,7 +1644,7 @@
             this.txt5x7.Location = new System.Drawing.Point(133, 153);
             this.txt5x7.Name = "txt5x7";
             this.txt5x7.ReadOnly = true;
-            this.txt5x7.Size = new System.Drawing.Size(42, 22);
+            this.txt5x7.Size = new System.Drawing.Size(52, 22);
             this.txt5x7.TabIndex = 999;
             this.txt5x7.Text = "0";
             this.txt5x7.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1667,7 +1667,7 @@
             this.txt5x5.Location = new System.Drawing.Point(133, 127);
             this.txt5x5.Name = "txt5x5";
             this.txt5x5.ReadOnly = true;
-            this.txt5x5.Size = new System.Drawing.Size(42, 22);
+            this.txt5x5.Size = new System.Drawing.Size(52, 22);
             this.txt5x5.TabIndex = 999;
             this.txt5x5.Text = "0";
             this.txt5x5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1690,7 +1690,7 @@
             this.txt4x12.Location = new System.Drawing.Point(133, 101);
             this.txt4x12.Name = "txt4x12";
             this.txt4x12.ReadOnly = true;
-            this.txt4x12.Size = new System.Drawing.Size(42, 22);
+            this.txt4x12.Size = new System.Drawing.Size(52, 22);
             this.txt4x12.TabIndex = 999;
             this.txt4x12.Text = "0";
             this.txt4x12.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1713,7 +1713,7 @@
             this.txt4x6.Location = new System.Drawing.Point(133, 75);
             this.txt4x6.Name = "txt4x6";
             this.txt4x6.ReadOnly = true;
-            this.txt4x6.Size = new System.Drawing.Size(42, 22);
+            this.txt4x6.Size = new System.Drawing.Size(52, 22);
             this.txt4x6.TabIndex = 999;
             this.txt4x6.Text = "0";
             this.txt4x6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1736,7 +1736,7 @@
             this.txt4x5.Location = new System.Drawing.Point(133, 49);
             this.txt4x5.Name = "txt4x5";
             this.txt4x5.ReadOnly = true;
-            this.txt4x5.Size = new System.Drawing.Size(42, 22);
+            this.txt4x5.Size = new System.Drawing.Size(52, 22);
             this.txt4x5.TabIndex = 999;
             this.txt4x5.Text = "0";
             this.txt4x5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -1759,7 +1759,7 @@
             this.txt3x5.Location = new System.Drawing.Point(133, 23);
             this.txt3x5.Name = "txt3x5";
             this.txt3x5.ReadOnly = true;
-            this.txt3x5.Size = new System.Drawing.Size(42, 22);
+            this.txt3x5.Size = new System.Drawing.Size(52, 22);
             this.txt3x5.TabIndex = 999;
             this.txt3x5.Text = "0";
             this.txt3x5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
