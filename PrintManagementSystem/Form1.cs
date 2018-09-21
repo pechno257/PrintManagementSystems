@@ -1032,7 +1032,7 @@ namespace PrintManagementSystem
 
         private void num30x40_ValueChanged(object sender, EventArgs e)
         {
-            var units_30x40 = (int)num16x24.Value;
+            var units_30x40 = (int)num30x40.Value;
             double price_30x40 = 269.95;
             double value_30x40 = units_30x40 * price_30x40;
             txt30x40.Text = String.Format("{0:0.00}", value_30x40);
