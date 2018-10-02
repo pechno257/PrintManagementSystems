@@ -42,6 +42,7 @@
             this.chk8x10_Pop = new System.Windows.Forms.CheckBox();
             this.chk5x7_Pop = new System.Windows.Forms.CheckBox();
             this.chk4x6_Pop = new System.Windows.Forms.CheckBox();
+            this.lblPopSizes = new System.Windows.Forms.Label();
             this.LargePrints = new System.Windows.Forms.Panel();
             this.num20x24_Lg = new System.Windows.Forms.NumericUpDown();
             this.txt20x24_Lg = new System.Windows.Forms.TextBox();
@@ -60,6 +61,12 @@
             this.chk20x30_Lg = new System.Windows.Forms.CheckBox();
             this.lblLargeSizes = new System.Windows.Forms.Label();
             this.Shipping = new System.Windows.Forms.Panel();
+            this.ShippingDisclaimer = new System.Windows.Forms.Label();
+            this.OneDayShipping = new System.Windows.Forms.RadioButton();
+            this.TwoDayShipping = new System.Windows.Forms.RadioButton();
+            this.FiveDayShipping = new System.Windows.Forms.RadioButton();
+            this.SevenDayShipping = new System.Windows.Forms.RadioButton();
+            this.ShippingOptions = new System.Windows.Forms.Label();
             this.OrderCharges = new System.Windows.Forms.Panel();
             this.lblGrandTotal = new System.Windows.Forms.Label();
             this.txtGrandTotal = new System.Windows.Forms.TextBox();
@@ -176,13 +183,6 @@
             this.btnCheckOut = new System.Windows.Forms.Button();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
-            this.lblPopSizes = new System.Windows.Forms.Label();
-            this.ShippingOptions = new System.Windows.Forms.Label();
-            this.SevenDayShipping = new System.Windows.Forms.RadioButton();
-            this.FiveDayShipping = new System.Windows.Forms.RadioButton();
-            this.TwoDayShipping = new System.Windows.Forms.RadioButton();
-            this.OneDayShipping = new System.Windows.Forms.RadioButton();
-            this.ShippingDisclaimer = new System.Windows.Forms.Label();
             this.PopularPrints.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.num11x14_Pop)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.num8x10_Pop)).BeginInit();
@@ -394,6 +394,18 @@
             this.chk4x6_Pop.Text = "4x6";
             this.chk4x6_Pop.UseVisualStyleBackColor = true;
             this.chk4x6_Pop.CheckStateChanged += new System.EventHandler(this.chk4x6_Pop_CheckStateChanged);
+            // 
+            // lblPopSizes
+            // 
+            this.lblPopSizes.AutoSize = true;
+            this.lblPopSizes.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.lblPopSizes.Enabled = false;
+            this.lblPopSizes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPopSizes.Location = new System.Drawing.Point(1, 4);
+            this.lblPopSizes.Name = "lblPopSizes";
+            this.lblPopSizes.Size = new System.Drawing.Size(157, 16);
+            this.lblPopSizes.TabIndex = 0;
+            this.lblPopSizes.Text = "POPULAR PRINT SIZES";
             // 
             // LargePrints
             // 
@@ -623,6 +635,79 @@
             this.Shipping.Size = new System.Drawing.Size(415, 167);
             this.Shipping.TabIndex = 0;
             this.Shipping.TabStop = true;
+            // 
+            // ShippingDisclaimer
+            // 
+            this.ShippingDisclaimer.AutoSize = true;
+            this.ShippingDisclaimer.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.ShippingDisclaimer.Enabled = false;
+            this.ShippingDisclaimer.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShippingDisclaimer.ForeColor = System.Drawing.Color.Red;
+            this.ShippingDisclaimer.Location = new System.Drawing.Point(103, 139);
+            this.ShippingDisclaimer.Name = "ShippingDisclaimer";
+            this.ShippingDisclaimer.Size = new System.Drawing.Size(203, 13);
+            this.ShippingDisclaimer.TabIndex = 6;
+            this.ShippingDisclaimer.Text = "Please allow 2 days for processing";
+            // 
+            // OneDayShipping
+            // 
+            this.OneDayShipping.AutoSize = true;
+            this.OneDayShipping.Location = new System.Drawing.Point(27, 105);
+            this.OneDayShipping.Name = "OneDayShipping";
+            this.OneDayShipping.Size = new System.Drawing.Size(167, 20);
+            this.OneDayShipping.TabIndex = 5;
+            this.OneDayShipping.TabStop = true;
+            this.OneDayShipping.Text = "1-Day Shipping ($24.95)";
+            this.OneDayShipping.UseVisualStyleBackColor = true;
+            this.OneDayShipping.CheckedChanged += new System.EventHandler(this.OneDayShipping_CheckedChanged);
+            // 
+            // TwoDayShipping
+            // 
+            this.TwoDayShipping.AutoSize = true;
+            this.TwoDayShipping.Location = new System.Drawing.Point(27, 79);
+            this.TwoDayShipping.Name = "TwoDayShipping";
+            this.TwoDayShipping.Size = new System.Drawing.Size(167, 20);
+            this.TwoDayShipping.TabIndex = 4;
+            this.TwoDayShipping.TabStop = true;
+            this.TwoDayShipping.Text = "2-Day Shipping ($13.95)";
+            this.TwoDayShipping.UseVisualStyleBackColor = true;
+            this.TwoDayShipping.CheckedChanged += new System.EventHandler(this.TwoDayShipping_CheckedChanged);
+            // 
+            // FiveDayShipping
+            // 
+            this.FiveDayShipping.AutoSize = true;
+            this.FiveDayShipping.Location = new System.Drawing.Point(27, 53);
+            this.FiveDayShipping.Name = "FiveDayShipping";
+            this.FiveDayShipping.Size = new System.Drawing.Size(160, 20);
+            this.FiveDayShipping.TabIndex = 3;
+            this.FiveDayShipping.TabStop = true;
+            this.FiveDayShipping.Text = "5-Day Shipping ($7.99)";
+            this.FiveDayShipping.UseVisualStyleBackColor = true;
+            this.FiveDayShipping.CheckedChanged += new System.EventHandler(this.FiveDayShipping_CheckedChanged);
+            // 
+            // SevenDayShipping
+            // 
+            this.SevenDayShipping.AutoSize = true;
+            this.SevenDayShipping.Location = new System.Drawing.Point(27, 27);
+            this.SevenDayShipping.Name = "SevenDayShipping";
+            this.SevenDayShipping.Size = new System.Drawing.Size(160, 20);
+            this.SevenDayShipping.TabIndex = 2;
+            this.SevenDayShipping.TabStop = true;
+            this.SevenDayShipping.Text = "7-Day Shipping ($5.95)";
+            this.SevenDayShipping.UseVisualStyleBackColor = true;
+            this.SevenDayShipping.CheckedChanged += new System.EventHandler(this.SevenDayShipping_CheckedChanged);
+            // 
+            // ShippingOptions
+            // 
+            this.ShippingOptions.AutoSize = true;
+            this.ShippingOptions.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.ShippingOptions.Enabled = false;
+            this.ShippingOptions.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShippingOptions.Location = new System.Drawing.Point(1, 4);
+            this.ShippingOptions.Name = "ShippingOptions";
+            this.ShippingOptions.Size = new System.Drawing.Size(180, 16);
+            this.ShippingOptions.TabIndex = 1;
+            this.ShippingOptions.Text = "SELECT SHIPPING OPTION";
             // 
             // OrderCharges
             // 
@@ -2024,87 +2109,6 @@
             this.printPreviewDialog1.Icon = ((System.Drawing.Icon)(resources.GetObject("printPreviewDialog1.Icon")));
             this.printPreviewDialog1.Name = "printPreviewDialog1";
             this.printPreviewDialog1.Visible = false;
-            // 
-            // lblPopSizes
-            // 
-            this.lblPopSizes.AutoSize = true;
-            this.lblPopSizes.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.lblPopSizes.Enabled = false;
-            this.lblPopSizes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPopSizes.Location = new System.Drawing.Point(1, 4);
-            this.lblPopSizes.Name = "lblPopSizes";
-            this.lblPopSizes.Size = new System.Drawing.Size(157, 16);
-            this.lblPopSizes.TabIndex = 0;
-            this.lblPopSizes.Text = "POPULAR PRINT SIZES";
-            // 
-            // ShippingOptions
-            // 
-            this.ShippingOptions.AutoSize = true;
-            this.ShippingOptions.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.ShippingOptions.Enabled = false;
-            this.ShippingOptions.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShippingOptions.Location = new System.Drawing.Point(1, 4);
-            this.ShippingOptions.Name = "ShippingOptions";
-            this.ShippingOptions.Size = new System.Drawing.Size(180, 16);
-            this.ShippingOptions.TabIndex = 1;
-            this.ShippingOptions.Text = "SELECT SHIPPING OPTION";
-            // 
-            // SevenDayShipping
-            // 
-            this.SevenDayShipping.AutoSize = true;
-            this.SevenDayShipping.Location = new System.Drawing.Point(27, 27);
-            this.SevenDayShipping.Name = "SevenDayShipping";
-            this.SevenDayShipping.Size = new System.Drawing.Size(160, 20);
-            this.SevenDayShipping.TabIndex = 2;
-            this.SevenDayShipping.TabStop = true;
-            this.SevenDayShipping.Text = "7-Day Shipping ($5.95)";
-            this.SevenDayShipping.UseVisualStyleBackColor = true;
-            // 
-            // FiveDayShipping
-            // 
-            this.FiveDayShipping.AutoSize = true;
-            this.FiveDayShipping.Location = new System.Drawing.Point(27, 53);
-            this.FiveDayShipping.Name = "FiveDayShipping";
-            this.FiveDayShipping.Size = new System.Drawing.Size(160, 20);
-            this.FiveDayShipping.TabIndex = 3;
-            this.FiveDayShipping.TabStop = true;
-            this.FiveDayShipping.Text = "5-Day Shipping ($7.99)";
-            this.FiveDayShipping.UseVisualStyleBackColor = true;
-            // 
-            // TwoDayShipping
-            // 
-            this.TwoDayShipping.AutoSize = true;
-            this.TwoDayShipping.Location = new System.Drawing.Point(27, 79);
-            this.TwoDayShipping.Name = "TwoDayShipping";
-            this.TwoDayShipping.Size = new System.Drawing.Size(167, 20);
-            this.TwoDayShipping.TabIndex = 4;
-            this.TwoDayShipping.TabStop = true;
-            this.TwoDayShipping.Text = "2-Day Shipping ($13.95)";
-            this.TwoDayShipping.UseVisualStyleBackColor = true;
-            // 
-            // OneDayShipping
-            // 
-            this.OneDayShipping.AutoSize = true;
-            this.OneDayShipping.Location = new System.Drawing.Point(27, 105);
-            this.OneDayShipping.Name = "OneDayShipping";
-            this.OneDayShipping.Size = new System.Drawing.Size(167, 20);
-            this.OneDayShipping.TabIndex = 5;
-            this.OneDayShipping.TabStop = true;
-            this.OneDayShipping.Text = "1-Day Shipping ($24.95)";
-            this.OneDayShipping.UseVisualStyleBackColor = true;
-            // 
-            // ShippingDisclaimer
-            // 
-            this.ShippingDisclaimer.AutoSize = true;
-            this.ShippingDisclaimer.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.ShippingDisclaimer.Enabled = false;
-            this.ShippingDisclaimer.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShippingDisclaimer.ForeColor = System.Drawing.Color.Red;
-            this.ShippingDisclaimer.Location = new System.Drawing.Point(103, 139);
-            this.ShippingDisclaimer.Name = "ShippingDisclaimer";
-            this.ShippingDisclaimer.Size = new System.Drawing.Size(203, 13);
-            this.ShippingDisclaimer.TabIndex = 6;
-            this.ShippingDisclaimer.Text = "Please allow 2 days for processing";
             // 
             // Form1
             // 
