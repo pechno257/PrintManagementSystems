@@ -1238,5 +1238,37 @@ namespace PrintManagementSystem
             printPreviewDialog1.Document = printDocument1;
             printPreviewDialog1.ShowDialog();
         }
+
+        private void SevenDayShipping_CheckedChanged(object sender, EventArgs e)
+        {
+            if (SevenDayShipping.Checked)
+            {
+                txtShipping.Text = "5.95";
+            }
+        }
+
+        private void FiveDayShipping_CheckedChanged(object sender, EventArgs e)
+        {
+            if (FiveDayShipping.Checked)
+            {
+                txtShipping.Text = "7.99";
+            }
+        }
+
+        private void TwoDayShipping_CheckedChanged(object sender, EventArgs e)
+        {
+            if (TwoDayShipping.Checked)
+            {
+                txtShipping.Text = "13.95";
+            }
+        }
+
+        private void OneDayShipping_CheckedChanged(object sender, EventArgs e)
+        {
+            if (OneDayShipping.Checked)
+            {
+                txtShipping.Text = "24.95";
+            }
+        }
     }
 }
